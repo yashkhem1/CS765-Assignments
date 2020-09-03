@@ -27,6 +27,8 @@ class Peer(object):
         self.message_count = 0
         self.message_timeout = 5
         self.liveness_timeout = 13
+        self.total_messages = 10
+        self.max_inactive_duration = 3
         self.verbose = verbose
 
     def write_to_outfile(self,message):
@@ -107,7 +109,7 @@ class Peer(object):
         (_,peer_ts,peer_ip,peer_port) = peer_string.split(":")
         live_reply = "Liveness Reply:" + peer_ts +":" + peer_ip+":"+peer_port+":"+self.IP+":"+str(self.port)+"\0"
         self.log("Sent "+ live_reply)
-        sock.send(live_reply.encode())
+        sock.send(live_reply.encode()) #TODO: Replace send by try_send and recv by try_receive 
 
 
     def reset_liveness(self,peer_string,sock):
@@ -164,7 +166,7 @@ class Peer(object):
         for s in self.peer_sockets:
             if self.active_bool[s] == False:
                 self.inactive_duration[s]+=1
-                if self.inactive_duration[s] == 3:
+                if self.inactive_duration[s] == self.max_inactive_duration:
                     self.send_dead_node(s,timestamp)
         
 
@@ -175,6 +177,7 @@ class Peer(object):
         seed_list = random.sample(seed_list, n_seeds)
         self.connect_seeds(seed_list)
         peer_list = self.get_peers()
+        peer_list.remove((self.IP,self.port))
         peer_list = random.sample(peer_list,min(4,len(peer_list)))
         self.connect_peers(peer_list)
         curr_time = time.time()
@@ -247,7 +250,7 @@ class Peer(object):
             #Send gossip message
             try:
                 curr_time = time.time()
-                if self.message_count<10:
+                if self.message_count<self.total_messages:
                     if (curr_time - self.message_timer) >= self.message_timeout:
                         self.message_timer = curr_time
                         self.send_gossip(curr_time)
