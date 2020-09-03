@@ -6,7 +6,7 @@ import random
 import queue
 
 class Seed(object):
-    def __init__(self,IP,port):
+    def __init__(self,IP,port,verbose=False):
         self.IP = IP
         self.port = port
         self.peer_list = []
@@ -17,6 +17,16 @@ class Seed(object):
         self.sockets_list = [self.server]
         self.sockets_map = {(self.IP,self.port):self.server}
         self.peers_map = {self.server:(self.IP,self.port)}
+        self.verbose = verbose
+
+    def write_to_outfile(self,message):
+        with open("outfile.txt",'a') as f:
+            f.write("Seed "+ str(self.IP)+ ":"+ str(self.port)+" -> " + message+"\n")
+
+    def log(self,message,force_log=False):
+        if force_log or self.verbose:
+            print(message)
+            self.write_to_outfile(message)
 
 
     def peer_list_to_string(self):
@@ -26,10 +36,6 @@ class Seed(object):
         peer_string = peer_string[:-1]
         return peer_string
 
-    def write_to_outfile(self,message):
-        with open("outfile.txt",'a') as f:
-            f.write("Seed "+ str(self.IP)+ ":"+ str(self.port)+" -> " + message+"\n")
-
     def reg_response(self,data_string,socket):
         peer_ip = data_string.split(':')[1]
         peer_port = int(data_string.split(':')[2])
@@ -38,8 +44,7 @@ class Seed(object):
         self.peer_list.append((peer_ip,peer_port))
         self.sockets_map[(peer_ip,peer_port)] = socket
         self.peers_map[socket] = (peer_ip,peer_port)
-        print(data_string)
-        self.write_to_outfile(data_string)
+        self.log(data_string,True)
         peer_response = "Registration Successful:"+ self.IP+":"+str(self.port)
         socket.send(peer_response.encode())
 
@@ -53,8 +58,7 @@ class Seed(object):
             self.peers_map.pop(conn)
             self.sockets_map.pop((peer_ip,peer_port))
             conn.close()
-        self.write_to_outfile(data_string)
-        print(data_string)
+        self.log(data_string,True)
 
     def peer_response(self,s):
         peer_string = ""
@@ -80,14 +84,16 @@ class Seed(object):
                     data = s.recv(1024)
                     if data:
                         data_string = str(data.decode())
-                        if data_string.startswith("Registration Request"):
-                            self.reg_response(data_string,s)
+                        incoming_messages = data_string.split("\0")[:-1]
+                        for message in incoming_messages:
+                            if message.startswith("Registration Request"):
+                                self.reg_response(message,s)
 
-                        elif data_string.startswith("Dead Node"):
-                            self.dead_node_response(data_string)
+                            elif message.startswith("Dead Node"):
+                                self.dead_node_response(message)
 
-                        elif data_string.startswith("Peer Request"):
-                            self.peer_response(s)
+                            elif message.startswith("Peer Request"):
+                                self.peer_response(s)
 
                     else:
                         if s in self.sockets_list:
@@ -103,10 +109,10 @@ class Seed(object):
 if __name__ == "__main__":
     IP = sys.argv[1]
     port = int(sys.argv[2])
-    # verbose = False
-    # if len(sys.argv) == 4:
-    #     verbose = bool(int(sys.argv[3]))
-    seed = Seed(IP,port)
+    verbose = False
+    if len(sys.argv) == 4:
+        verbose = bool(int(sys.argv[3]))
+    seed = Seed(IP,port,verbose)
     seed.run()
                         
                     
