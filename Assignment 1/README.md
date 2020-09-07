@@ -1,5 +1,6 @@
 # Assignment 1
-## Gossip protocol implemented in a simple peer-to-peer network 
+## Gossip protocol implemented in a simple peer-to-peer network
+### Team : Yash Khemchandani (170050025), Devansh Garg(170050029), Ajay Sheoran(170050042)
 
 * ### <b>Files present</b>
     1. seed.py
