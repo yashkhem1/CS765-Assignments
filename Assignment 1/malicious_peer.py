@@ -22,6 +22,7 @@ class MaliciousPeer(Peer):
     def run(self):
         """Run process for the malicious node
         """
+        os.makedirs('outfiles',exist_ok=True)
         print("Peer Running with IP: ", self.IP, "and Port: ", str(port))
 
         #Get the seeds and peers and establish connection with them
@@ -72,8 +73,7 @@ class MaliciousPeer(Peer):
 
                     else:
                         #Connection is down
-                        curr_time = time.time()
-                        self.send_dead_node(s,curr_time)
+                        pass
 
 
                 except Exception as e :

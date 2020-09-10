@@ -20,9 +20,13 @@
         - Contains the IP and port information for the seeds in the P2P network
         - Used by the incoming peers to connect to the seeds
 
-    5. outfile.txt
-        - File where the messages logged are dumped into
-        - All the nodes in the same machine use this file
+    5. outfiles/outputpeer_127.0.0.1_6666.txt
+        - Sample output file for a peer node with IP 127.0.0.1 and Port 6666
+        - All peer nodes dump their output files in the "outfiles" directory
+    
+    6. outfiles/outputseed_127.0.0.1_2366.txt
+        - Sample output file for a seed node with IP 127.0.0.1 and Port 2366
+        - All seed nodes dump their output files in the "outfiles" directory
 
 * ### <b>Instructions to run the code</b>
     1. Modify config.txt to contain the information of the seeds in the network
@@ -32,7 +36,7 @@
         `python3 seed.py <seed_IP> <seed_port> <verbose>` where
         - \<seed_ip\> is the IP Address of the seed
         - \<seed_port\> is the Port Number of the seed
-        - \<verbose\> is 1 if you want to log all the messages else 0
+        - \<verbose\> is 1 if you want to log all the messages including the liveness requests and replies else 0
 
         Make sure that the seeds run match the config.txt file
 
@@ -40,10 +44,10 @@
         `python3 peer.py <peer_IP> <peer_port> <verbose>` where 
         - \<peer_ip\> is the IP Address of the peer
         - \<peer_port\> is the Port Number of the peer
-        - \<verbose\> is 1 if you want to log all the messages else 0
+        - \<verbose\> is 1 if you want to log all the messages including the liveness requests and replies else 0
 
     4. To test the presence of a malicious peer in the network run <br>
         `python3 malicious_peer.py <peer_IP> <peer_port> <verbose>` where
         - \<peer_ip\> is the IP Address of the peer
         - \<peer_port\> is the Port Number of the peer
-        - \<verbose\> is 1 if you want to log all the messages else 0
+        - \<verbose\> is 1 if you want to log all the messages including the liveness requests and replies else 0

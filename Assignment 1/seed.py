@@ -32,8 +32,8 @@ class Seed(object):
         Args:
             message (str): Message to be written
         """
-        with open("outfile.txt",'a') as f:
-            f.write("Seed "+ str(self.IP)+ ":"+ str(self.port)+" -> " + message+"\n")
+        with open(os.path.join("outfiles","outputseed_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
+            f.write(message+"\n")
 
     def log(self,message,force_log=False):
         """Logs the message to terminal as well as the outfile
@@ -80,7 +80,7 @@ class Seed(object):
             self.peers_map.pop(conn)
             self.sockets_map.pop((peer_ip,peer_port))
             conn.close()
-        self.log(data_string,True)
+        self.log("Received " + data_string,True)
 
     def peer_response(self,s,message):
         """Send the list of connected peers 
@@ -102,6 +102,7 @@ class Seed(object):
     def run(self):
         """Run process for seed node
         """
+        os.makedirs('outfiles',exist_ok=True)
         print("Seed Running with IP: ", self.IP, "and Port: ", str(port))
         while True:
 

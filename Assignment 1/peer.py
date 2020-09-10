@@ -44,8 +44,8 @@ class Peer(object):
         Args:
             message (str): Message to be written
         """
-        with open("outfile.txt",'a') as f:
-            f.write("Peer "+ str(self.IP)+ ":"+ str(self.port)+" -> " + message+"\n")
+        with open(os.path.join("outfiles","outputpeer_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
+            f.write(message+"\n")
 
     def log(self,message,force_log=False):
         """Logs the message to terminal as well as the outfile
@@ -235,7 +235,7 @@ class Peer(object):
         """
         (peer_ip,peer_port) = self.sock_peer_mapping[sock]
         dead_message = "Dead Node:"+peer_ip+":"+str(peer_port)+":"+str(timestamp)+":"+self.IP+":"+str(self.port)+"\0"
-        self.log(dead_message,True)
+        self.log("Sent "+dead_message[:-1],True)
         for s in self.seed_sockets:
             self.try_send(dead_message.encode(),s)
         self.peer_sockets.remove(sock)
@@ -272,6 +272,7 @@ class Peer(object):
     def run(self):
         """Run process for the peer node
         """
+        os.makedirs('outfiles',exist_ok=True)
         print("Peer Running with IP: ", self.IP, "and Port: ", str(port))
 
         #Get the seeds and peers and establish connection with them
