@@ -175,7 +175,7 @@ class Peer(object):
         (_,peer_ts,peer_ip,peer_port) = peer_string.split(":")
         live_reply = "Liveness Reply:" + peer_ts +":" + peer_ip+":"+peer_port+":"+self.IP+":"+str(self.port)+"\0"
         self.log("Sent "+ live_reply[:-1])
-        sock.send(live_reply.encode()) #TODO: Replace send by try_send and recv by try_receive 
+        sock.send(live_reply.encode())
 
 
     def reset_liveness(self,peer_string,sock):
@@ -189,7 +189,7 @@ class Peer(object):
         self.active_bool[sock] = True
 
     def relay_gossip(self,peer_string,parent_sock):
-        """Relay the gossip message sent by the paren peer
+        """Relay the gossip message sent by the parent peer
 
         Args:
             peer_string (str): Message sent by the parent peer
