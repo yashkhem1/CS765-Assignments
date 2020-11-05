@@ -273,7 +273,7 @@ class Peer(object):
         """Run process for the peer node
         """
         os.makedirs('outfiles',exist_ok=True)
-        print("Peer Running with IP: ", self.IP, "and Port: ", str(port))
+        print("Peer Running with IP: ", self.IP, "and Port: ", str(self.port))
 
         #Get the seeds and peers and establish connection with them
         seed_list = self.get_seeds()
