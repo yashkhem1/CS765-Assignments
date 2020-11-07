@@ -22,7 +22,7 @@ class Block(object):
         self.merkel_root = merkel_root
         self.timestamp = timestamp
         self.prev_block = prev_block
-        self.mined = False
+        self.mined = mined
 
     def __str__(self):
         prev_hash_str = bin(self.prev_hash)[2:]
@@ -239,7 +239,10 @@ class BlockchainPeer(Peer):
         with open(os.path.join('outfiles','blockchain_'+self.IP+'_'+str(self.port))+'.txt','w') as w:
             for blocks in self.level_tree:
                 for block in blocks:
-                    w.write(hex(int(str(block),2))+" ")
+                    hex_header = hex(int(str(block),2))
+                    is_mined = "1" if block.mined else "0"
+                    w.write(hex_header+":"+is_mined+" ")
+
                 w.write("\n")
 
     def run(self):
