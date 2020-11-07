@@ -45,7 +45,9 @@ class BlockchainPeer(Peer):
         self.validation_queue = []
         self.genesis_hash = bin(int('0x9e1c',16))[2:]
         self.mine_time = None
-        self.start_time = None
+        self.mine_start_time = None
+        self.viz_time = 2
+        self.viz_start_time = None
         #self.peer_hash = {} TODO:Dynamic hashing power instead of static
 
     def validate_block(self,block_header):
@@ -65,7 +67,7 @@ class BlockchainPeer(Peer):
             self.level_tree[0].append(b)
             if prev_length == 0:
                 self.longest_chain_block = b
-            self.log("Genesis Block Timestamp:"+str(int(time.time())))
+            self.log("Genesis Block " + hex(int(block_header,2)) + " validated Timestamp:"+str(time.asctime()))
             return 1
         
         for i in range(len(self.level_tree)-1,-1,-1):
@@ -80,7 +82,7 @@ class BlockchainPeer(Peer):
                     b = Block(int(prev_hash,2),int(block_header[16:32],2),int(block_header[32:],2),block,False)
                     self.block_hash[hash(block_header)] = True
                     self.level_tree[i+1].append(b)
-                    self.log("Block header "+hex(int(block_header,2))+" validated Timestamp:"+str(int(time.time())))
+                    self.log("Block header "+hex(int(block_header,2))+" validated Timestamp:"+str(time.asctime()))
                     if i ==prev_length-1:
                         self.longest_chain_block = b
                         self.log("Block is part of the longest chain")
@@ -95,39 +97,94 @@ class BlockchainPeer(Peer):
     
     def generate_exp_time(self):
         return np.random.exponential()*self.inter_arrival_time/self.hash_fraction
-    
-    def request_blocks(self,peer_socks):
-        for sock in peer_socks:
-            sock.setblocking(1)
-            self.try_send(b"Blocks Request\0",sock)
-            n_levels = int(sock.recv(1024).decode()[:-1])
-            self.try_send(b"ACK\0",sock)
-            for _ in range(n_levels):
-                n_blocks = int(sock.recv(1024).decode()[:-1])
-                self.try_send(b"ACK\0",sock)
-                for _ in range(n_blocks):
-                    block_header = sock.recv(1024).decode()[:-1]
-                    self.try_send(b"ACK\0",sock)
-                    _ = self.validate_block(block_header)
+
+    def connect_peers(self,peer_list,sync_list):
+        """Connect to the peers in the peer_list
+
+        Args:
+            peer_list (List[Tuple]): List of (IP,port) tuples
+        """
+        self.log("Sent Connection Info:"+self.IP+":"+str(self.port))
+        for (peer_ip, peer_port) in peer_list:
+            if (peer_ip,peer_port) == (self.IP, self.port):
+                continue
+            sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
+            sock.connect((peer_ip,peer_port))
+            sock.send(("Connection Info:"+self.IP+":"+str(self.port)).encode())
+            response = sock.recv(1024)
+            if response.decode() == "Connection Successful":
+                self.log("Received "+response.decode()+" from "+peer_ip+":"+str(peer_port))
+                self.peer_sockets.append(sock)
+                self.sock_peer_mapping[sock] = (peer_ip,peer_port)
+                self.active_bool[sock] = True
+                self.inactive_duration[sock] = 0
+                if (peer_ip,peer_port) in sync_list:
+                    self.request_blocks(sock)
+                else:
+                    self.try_send(b"Sync Complete",sock)
+                    sock.setblocking(0)
+            else:
+                sock.close()
+
+    def incoming_peers(self,sock):
+        """Connect to the incoming peers
+
+        Args:
+            sock (socket): Incoming connection socket 
+        """
+        request = sock.recv(1024)
+        request_string = request.decode()
+        self.log("Received "+request_string)
+        peer_ip = request_string.split(":")[1]
+        peer_port = int(request_string.split(":")[2])
+        self.peer_sockets.append(sock)
+        self.sock_peer_mapping[sock] = (peer_ip,peer_port)
+        self.active_bool[sock] = True
+        self.inactive_duration[sock] = 0
+        sock.send(b"Connection Successful")
+        response = sock.recv(1024).decode()
+        if response == 'Sync Complete':
             sock.setblocking(0)
-        self.log("Blockchain sync complete Timestamp:"+str(int(time.time())))
+        elif response == 'Blocks Request':
+            self.send_blocks(sock)
+        self.log("Sent Connection Response to "+peer_ip+":"+str(peer_port))
+    
+    def request_blocks(self,sock):
+        self.try_send(b"Blocks Request",sock)
+        n_levels = int(sock.recv(1024).decode())
+        self.try_send(b"ACK",sock)
+        for _ in range(n_levels):
+            n_blocks = int(sock.recv(1024).decode())
+            self.try_send(b"ACK",sock)
+            for _ in range(n_blocks):
+                block_header = sock.recv(1024).decode()
+                self.try_send(b"ACK",sock)
+                _ = self.validate_block(block_header)
+        response = sock.recv(1024).decode()
+        if response == "All Blocks sent":
+            (peer_ip,peer_port) = self.sock_peer_mapping[sock]
+            self.try_send(b"Sync Complete",sock)
+            sock.setblocking(0)
+            self.log("Blockchain sync complete with peer IP:" + peer_ip +" Port:" + str(peer_port) +" Timestamp:"+str(time.asctime()))
 
     def send_blocks(self,peer_sock):
-        peer_sock.setblocking(1)
-        self.try_send((str(len(self.level_tree))+"\0").encode(),peer_sock)
-        ack = peer_sock.recv(1024).decode()[:-1]  #TODO: Check if ACKs send are good
+        self.try_send((str(len(self.level_tree))).encode(),peer_sock)
+        ack = peer_sock.recv(1024).decode()  #TODO: Check if ACKs send are good
         for i in range(len(self.level_tree)):
-            self.try_send((str(len(self.level_tree[i]))+"\0").encode(),peer_sock)
-            ack = peer_sock.recv(1024).decode()[:-1]
+            self.try_send((str(len(self.level_tree[i]))).encode(),peer_sock)
+            ack = peer_sock.recv(1024).decode()
             for block in self.level_tree[i]:
-                self.try_send((str(block)+"\0").encode(),peer_sock)
-                ack = peer_sock.recv(1024).decode()[:-1]
-        peer_sock.setblocking(0)
-        (peer_ip,peer_port) = self.sock_peer_mapping[peer_sock]
-        self.log("Synced blockchain with peer IP:"+peer_ip+" Port:"+str(peer_port)+" Timestamp:"+str(int(time.time())))
+                self.try_send((str(block)).encode(),peer_sock)
+                ack = peer_sock.recv(1024).decode()
+        self.try_send(b"All Blocks sent",peer_sock)
+        message = peer_sock.recv(1024).decode()
+        if message == "Sync Complete":
+            peer_sock.setblocking(0)
+            (peer_ip,peer_port) = self.sock_peer_mapping[peer_sock]
+            self.log("Synced blockchain with peer IP:"+peer_ip+" Port:"+str(peer_port)+" Timestamp:"+str(time.asctime()))
 
     def reset_time(self):
-        self.start_time = time.time()
+        self.mine_start_time = time.time()
         self.mine_time = self.generate_exp_time()
 
     def mine_block(self):
@@ -150,7 +207,7 @@ class BlockchainPeer(Peer):
         self.message_hash[hash(message[:-1])] = True
         for t in self.peer_sockets:
             self.try_send(message.encode(),t)
-        self.log("Mined block: "+hex(int(str(b),2))+" Timestamp:"+str(int(time.time())))
+        self.log("Mined block: "+hex(int(str(b),2))+" Timestamp:"+str(time.asctime()))
         # print(self.level_tree)
 
 
@@ -160,7 +217,8 @@ class BlockchainPeer(Peer):
             return
         block_header = message.split(":")[1]
         self.validation_queue.append((block_header,parent_sock))
-        self.log("Block received:"+hex(int(block_header,2))+" Timestamp:"+str(int(time.time())))
+        self.message_hash[hash(message)] = True
+        self.log("Block received:"+hex(int(block_header,2))+" Timestamp:"+str(time.asctime()))
 
     
     def process_queue(self):
@@ -176,6 +234,14 @@ class BlockchainPeer(Peer):
         self.validation_queue = []
         # print(self.level_tree)
 
+    def visualize_blockchain(self):
+        #TODO: Replace it with Ajay's version of tree
+        with open(os.path.join('outfiles','blockchain_'+self.IP+'_'+str(self.port))+'.txt','w') as w:
+            for blocks in self.level_tree:
+                for block in blocks:
+                    w.write(hex(int(str(block),2))+" ")
+                w.write("\n")
+
     def run(self):
         os.makedirs('outfiles',exist_ok=True)
         print("Peer Running with IP: ", self.IP, "and Port: ", str(self.port))
@@ -188,9 +254,10 @@ class BlockchainPeer(Peer):
         peer_list = self.get_peers()
         peer_list.remove((self.IP,self.port))
         peer_list = random.sample(peer_list,min(4,len(peer_list)))
-        self.connect_peers(peer_list)
-        self.request_blocks(np.random.choice(np.array(self.peer_sockets),min(2,len(self.peer_sockets))))
+        sync_list = random.sample(peer_list,min(2,len(peer_list)))
+        self.connect_peers(peer_list,sync_list)
         self.reset_time()
+        self.viz_start_time = time.time()
 
         while(True):
             #Check if connections to seeds is intact
@@ -223,11 +290,7 @@ class BlockchainPeer(Peer):
                         peer_string = peer_data.decode()
                         peer_messages = peer_string.split("\0")[:-1]
                         for message in peer_messages:
-                            if message.startswith("Blocks Request"): #TODO: Include liveness functionality in the blockchain
-                                #Send the blocks in the blockchain
-                                self.send_blocks(s)
-
-                            elif message.startswith("Block:"):
+                            if message.startswith("Block"): #TODO: Include liveness functionality in the blockchain
                                 #Add the block to the queue
                                 self.receive_block(message,s)
 
@@ -247,18 +310,25 @@ class BlockchainPeer(Peer):
 
             #Mine block
             curr_time = time.time()
-            if curr_time - self.start_time > self.mine_time:
+            if curr_time - self.mine_start_time > self.mine_time:
                 self.mine_block()
                 self.reset_time()
+
+            #Visualize blockchain
+            curr_time = time.time()
+            if curr_time - self.viz_start_time > self.viz_time:
+                self.visualize_blockchain()
+                self.viz_start_time = curr_time
 
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument('--IP',type=str)
-    parser.add_argument('--port',type=int)
-    parser.add_argument('--hash_fraction',type=float)
-    parser.add_argument('--inter_arrival_time',type=float)
-    parser.add_argument('--verbose',action='store_true')
+    parser.add_argument('--IP',type=str,help='IP Address of the peer')
+    parser.add_argument('--port',type=int, help='Port Number of the peer')
+    parser.add_argument('--hash_fraction',type=float, help='Fraction of hashing power peer has')
+    parser.add_argument('--inter_arrival_time',type=float, help='Inter Arrival time of the blocks')
+    parser.add_argument('--verbose',action='store_true',help='Verbose flag')
+    parser.add_argument('--network_delay',type=float,default=2.0,help='Implicit network delay in the network')
     args = parser.parse_args()
     blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.verbose)
     blockchain_peer.run()

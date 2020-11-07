@@ -4,6 +4,7 @@ import socket
 import select
 import random
 import queue
+import argparse
 
 class Seed(object):
     def __init__(self,IP,port,verbose=False):
@@ -145,12 +146,12 @@ class Seed(object):
 
 
 if __name__ == "__main__":
-    IP = sys.argv[1]
-    port = int(sys.argv[2])
-    verbose = False
-    if len(sys.argv) == 4:
-        verbose = bool(int(sys.argv[3]))
-    seed = Seed(IP,port,verbose)
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--IP',type=str,help='IP Address of the peer')
+    parser.add_argument('--port',type=int, help='Port Number of the peer')
+    parser.add_argument('--verbose',action='store_true',help='Verbose flag')
+    args = parser.parse_args()
+    seed = Seed(args.IP,args.port,args.verbose)
     seed.run()
                         
                     
