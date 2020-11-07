@@ -34,15 +34,17 @@ class Block(object):
         return prev_hash_str + merkel_root_str + timestamp_str
 
 class BlockchainPeer(Peer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,verbose=False):
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,verbose=False,network_delay=2):
         super(BlockchainPeer,self).__init__(IP,port,verbose)
         self.level_tree = []
         self.longest_chain_block = None
         self.hash_fraction = hash_fraction
         self.inter_arrival_time = inter_arrival_time
+        self.network_delay = network_delay
         self.block_hash = {}
         self.message_hash = {}
         self.validation_queue = []
+        self.network_queue = []
         self.genesis_hash = bin(int('0x9e1c',16))[2:]
         self.mine_time = None
         self.mine_start_time = None
@@ -216,11 +218,23 @@ class BlockchainPeer(Peer):
         if mhash in self.message_hash:
             return
         block_header = message.split(":")[1]
-        self.validation_queue.append((block_header,parent_sock))
+        self.network_queue.append(((block_header,parent_sock),time.time()))
         self.message_hash[hash(message)] = True
-        self.log("Block received:"+hex(int(block_header,2))+" Timestamp:"+str(time.asctime()))
 
-    
+    def transfer_to_validation_queue(self):
+        while(True):
+            if len(self.network_queue) > 0:
+                header_data,timestamp = self.network_queue[0]
+                curr_time = time.time()
+                if curr_time - timestamp > self.network_delay:
+                    self.validation_queue.append(header_data)
+                    self.log("Block received:"+hex(int(header_data[0],2))+" Timestamp:"+str(time.asctime()))
+                    self.network_queue = self.network_queue[1:]
+                else:
+                    break
+            else:
+                break
+
     def process_queue(self):
         for (header,parent_sock) in self.validation_queue:
             success = self.validate_block(header)
@@ -306,6 +320,9 @@ class BlockchainPeer(Peer):
                 except Exception as e :
                     pass
 
+            #Transfer blocks from network queue to validation queue
+            self.transfer_to_validation_queue()
+            
             #Check if queue is not empty:
             if len(self.validation_queue) > 0:
                 self.process_queue()
@@ -333,5 +350,5 @@ if __name__ == "__main__":
     parser.add_argument('--verbose',action='store_true',help='Verbose flag')
     parser.add_argument('--network_delay',type=float,default=2.0,help='Implicit network delay in the network')
     args = parser.parse_args()
-    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.verbose)
+    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.verbose,args.network_delay)
     blockchain_peer.run()
