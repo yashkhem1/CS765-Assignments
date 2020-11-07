@@ -1,0 +1,4 @@
+Assignment 1/outfiles/*.txt
+Assignment 2/outfiles/*.txt
+*.pyc
+*.tar.gz
