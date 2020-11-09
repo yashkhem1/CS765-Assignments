@@ -34,8 +34,8 @@ class Block(object):
         return prev_hash_str + merkel_root_str + timestamp_str
 
 class BlockchainPeer(Peer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,verbose=False,network_delay=2):
-        super(BlockchainPeer,self).__init__(IP,port,verbose)
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False):
+        super(BlockchainPeer,self).__init__(IP,port,outdir,verbose,no_print)
         self.level_tree = []
         self.longest_chain_block = None
         self.hash_fraction = hash_fraction
@@ -55,6 +55,7 @@ class BlockchainPeer(Peer):
     def validate_block(self,block_header):
         assert(len(block_header)==64)
         if not self.check_timestamp(block_header):
+            self.log("Inavlid block "+hex(int(block_header,2)))
             return 0 
         prev_hash = block_header[:16]
         if hash(block_header) in self.block_hash:
@@ -96,7 +97,7 @@ class BlockchainPeer(Peer):
     def check_timestamp(self,block_header):
         timestamp = int(block_header[32:],2)
         return abs(timestamp-time.time()) < 3600
-    
+
     def generate_exp_time(self):
         return np.random.exponential()*self.inter_arrival_time/self.hash_fraction
 
@@ -218,6 +219,8 @@ class BlockchainPeer(Peer):
         if mhash in self.message_hash:
             return
         block_header = message.split(":")[1]
+        if len(self.network_queue) > 10000:
+            return
         self.network_queue.append(((block_header,parent_sock),time.time()))
         self.message_hash[hash(message)] = True
 
@@ -250,14 +253,38 @@ class BlockchainPeer(Peer):
 
     def visualize_blockchain(self):
         #TODO: Replace it with Ajay's version of tree
-        with open(os.path.join('outfiles','blockchain_'+self.IP+'_'+str(self.port))+'.txt','w') as w:
-            for blocks in self.level_tree:
-                for block in blocks:
+        longest_chain = []
+        x = self.longest_chain_block
+        while(x):
+            longest_chain.append(x)
+            x = x.prev_block
+        longest_chain.reverse()
+
+        total_blocks = 0
+        with open(os.path.join(self.outdir,'blockchain_'+self.IP+'_'+str(self.port))+'.txt','w') as w:
+            for level in range(len(self.level_tree)):
+                total_blocks+=1
+                hex_header = hex(int(str(longest_chain[level]),2))
+                is_mined = "1" if longest_chain[level].mined else "0"
+                w.write(hex_header+":"+is_mined+" ")
+                for block in self.level_tree[level]:
+                    if block == longest_chain[level]:
+                        continue
+                    total_blocks+=1
                     hex_header = hex(int(str(block),2))
                     is_mined = "1" if block.mined else "0"
                     w.write(hex_header+":"+is_mined+" ")
 
                 w.write("\n")
+
+            if total_blocks > 0:
+                mining_power_utilization = len(longest_chain)/total_blocks
+                fraction_mined_in_lc = len([x for x in longest_chain if x.mined])/len(longest_chain)
+            else:
+                mining_power_utilization = None
+                fraction_mined_in_lc = None
+            w.write("Mining Power Utilization: "+str(mining_power_utilization)+"\n")
+            w.write("Fraction Mined in Longest Chain: "+str(fraction_mined_in_lc))
 
     def run(self):
         os.makedirs('outfiles',exist_ok=True)
@@ -349,6 +376,8 @@ if __name__ == "__main__":
     parser.add_argument('--inter_arrival_time',type=float, help='Inter Arrival time of the blocks')
     parser.add_argument('--verbose',action='store_true',help='Verbose flag')
     parser.add_argument('--network_delay',type=float,default=2.0,help='Implicit network delay in the network')
+    parser.add_argument('--no_print',action='store_true',help='No printing to std out')
+    parser.add_argument('--outdir',type=str,default='Output Directory')
     args = parser.parse_args()
-    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.verbose,args.network_delay)
+    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print)
     blockchain_peer.run()

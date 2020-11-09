@@ -7,7 +7,7 @@ import queue
 import argparse
 
 class Seed(object):
-    def __init__(self,IP,port,verbose=False):
+    def __init__(self,IP,port,outdir,verbose=False,no_print=False):
         """Initialization of the seed node
 
         Args:
@@ -26,14 +26,17 @@ class Seed(object):
         self.sockets_map = {(self.IP,self.port):self.server}
         self.peers_map = {self.server:(self.IP,self.port)}
         self.verbose = verbose
+        self.outdir = outdir
+        self.no_print = no_print
+        os.makedirs(self.outdir,exist_ok=True)
 
     def write_to_outfile(self,message):
-        """Write the message to outfile.txt
+        """Write the message to outfile.txt 
 
         Args:
             message (str): Message to be written
         """
-        with open(os.path.join("outfiles","outputseed_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
+        with open(os.path.join(self.outdir,"outputpeer_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
             f.write(message+"\n")
 
     def log(self,message,force_log=False):
@@ -43,8 +46,9 @@ class Seed(object):
             message (str): Message to be logged
             force_log (bool, optional): Log the message even if verbose if False. Defaults to False.
         """
-        if force_log or self.verbose:
-            print(message)
+        if self.verbose or force_log:
+            if not self.no_print:
+                print(message)
             self.write_to_outfile(message)
 
     def reg_response(self,data_string,socket):
@@ -104,7 +108,7 @@ class Seed(object):
         """Run process for seed node
         """
         os.makedirs('outfiles',exist_ok=True)
-        print("Seed Running with IP: ", self.IP, "and Port: ", str(port))
+        print("Seed Running with IP: ", self.IP, "and Port: ", str(self.port))
         while True:
 
             readable,_,_ = select.select(self.sockets_list,[],self.sockets_list)
@@ -150,8 +154,10 @@ if __name__ == "__main__":
     parser.add_argument('--IP',type=str,help='IP Address of the peer')
     parser.add_argument('--port',type=int, help='Port Number of the peer')
     parser.add_argument('--verbose',action='store_true',help='Verbose flag')
+    parser.add_argument('--no_print',action='store_true',help='No printing to outfile')
+    parser.add_argument('--outdir',type=str,help='Output directory')
     args = parser.parse_args()
-    seed = Seed(args.IP,args.port,args.verbose)
+    seed = Seed(args.IP,args.port,args.outdir,args.verbose,args.no_print)
     seed.run()
                         
                     

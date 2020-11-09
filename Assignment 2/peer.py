@@ -9,7 +9,7 @@ import time
 import argparse
 
 class Peer(object):
-    def __init__(self,IP,port,verbose=False):
+    def __init__(self,IP,port,outdir,verbose=False,no_print=False):
         """Initialization of the peer node
 
         Args:
@@ -38,6 +38,9 @@ class Peer(object):
         self.total_messages = 10
         self.max_inactive_duration = 3
         self.verbose = verbose
+        self.outdir = outdir
+        self.no_print = no_print
+        os.makedirs(self.outdir,exist_ok=True)
 
     def write_to_outfile(self,message):
         """Write the message to outfile.txt 
@@ -45,7 +48,7 @@ class Peer(object):
         Args:
             message (str): Message to be written
         """
-        with open(os.path.join("outfiles","outputpeer_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
+        with open(os.path.join(self.outdir,"outputpeer_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
             f.write(message+"\n")
 
     def log(self,message,force_log=False):
@@ -56,7 +59,8 @@ class Peer(object):
             force_log (bool, optional): Log the message even if verbose if False. Defaults to False.
         """
         if self.verbose or force_log:
-            print(message)
+            if not self.no_print:
+                print(message)
             self.write_to_outfile(message)
 
     def try_send(self,message,socket):
@@ -68,7 +72,8 @@ class Peer(object):
         """
         try:
             socket.send(message)
-        except:
+        except Exception as e:
+            print(e)
             pass
 
     def get_seeds(self):
@@ -373,8 +378,10 @@ if __name__ =="__main__":
     parser.add_argument('--IP',type=str,help='IP Address of the peer')
     parser.add_argument('--port',type=int, help='Port Number of the peer')
     parser.add_argument('--verbose',action='store_true',help='Verbose flag')
+    parser.add_argument('--no_print',action='store_true',help='No printing to outfile')
+    parser.add_argument('--outdir',type=str,help='Output directory')
     args = parser.parse_args()
-    peer = Peer(args.IP,args.port,args.verbose)
+    peer = Peer(args.IP,args.port,args.outdir,args.verbose,args.no_print)
     peer.run()
 
 
