@@ -299,77 +299,81 @@ class Peer(object):
         self.liveness_timer = curr_time
         
         while(True):
-            #Check if connections to seeds is intact
             try:
-                connected = 1
-                for s in self.seed_sockets:
-                    data = s.recv(1024)
-                    if not data:
-                        connected = 0
-                        break
-                if connected == 0:
-                    break
-
-            except Exception as e:
-                pass
-
-            #Server Check if there are any incoming connections
-            try:
-                conn,_ = self.server.accept()
-                self.incoming_peers(conn)
-
-            except Exception as e:
-                pass
-            
-            #Check for any incoming messages from other peers
-            for s in self.peer_sockets:
+                #Check if connections to seeds is intact
                 try:
-                    peer_data = s.recv(1024)
-                    if peer_data:
-                        peer_string = peer_data.decode()
-                        peer_messages = peer_string.split("\0")[:-1]
-                        for message in peer_messages:
-                            if message.startswith("Liveness Request"):
-                                #Send liveness reply
-                                self.log("Received "+message)
-                                self.send_live_reply(message,s)
+                    connected = 1
+                    for s in self.seed_sockets:
+                        data = s.recv(1024)
+                        if not data:
+                            connected = 0
+                            break
+                    if connected == 0:
+                        break
 
-                            elif message.startswith("Liveness Reply"):
-                                #Reset liveness variables
-                                self.log("Received "+message)
-                                self.reset_liveness(message,s)
-
-                            else:
-                                #Relay the gossip to connected peers
-                                self.relay_gossip(message,s)
-
-                    else:
-                        #Connection is down
-                        curr_time = time.time()
-                        self.send_dead_node(s,curr_time)
-
-
-                except Exception as e :
+                except Exception as e:
                     pass
-            
-            #Send gossip message
-            
-            curr_time = time.time()
-            if self.message_count<self.total_messages:
-                if (curr_time - self.message_timer) >= self.message_timeout:
-                    self.message_timer = curr_time
-                    self.send_gossip(curr_time)
 
-            
-            
-            # Send liveness message and check liveness
-            
-            curr_time = time.time()
-            if (curr_time - self.liveness_timer) >= self.liveness_timeout:
-                self.liveness_timer = curr_time
-                self.check_liveness(curr_time)
-                self.send_live_request(curr_time)
+                #Server Check if there are any incoming connections
+                try:
+                    conn,_ = self.server.accept()
+                    self.incoming_peers(conn)
 
+                except Exception as e:
+                    pass
+                
+                #Check for any incoming messages from other peers
+                for s in self.peer_sockets:
+                    try:
+                        peer_data = s.recv(1024)
+                        if peer_data:
+                            peer_string = peer_data.decode()
+                            peer_messages = peer_string.split("\0")[:-1]
+                            for message in peer_messages:
+                                if message.startswith("Liveness Request"):
+                                    #Send liveness reply
+                                    self.log("Received "+message)
+                                    self.send_live_reply(message,s)
+
+                                elif message.startswith("Liveness Reply"):
+                                    #Reset liveness variables
+                                    self.log("Received "+message)
+                                    self.reset_liveness(message,s)
+
+                                else:
+                                    #Relay the gossip to connected peers
+                                    self.relay_gossip(message,s)
+
+                        else:
+                            #Connection is down
+                            curr_time = time.time()
+                            self.send_dead_node(s,curr_time)
+
+
+                    except Exception as e :
+                        pass
+                
+                #Send gossip message
+                
+                curr_time = time.time()
+                if self.message_count<self.total_messages:
+                    if (curr_time - self.message_timer) >= self.message_timeout:
+                        self.message_timer = curr_time
+                        self.send_gossip(curr_time)
+
+                
+                
+                # Send liveness message and check liveness
+                
+                curr_time = time.time()
+                if (curr_time - self.liveness_timer) >= self.liveness_timeout:
+                    self.liveness_timer = curr_time
+                    self.check_liveness(curr_time)
+                    self.send_live_request(curr_time)
+
+            except KeyboardInterrupt:
+                self.server.close()
+                exit(0)
             
             
 

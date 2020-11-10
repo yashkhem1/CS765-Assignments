@@ -110,43 +110,47 @@ class Seed(object):
         os.makedirs('outfiles',exist_ok=True)
         print("Seed Running with IP: ", self.IP, "and Port: ", str(self.port))
         while True:
-
-            readable,_,_ = select.select(self.sockets_list,[],self.sockets_list)
-            for s in readable:
-                if s is self.server:
-                    #connect with the incoming peer
-                    conn,_ = s.accept()
-                    conn.setblocking(0)
-                    self.sockets_list.append(conn)
-
-                else:
-                    #Handle the incoming messages from the peers
-                    data = s.recv(1024)
-                    if data:
-                        data_string = str(data.decode())
-                        incoming_messages = data_string.split("\0")[:-1]
-                        for message in incoming_messages:
-                            if message.startswith("Registration Request"):
-                                #Handle the registration request
-                                self.reg_response(message,s)
-
-                            elif message.startswith("Dead Node"):
-                                #Handle the dead node message
-                                self.dead_node_response(message)
-
-                            elif message.startswith("Peer Request"):
-                                #Handle the peer request
-                                self.peer_response(s,message)
+            try:
+                readable,_,_ = select.select(self.sockets_list,[],self.sockets_list)
+                for s in readable:
+                    if s is self.server:
+                        #connect with the incoming peer
+                        conn,_ = s.accept()
+                        conn.setblocking(0)
+                        self.sockets_list.append(conn)
 
                     else:
-                        if s in self.sockets_list:
-                            self.sockets_list.remove(s)
-                            (peer_ip,peer_port) = self.peers_map[s]
-                            self.peer_list.remove((peer_ip,peer_port))
-                            self.sockets_map.pop((peer_ip,peer_port))
-                            self.peers_map.pop(s)
-                                    
-                        s.close()
+                        #Handle the incoming messages from the peers
+                        data = s.recv(1024)
+                        if data:
+                            data_string = str(data.decode())
+                            incoming_messages = data_string.split("\0")[:-1]
+                            for message in incoming_messages:
+                                if message.startswith("Registration Request"):
+                                    #Handle the registration request
+                                    self.reg_response(message,s)
+
+                                elif message.startswith("Dead Node"):
+                                    #Handle the dead node message
+                                    self.dead_node_response(message)
+
+                                elif message.startswith("Peer Request"):
+                                    #Handle the peer request
+                                    self.peer_response(s,message)
+
+                        else:
+                            if s in self.sockets_list:
+                                self.sockets_list.remove(s)
+                                (peer_ip,peer_port) = self.peers_map[s]
+                                self.peer_list.remove((peer_ip,peer_port))
+                                self.sockets_map.pop((peer_ip,peer_port))
+                                self.peers_map.pop(s)
+                                        
+                            s.close()
+            
+            except KeyboardInterrupt:
+                self.server.close()
+                exit(0)
 
 
 if __name__ == "__main__":

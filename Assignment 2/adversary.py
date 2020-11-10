@@ -75,78 +75,83 @@ class Adversary(BlockchainPeer):
         self.flood_start_time = time.time()
 
         while(True):
-            #Check if connections to seeds is intact
             try:
-                connected = 1
-                for s in self.seed_sockets:
-                    data = s.recv(1024)
-                    if not data:
-                        connected = 0
-                        break
-                if connected == 0:
-                    break
-            
-            except Exception as e:
-                pass
-
-            #Server Check if there are any incoming connections
-            try:
-                conn,_ = self.server.accept()
-                self.incoming_peers(conn)
-
-            except Exception as e:
-                pass
-
-            #Check for any incoming messages from other peers
-            for s in self.peer_sockets:
+                #Check if connections to seeds is intact
                 try:
-                    peer_data = s.recv(1024)
-                    if peer_data:
-                        peer_string = peer_data.decode()
-                        peer_messages = peer_string.split("\0")[:-1]
-                        for message in peer_messages:
-                            if message.startswith("Block"): #TODO: Include liveness functionality in the blockchain
-                                #Add the block to the queue
-                                self.receive_block(message,s)
-
-                    else:
-                        #Connection  is down
-                        curr_time = time.time()
-                        self.send_dead_node(s,curr_time)
-
-
-                except Exception as e :
+                    connected = 1
+                    for s in self.seed_sockets:
+                        data = s.recv(1024)
+                        if not data:
+                            connected = 0
+                            break
+                    if connected == 0:
+                        break
+                
+                except Exception as e:
                     pass
 
-            #Transfer blocks from network queue to validation queue
-            self.transfer_to_validation_queue()
+                #Server Check if there are any incoming connections
+                try:
+                    conn,_ = self.server.accept()
+                    self.incoming_peers(conn)
+
+                except Exception as e:
+                    pass
+
+                #Check for any incoming messages from other peers
+                for s in self.peer_sockets:
+                    try:
+                        peer_data = s.recv(1024)
+                        if peer_data:
+                            peer_string = peer_data.decode()
+                            peer_messages = peer_string.split("\0")[:-1]
+                            for message in peer_messages:
+                                if message.startswith("Block"): #TODO: Include liveness functionality in the blockchain
+                                    #Add the block to the queue
+                                    self.receive_block(message,s)
+
+                        else:
+                            #Connection  is down
+                            curr_time = time.time()
+                            self.send_dead_node(s,curr_time)
+
+
+                    except Exception as e :
+                        pass
+
+                #Transfer blocks from network queue to validation queue
+                self.transfer_to_validation_queue()
+                
+                #Check if queue is not empty:
+                if len(self.validation_queue) > 0:
+                    self.process_queue()
+                    self.mine_start_time = time.time()
+
+                #Mine block
+                curr_time = time.time()
+                if curr_time - self.mine_start_time > self.mine_time:
+                    self.mine_block()
+                    self.reset_mine()
+
+                #Visualize blockchain
+                curr_time = time.time()
+                if curr_time - self.viz_start_time > self.viz_time:
+                    self.visualize_blockchain()
+                    self.viz_start_time = curr_time
+
+                #Flood the target peers
+                curr_time = time.time()
+                if curr_time - self.flood_start_time > self.flood_every:
+                    self.send_invalid_blocks()
+                    self.flood_start_time = curr_time
+
+                #Terminate blockchain
+                curr_time = time.time()
+                if curr_time - self.start_time > self.terminate_after:
+                    self.server.close()
+                    exit(0)
             
-            #Check if queue is not empty:
-            if len(self.validation_queue) > 0:
-                self.process_queue()
-                self.mine_start_time = time.time()
-
-            #Mine block
-            curr_time = time.time()
-            if curr_time - self.mine_start_time > self.mine_time:
-                self.mine_block()
-                self.reset_mine()
-
-            #Visualize blockchain
-            curr_time = time.time()
-            if curr_time - self.viz_start_time > self.viz_time:
-                self.visualize_blockchain()
-                self.viz_start_time = curr_time
-
-            #Flood the target peers
-            curr_time = time.time()
-            if curr_time - self.flood_start_time > self.flood_every:
-                self.send_invalid_blocks()
-                self.flood_start_time = curr_time
-
-            #Terminate blockchain
-            curr_time = time.time()
-            if curr_time - self.start_time > self.terminate_after:
+            except KeyboardInterrupt:
                 self.server.close()
                 exit(0)
 
