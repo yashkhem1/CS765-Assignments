@@ -36,7 +36,7 @@ class Seed(object):
         Args:
             message (str): Message to be written
         """
-        with open(os.path.join(self.outdir,"outputpeer_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
+        with open(os.path.join(self.outdir,"outputseed_"+self.IP+"_"+str(self.port)+".txt"),'a') as f:
             f.write(message+"\n")
 
     def log(self,message,force_log=False):

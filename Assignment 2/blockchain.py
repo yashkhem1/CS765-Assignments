@@ -34,18 +34,20 @@ class Block(object):
         return prev_hash_str + merkel_root_str + timestamp_str
 
 class BlockchainPeer(Peer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False):
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000):
         super(BlockchainPeer,self).__init__(IP,port,outdir,verbose,no_print)
         self.level_tree = []
         self.longest_chain_block = None
         self.hash_fraction = hash_fraction
         self.inter_arrival_time = inter_arrival_time
         self.network_delay = network_delay
+        self.terminate_after = terminate_after
         self.block_hash = {}
         self.message_hash = {}
         self.validation_queue = []
         self.network_queue = []
         self.genesis_hash = bin(int('0x9e1c',16))[2:]
+        self.start_time = None
         self.mine_time = None
         self.mine_start_time = None
         self.viz_time = 2
@@ -70,7 +72,7 @@ class BlockchainPeer(Peer):
             self.level_tree[0].append(b)
             if prev_length == 0:
                 self.longest_chain_block = b
-            self.log("Genesis Block " + hex(int(block_header,2)) + " validated Timestamp:"+str(time.asctime()))
+            self.log("Genesis Block " + hex(int(block_header,2)) + " validated Timestamp:"+str(time.asctime()),force_log=True)
             return 1
         
         for i in range(len(self.level_tree)-1,-1,-1):
@@ -85,10 +87,10 @@ class BlockchainPeer(Peer):
                     b = Block(int(prev_hash,2),int(block_header[16:32],2),int(block_header[32:],2),block,False)
                     self.block_hash[hash(block_header)] = True
                     self.level_tree[i+1].append(b)
-                    self.log("Block header "+hex(int(block_header,2))+" validated Timestamp:"+str(time.asctime()))
+                    self.log("Block header "+hex(int(block_header,2))+" validated Timestamp:"+str(time.asctime()),force_log=True)
                     if i ==prev_length-1:
                         self.longest_chain_block = b
-                        self.log("Block is part of the longest chain")
+                        self.log("Block is part of the longest chain",force_log=True)
                     return 1
 
         self.log("Inavlid block "+block_header)
@@ -168,7 +170,7 @@ class BlockchainPeer(Peer):
             (peer_ip,peer_port) = self.sock_peer_mapping[sock]
             self.try_send(b"Sync Complete",sock)
             sock.setblocking(0)
-            self.log("Blockchain sync complete with peer IP:" + peer_ip +" Port:" + str(peer_port) +" Timestamp:"+str(time.asctime()))
+            self.log("Blockchain sync complete with peer IP:" + peer_ip +" Port:" + str(peer_port) +" Timestamp:"+str(time.asctime()),force_log=True)
 
     def send_blocks(self,peer_sock):
         self.try_send((str(len(self.level_tree))).encode(),peer_sock)
@@ -184,9 +186,9 @@ class BlockchainPeer(Peer):
         if message == "Sync Complete":
             peer_sock.setblocking(0)
             (peer_ip,peer_port) = self.sock_peer_mapping[peer_sock]
-            self.log("Synced blockchain with peer IP:"+peer_ip+" Port:"+str(peer_port)+" Timestamp:"+str(time.asctime()))
+            self.log("Synced blockchain with peer IP:"+peer_ip+" Port:"+str(peer_port)+" Timestamp:"+str(time.asctime()),force_log=True)
 
-    def reset_time(self):
+    def reset_mine(self):
         self.mine_start_time = time.time()
         self.mine_time = self.generate_exp_time()
 
@@ -210,7 +212,7 @@ class BlockchainPeer(Peer):
         self.message_hash[hash(message[:-1])] = True
         for t in self.peer_sockets:
             self.try_send(message.encode(),t)
-        self.log("Mined block: "+hex(int(str(b),2))+" Timestamp:"+str(time.asctime()))
+        self.log("Mined block: "+hex(int(str(b),2))+" Timestamp:"+str(time.asctime()),force_log=True)
         # print(self.level_tree)
 
 
@@ -219,8 +221,6 @@ class BlockchainPeer(Peer):
         if mhash in self.message_hash:
             return
         block_header = message.split(":")[1]
-        if len(self.network_queue) > 10000:
-            return
         self.network_queue.append(((block_header,parent_sock),time.time()))
         self.message_hash[hash(message)] = True
 
@@ -248,6 +248,7 @@ class BlockchainPeer(Peer):
                         continue
                     else:
                         self.try_send((message).encode(),t)
+                self.mine_time = self.generate_exp_time()
         self.validation_queue = []
         # print(self.level_tree)
 
@@ -300,7 +301,8 @@ class BlockchainPeer(Peer):
         peer_list = random.sample(peer_list,min(4,len(peer_list)))
         sync_list = random.sample(peer_list,min(2,len(peer_list)))
         self.connect_peers(peer_list,sync_list)
-        self.reset_time()
+        self.reset_mine()
+        self.start_time = time.time()
         self.viz_start_time = time.time()
 
         while(True):
@@ -353,19 +355,25 @@ class BlockchainPeer(Peer):
             #Check if queue is not empty:
             if len(self.validation_queue) > 0:
                 self.process_queue()
-                self.reset_time()
+                self.mine_start_time = time.time()
 
             #Mine block
             curr_time = time.time()
             if curr_time - self.mine_start_time > self.mine_time:
                 self.mine_block()
-                self.reset_time()
+                self.reset_mine()
 
             #Visualize blockchain
             curr_time = time.time()
             if curr_time - self.viz_start_time > self.viz_time:
                 self.visualize_blockchain()
                 self.viz_start_time = curr_time
+
+            #Terminate peer
+            curr_time = time.time()
+            if curr_time - self.start_time > self.terminate_after:
+                self.server.close()
+                exit(0)
 
 
 if __name__ == "__main__":
@@ -375,9 +383,10 @@ if __name__ == "__main__":
     parser.add_argument('--hash_fraction',type=float, help='Fraction of hashing power peer has')
     parser.add_argument('--inter_arrival_time',type=float, help='Inter Arrival time of the blocks')
     parser.add_argument('--verbose',action='store_true',help='Verbose flag')
-    parser.add_argument('--network_delay',type=float,default=2.0,help='Implicit network delay in the network')
+    parser.add_argument('--network_delay',type=float,default=1.0,help='Implicit network delay in the network')
     parser.add_argument('--no_print',action='store_true',help='No printing to std out')
-    parser.add_argument('--outdir',type=str,default='Output Directory')
+    parser.add_argument('--outdir',type=str,help='Output Directory')
+    parser.add_argument('--terminate_after',type=float,default=600,help='Seconds after which program needs to be terminated')
     args = parser.parse_args()
-    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print)
+    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print,args.terminate_after)
     blockchain_peer.run()
