@@ -148,7 +148,8 @@ class Seed(object):
                                         
                             s.close()
             
-            except KeyboardInterrupt:
+            except Exception as e:
+                print("IP:",self.IP,"port:",self.port,"Exiting due to",e)
                 self.server.close()
                 exit(0)
 

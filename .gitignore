@@ -1,4 +1,6 @@
-Assignment 1/outfiles/**/*.txt
-Assignment 2/outfiles/**/*.txt
+Assignment 1/**/*.txt
+Assignment 2/**/*.txt
+!Assignment 1/config.txt
+!Assignment 2/config.txt
 *.pyc
 *.tar.gz

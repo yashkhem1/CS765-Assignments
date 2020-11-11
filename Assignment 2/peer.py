@@ -371,7 +371,8 @@ class Peer(object):
                     self.check_liveness(curr_time)
                     self.send_live_request(curr_time)
 
-            except KeyboardInterrupt:
+            except Exception as e:
+                print("IP:",self.IP,"port:",self.port,"Exiting due to",e)
                 self.server.close()
                 exit(0)
             

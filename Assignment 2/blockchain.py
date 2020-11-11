@@ -34,7 +34,7 @@ class Block(object):
         return prev_hash_str + merkel_root_str + timestamp_str
 
 class BlockchainPeer(Peer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000):
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000, seed=None):
         super(BlockchainPeer,self).__init__(IP,port,outdir,verbose,no_print)
         self.level_tree = []
         self.longest_chain_block = None
@@ -52,6 +52,10 @@ class BlockchainPeer(Peer):
         self.mine_start_time = None
         self.viz_time = 2
         self.viz_start_time = None
+        if seed is not None:
+            np.random.seed(seed)
+            random.seed(seed)
+
         #self.peer_hash = {} TODO:Dynamic hashing power instead of static
 
     def validate_block(self,block_header):
@@ -376,7 +380,8 @@ class BlockchainPeer(Peer):
                     self.server.close()
                     exit(0)
 
-            except KeyboardInterrupt:
+            except Exception as e:
+                print("IP:",self.IP,"port:",self.port,"Exiting due to",e)
                 self.server.close()
                 exit(0)
 
@@ -392,6 +397,7 @@ if __name__ == "__main__":
     parser.add_argument('--no_print',action='store_true',help='No printing to std out')
     parser.add_argument('--outdir',type=str,help='Output Directory')
     parser.add_argument('--terminate_after',type=float,default=600,help='Seconds after which program needs to be terminated')
+    parser.add_argument('--seed',type=int,default=None,help='Random Seed')
     args = parser.parse_args()
-    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print,args.terminate_after)
+    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print,args.terminate_after, args.seed)
     blockchain_peer.run()
