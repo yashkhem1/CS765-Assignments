@@ -9,6 +9,11 @@ import numpy as np
 import os
 import math
 import argparse
+import networkx as nx
+import matplotlib.pyplot as plt
+from networkx.drawing.nx_agraph import write_dot, graphviz_layout, to_agraph
+import pygraphviz as pgv
+
 class Block(object):
     def __init__ (self,prev_hash,merkel_root,timestamp,prev_block=None,mined=False):
         """Initialize the Blockchain block
@@ -34,7 +39,7 @@ class Block(object):
         return prev_hash_str + merkel_root_str + timestamp_str
 
 class BlockchainPeer(Peer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000, seed=None):
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000, seed=None, draw=False):
         super(BlockchainPeer,self).__init__(IP,port,outdir,verbose,no_print)
         self.level_tree = []
         self.longest_chain_block = None
@@ -42,6 +47,7 @@ class BlockchainPeer(Peer):
         self.inter_arrival_time = inter_arrival_time
         self.network_delay = network_delay
         self.terminate_after = terminate_after
+        self.draw = draw
         self.block_hash = {}
         self.message_hash = {}
         self.validation_queue = []
@@ -50,8 +56,13 @@ class BlockchainPeer(Peer):
         self.start_time = None
         self.mine_time = None
         self.mine_start_time = None
-        self.viz_time = 2
-        self.viz_start_time = None
+        self.write_time = 2
+        self.write_start_time = None
+        self.draw_time = 10
+        self.draw_start_time = None
+        self.graph = nx.DiGraph()
+        self.graph.add_node('0x0000000000000000')
+        self.color_map = ['red']
         if seed is not None:
             np.random.seed(seed)
             random.seed(seed)
@@ -74,6 +85,10 @@ class BlockchainPeer(Peer):
             b = Block(int(prev_hash,2),int(block_header[16:32],2),int(block_header[32:],2),None,False)
             self.block_hash[hash(block_header)] = True
             self.level_tree[0].append(b)
+            #Add to graph
+            self.graph.add_node(str(hex(int(str(b),2))))
+            self.graph.add_edge('0x0000000000000000',str(hex(int(str(b),2))))
+            self.color_map.append('blue')
             if prev_length == 0:
                 self.longest_chain_block = b
             self.log("Genesis Block " + hex(int(block_header,2)) + " validated Timestamp:"+str(time.asctime()),force_log=True)
@@ -91,6 +106,10 @@ class BlockchainPeer(Peer):
                     b = Block(int(prev_hash,2),int(block_header[16:32],2),int(block_header[32:],2),block,False)
                     self.block_hash[hash(block_header)] = True
                     self.level_tree[i+1].append(b)
+                    #Add to graph
+                    self.graph.add_node(str(hex(int(str(b),2))))
+                    self.graph.add_edge(str(hex(int(str(block),2))),str(hex(int(str(b),2))))
+                    self.color_map.append('blue')
                     self.log("Block header "+hex(int(block_header,2))+" validated Timestamp:"+str(time.asctime()),force_log=True)
                     if i ==prev_length-1:
                         self.longest_chain_block = b
@@ -207,6 +226,13 @@ class BlockchainPeer(Peer):
         b = Block(prev_hash,merkel_root,timestamp,self.longest_chain_block,True)
         self.level_tree.append([])
         self.level_tree[-1].append(b)
+        #Add to graph
+        self.graph.add_node(str(hex(int(str(b),2))))
+        if self.longest_chain_block is not None:
+            self.graph.add_edge(str(hex(int(str(self.longest_chain_block),2))),str(hex(int(str(b),2))))
+        else:
+            self.graph.add_edge('0x0000000000000000',str(hex(int(str(b),2))))
+        self.color_map.append('blue')
         # if self.longest_chain_block:
         #     print(hex(int(str(self.longest_chain_block),2)),'idhar')
         # else:
@@ -256,7 +282,7 @@ class BlockchainPeer(Peer):
         self.validation_queue = []
         # print(self.level_tree)
 
-    def visualize_blockchain(self):
+    def write_blockchain(self):
         #TODO: Replace it with Ajay's version of tree
         longest_chain = []
         x = self.longest_chain_block
@@ -291,6 +317,16 @@ class BlockchainPeer(Peer):
             w.write("Mining Power Utilization: "+str(mining_power_utilization)+"\n")
             w.write("Fraction Mined in Longest Chain: "+str(fraction_mined_in_lc))
 
+    def draw_blockchain(self):
+        plt.figure(figsize=(25,15))
+        plt.title('Blockchain Diagram at time '+ time.asctime())
+        pos = nx.spiral_layout(self.graph)
+        nx.draw(self.graph, pos,node_color=self.color_map,with_labels=False, arrows=True)
+        plt.savefig(os.path.join(self.outdir,'blockchain_tree_'+self.IP+'_'+str(self.port)+'.png'))
+        A = to_agraph(self.graph)
+        A.layout('dot')
+        A.write(os.path.join(self.outdir,'blockchain_tree_'+self.IP+'_'+str(self.port)+'.dot'))
+
     def run(self):
         os.makedirs('outfiles',exist_ok=True)
         print("Peer Running with IP: ", self.IP, "and Port: ", str(self.port))
@@ -307,7 +343,8 @@ class BlockchainPeer(Peer):
         self.connect_peers(peer_list,sync_list)
         self.reset_mine()
         self.start_time = time.time()
-        self.viz_start_time = time.time()
+        self.write_start_time = time.time()
+        self.draw_start_time = time.time()
 
         while(True):
             try:
@@ -368,11 +405,18 @@ class BlockchainPeer(Peer):
                     self.mine_block()
                     self.reset_mine()
 
-                #Visualize blockchain
+                #Write blockchain
                 curr_time = time.time()
-                if curr_time - self.viz_start_time > self.viz_time:
-                    self.visualize_blockchain()
-                    self.viz_start_time = curr_time
+                if curr_time - self.write_start_time > self.write_time:
+                    self.write_blockchain()
+                    self.write_start_time = curr_time
+
+                #Draw blockchain
+                if self.draw:
+                    curr_time = time.time()
+                    if curr_time - self.draw_start_time > self.draw_time:
+                        self.draw_blockchain()
+                        self.draw_start_time = curr_time
 
                 #Terminate peer
                 curr_time = time.time()
@@ -398,6 +442,7 @@ if __name__ == "__main__":
     parser.add_argument('--outdir',type=str,help='Output Directory')
     parser.add_argument('--terminate_after',type=float,default=600,help='Seconds after which program needs to be terminated')
     parser.add_argument('--seed',type=int,default=None,help='Random Seed')
+    parser.add_argument('--draw',action='store_true',help='Draw the blockchain')
     args = parser.parse_args()
-    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print,args.terminate_after, args.seed)
+    blockchain_peer = BlockchainPeer(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.outdir,args.verbose,args.no_print,args.terminate_after, args.seed,args.draw)
     blockchain_peer.run()

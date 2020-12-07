@@ -4,3 +4,5 @@ Assignment 2/**/*.txt
 !Assignment 2/config.txt
 *.pyc
 *.tar.gz
+*.png
+*.dot

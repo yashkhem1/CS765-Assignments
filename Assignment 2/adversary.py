@@ -8,8 +8,8 @@ import time
 import random
 
 class Adversary(BlockchainPeer):
-    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,num_flood,flood_every,outdir,verbose=False,no_print=False,terminate_after=10000000,seed=None):
-        super(Adversary,self).__init__(IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose,no_print,terminate_after,seed)
+    def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,num_flood,flood_every,outdir,verbose=False,no_print=False,terminate_after=10000000,seed=None, draw=False):
+        super(Adversary,self).__init__(IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose,no_print,terminate_after,seed,draw)
         self.num_flood = num_flood
         self.target_peers = []
         self.flood_every = flood_every
@@ -70,8 +70,9 @@ class Adversary(BlockchainPeer):
         self.num_flooded = min(self.num_flood,len(self.peer_sockets))
         self.target_peers = random.sample(self.peer_sockets,self.num_flooded)
         self.reset_mine()
-        self.viz_start_time = time.time()
+        self.write_start_time = time.time()
         self.start_time = time.time()
+        self.draw_start_time = time.time()
         self.flood_start_time = time.time()
 
         while(True):
@@ -133,11 +134,18 @@ class Adversary(BlockchainPeer):
                     self.mine_block()
                     self.reset_mine()
 
-                #Visualize blockchain
+                #Write blockchain
                 curr_time = time.time()
-                if curr_time - self.viz_start_time > self.viz_time:
-                    self.visualize_blockchain()
-                    self.viz_start_time = curr_time
+                if curr_time - self.write_start_time > self.write_time:
+                    self.write_blockchain()
+                    self.write_start_time = curr_time
+
+                #Draw blockchain
+                if self.draw:
+                    curr_time = time.time()
+                    if curr_time - self.draw_start_time > self.draw_time:
+                        self.draw_blockchain()
+                        self.draw_start_time = curr_time
 
                 #Flood the target peers
                 curr_time = time.time()
@@ -170,8 +178,9 @@ if __name__ == "__main__":
     parser.add_argument('--flood_every',type=float,default=0.01,help='Time difference between invalid packets')
     parser.add_argument('--terminate_after',type=float,default=600,help='Seconds after which program needs to be terminated')
     parser.add_argument('--seed',type=int,default=None,help='Random Seed')
+    parser.add_argument('--draw',action='store_true',help='Draw the blockchain')
     args = parser.parse_args()
-    blockchain_peer = Adversary(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.num_flood, args.flood_every, args.outdir,args.verbose,args.no_print,args.terminate_after, args.seed)
+    blockchain_peer = Adversary(args.IP,args.port,args.hash_fraction,args.inter_arrival_time,args.network_delay,args.num_flood, args.flood_every, args.outdir,args.verbose,args.no_print,args.terminate_after, args.seed,args.draw)
     blockchain_peer.run()
     
 
