@@ -80,7 +80,6 @@ class Adversary(BlockchainPeer):
     def run(self):
         """Run the adversary node
         """
-        os.makedirs('outfiles',exist_ok=True)
         print("Adversary Running with IP: ", self.IP, "and Port: ", str(self.port))
 
         #Get the seeds and peers and establish connection with them
