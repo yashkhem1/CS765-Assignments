@@ -67,6 +67,4 @@ if __name__ == "__main__":
     directory = sys.argv[1]
     adversary_port = sys.argv[2]
     mining_power,frac_mined = get_data_dict(directory)
-    # print(mining_power)
-    # print(frac_mined)
     plot_graphs(mining_power,frac_mined,adversary_port)
