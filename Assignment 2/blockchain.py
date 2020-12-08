@@ -282,7 +282,7 @@ class BlockchainPeer(Peer):
             self.graph.add_edge(str(hex(int(str(self.longest_chain_block),2))),str(hex(int(str(b),2))))
         else:
             self.graph.add_edge('0x0000000000000000',str(hex(int(str(b),2))))
-        self.color_map.append('blue'
+        self.color_map.append('blue')
         self.longest_chain_block = b
         message = "Block:"+str(b)+"\0"
         self.message_hash[hash(message[:-1])] = True
