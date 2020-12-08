@@ -40,6 +40,21 @@ class Block(object):
 
 class BlockchainPeer(Peer):
     def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose=False,no_print=False,terminate_after=10000000, seed=None, draw=False):
+        """Initialize the blockchain peer 
+
+        Args:
+            IP (str): IP Address of the peer server
+            port (int): Port No. of peer server
+            hash_fraction (float): Mining power in the network
+            inter_arrival_time (float): Average inter arrival time between blocks
+            network_delay (float): Network delay (Manually implemented)
+            outdir (str): Output directory
+            verbose (bool, optional): Spit out additional information. Defaults to False.
+            no_print (bool, optional): Suppress output on the terminal. Defaults to False.
+            terminate_after (int, optional): Duration of mining in seconds. Defaults to 10000000.
+            seed (int, optional): Random seed. Defaults to None.
+            draw (bool, optional): Draw the blockchain diagram. Defaults to False.
+        """
         super(BlockchainPeer,self).__init__(IP,port,outdir,verbose,no_print)
         self.level_tree = []
         self.longest_chain_block = None
@@ -70,6 +85,14 @@ class BlockchainPeer(Peer):
         #self.peer_hash = {} TODO:Dynamic hashing power instead of static
 
     def validate_block(self,block_header):
+        """Validate the incoming block
+
+        Args:
+            block_header (str): Incoming block header
+
+        Returns:
+            bool: If the block is valid
+        """
         assert(len(block_header)==64)
         if not self.check_timestamp(block_header):
             self.log("Inavlid block "+hex(int(block_header,2)))
@@ -120,10 +143,23 @@ class BlockchainPeer(Peer):
         return 0
 
     def check_timestamp(self,block_header):
+        """Timestamp check on the block header
+
+        Args:
+            block_header (str): Incoming block header
+
+        Returns:
+            bool: Passed timestamp check
+        """
         timestamp = int(block_header[32:],2)
         return abs(timestamp-time.time()) < 3600
 
     def generate_exp_time(self):
+        """Generate mining time which is an exponential random variable
+
+        Returns:
+            float: Mining time
+        """
         return np.random.exponential()*self.inter_arrival_time/self.hash_fraction
 
     def connect_peers(self,peer_list,sync_list):
@@ -178,6 +214,11 @@ class BlockchainPeer(Peer):
         self.log("Sent Connection Response to "+peer_ip+":"+str(peer_port))
     
     def request_blocks(self,sock):
+        """Request the blockchain blocks from the peer
+
+        Args:
+            sock (socket): Peer socket
+        """
         self.try_send(b"Blocks Request",sock)
         n_levels = int(sock.recv(1024).decode())
         self.try_send(b"ACK",sock)
@@ -196,6 +237,11 @@ class BlockchainPeer(Peer):
             self.log("Blockchain sync complete with peer IP:" + peer_ip +" Port:" + str(peer_port) +" Timestamp:"+str(time.asctime()),force_log=True)
 
     def send_blocks(self,peer_sock):
+        """Send the blockchain blocks to the requesting peer
+
+        Args:
+            peer_sock (socket): Peer socket
+        """
         self.try_send((str(len(self.level_tree))).encode(),peer_sock)
         ack = peer_sock.recv(1024).decode()  #TODO: Check if ACKs send are good
         for i in range(len(self.level_tree)):
@@ -212,10 +258,14 @@ class BlockchainPeer(Peer):
             self.log("Synced blockchain with peer IP:"+peer_ip+" Port:"+str(peer_port)+" Timestamp:"+str(time.asctime()),force_log=True)
 
     def reset_mine(self):
+        """Reset Mining
+        """
         self.mine_start_time = time.time()
         self.mine_time = self.generate_exp_time()
 
     def mine_block(self):
+        """Add the mined block to the local blockchain and broadcast it to the peers
+        """
         if self.longest_chain_block is None:
             prev_hash = int(self.genesis_hash,2)
         else:
@@ -247,6 +297,12 @@ class BlockchainPeer(Peer):
 
 
     def receive_block(self,message,parent_sock):
+        """Receive an incoming block from the neighbour and add it to network queue
+
+        Args:
+            message (str): Message received
+            parent_sock (socket): Peer socket carrying the message
+        """
         mhash = hash(message)
         if mhash in self.message_hash:
             return
@@ -255,6 +311,8 @@ class BlockchainPeer(Peer):
         self.message_hash[hash(message)] = True
 
     def transfer_to_validation_queue(self):
+        """Transfer the blocks in the network queue to validation queue
+        """
         while(True):
             if len(self.network_queue) > 0:
                 header_data,timestamp = self.network_queue[0]
@@ -269,6 +327,8 @@ class BlockchainPeer(Peer):
                 break
 
     def process_queue(self):
+        """Process the validation queue
+        """
         for (header,parent_sock) in self.validation_queue:
             success = self.validate_block(header)
             if success:
@@ -283,7 +343,8 @@ class BlockchainPeer(Peer):
         # print(self.level_tree)
 
     def write_blockchain(self):
-        #TODO: Replace it with Ajay's version of tree
+        """Write the local blockchain to output file
+        """
         longest_chain = []
         x = self.longest_chain_block
         while(x):
@@ -318,6 +379,8 @@ class BlockchainPeer(Peer):
             w.write("Fraction Mined in Longest Chain: "+str(fraction_mined_in_lc))
 
     def draw_blockchain(self):
+        """Draw the local blockchain tree to output png and dot files
+        """
         plt.figure(figsize=(25,15))
         plt.title('Blockchain Diagram at time '+ time.asctime())
         pos = nx.spiral_layout(self.graph)
@@ -328,6 +391,8 @@ class BlockchainPeer(Peer):
         A.write(os.path.join(self.outdir,'blockchain_tree_'+self.IP+'_'+str(self.port)+'.dot'))
 
     def run(self):
+        """Run the blockchain peer
+        """
         os.makedirs('outfiles',exist_ok=True)
         print("Peer Running with IP: ", self.IP, "and Port: ", str(self.port))
 

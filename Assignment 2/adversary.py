@@ -9,6 +9,23 @@ import random
 
 class Adversary(BlockchainPeer):
     def __init__(self,IP,port,hash_fraction,inter_arrival_time,network_delay,num_flood,flood_every,outdir,verbose=False,no_print=False,terminate_after=10000000,seed=None, draw=False):
+        """Initialize the adversary node
+
+        Args:
+            IP (str): IP of the adversary server
+            port (int): Port No. of the adversary server
+            hash_fraction (float): Mining power in the network
+            inter_arrival_time (float): Average inter arrival time between blocks
+            network_delay (float): Network delay (Manually implemented)
+            num_flood (int): No. of peers to be flooded
+            flood_every (float): Time between successive invalid blocks
+            outdir (str): Output directory
+            verbose (bool, optional): Spit out additional information. Defaults to False.
+            no_print (bool, optional): Suppress output on the terminal. Defaults to False.
+            terminate_after (int, optional): Duration of mining in seconds. Defaults to 10000000.
+            seed (int, optional): Random seed. Defaults to None.
+            draw (bool, optional): Draw the blockchain diagram. Defaults to False.
+        """
         super(Adversary,self).__init__(IP,port,hash_fraction,inter_arrival_time,network_delay,outdir,verbose,no_print,terminate_after,seed,draw)
         self.num_flood = num_flood
         self.target_peers = []
@@ -17,10 +34,17 @@ class Adversary(BlockchainPeer):
         self.num_flooded = 0
 
     def generate_invalid_block(self):
+        """Generate invalid block
+
+        Returns:
+            str: Invalid block header
+        """
         invalid_binary = bin(random.randint(0,2**64-1))[2:]
         return '0'*(64-len(invalid_binary)) + invalid_binary
 
     def send_invalid_blocks(self):
+        """Send invlaid block to the target peers
+        """
         invalid_block = self.generate_invalid_block()
         for t in self.peer_sockets:
             if t in self.target_peers:
@@ -54,6 +78,8 @@ class Adversary(BlockchainPeer):
         self.log("Sent Connection Response to "+peer_ip+":"+str(peer_port))
 
     def run(self):
+        """Run the adversary node
+        """
         os.makedirs('outfiles',exist_ok=True)
         print("Adversary Running with IP: ", self.IP, "and Port: ", str(self.port))
 
