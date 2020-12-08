@@ -282,18 +282,13 @@ class BlockchainPeer(Peer):
             self.graph.add_edge(str(hex(int(str(self.longest_chain_block),2))),str(hex(int(str(b),2))))
         else:
             self.graph.add_edge('0x0000000000000000',str(hex(int(str(b),2))))
-        self.color_map.append('blue')
-        # if self.longest_chain_block:
-        #     print(hex(int(str(self.longest_chain_block),2)),'idhar')
-        # else:
-        #     print(None,'idhar')
+        self.color_map.append('blue'
         self.longest_chain_block = b
         message = "Block:"+str(b)+"\0"
         self.message_hash[hash(message[:-1])] = True
         for t in self.peer_sockets:
             self.try_send(message.encode(),t)
         self.log("Mined block: "+hex(int(str(b),2))+" Timestamp:"+str(time.asctime()),force_log=True)
-        # print(self.level_tree)
 
 
     def receive_block(self,message,parent_sock):
@@ -340,7 +335,6 @@ class BlockchainPeer(Peer):
                         self.try_send((message).encode(),t)
                 self.mine_time = self.generate_exp_time()
         self.validation_queue = []
-        # print(self.level_tree)
 
     def write_blockchain(self):
         """Write the local blockchain to output file
