@@ -1,0 +1,39 @@
+Registration Request:127.0.0.1:1235
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1235
+127.0.0.1:1235
+Registration Request:127.0.0.1:1236
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1236
+127.0.0.1:1235,127.0.0.1:1236
+Registration Request:127.0.0.1:1237
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1237
+127.0.0.1:1235,127.0.0.1:1236,127.0.0.1:1237
+Received Dead Node:127.0.0.1:1235:1607378631.4116073:127.0.0.1:1236
+Received Dead Node:127.0.0.1:1235:1607378631.4116488:127.0.0.1:1237
+Received Dead Node:127.0.0.1:1237:1607378634.3472834:127.0.0.1:1236
+Registration Request:127.0.0.1:1236
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1236
+127.0.0.1:1236
+Registration Request:127.0.0.1:1237
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1237
+127.0.0.1:1236,127.0.0.1:1237
+Received Dead Node:127.0.0.1:1236:1607378693.0198405:127.0.0.1:1237
+Registration Request:127.0.0.1:1235
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1235
+127.0.0.1:1235
+Registration Request:127.0.0.1:1236
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1236
+127.0.0.1:1235,127.0.0.1:1236
+Registration Request:127.0.0.1:1237
+Registration Successful:127.0.0.1:2346
+Peer Request:127.0.0.1:1237
+127.0.0.1:1235,127.0.0.1:1236,127.0.0.1:1237
+Received Dead Node:127.0.0.1:1235:1607379691.784105:127.0.0.1:1236
+Received Dead Node:127.0.0.1:1235:1607379691.7841725:127.0.0.1:1237
+Received Dead Node:127.0.0.1:1236:1607379697.9320323:127.0.0.1:1237

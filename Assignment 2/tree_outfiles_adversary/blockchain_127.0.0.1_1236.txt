@@ -1,0 +1,95 @@
+0x9e1c00225fceae7f:0 
+0xf2c9c03e5fceae8b:0 
+0x901cb45e5fceae91:0 
+0xbe3a22d45fceae93:0 0xbe3af4e65fceae93:1 
+0xd3c1df85fceae9a:0 
+0x49d3d96a5fceae9b:0 
+0x28926a45fceae9e:0 
+0xf310698c5fceaea5:1 
+0x74bafa1e5fceaeab:0 0x74ba0e4f5fceaeaa:0 
+0xbc592b635fceaeb5:0 
+0x94a841ae5fceaebc:0 
+0x78e6824a5fceaebd:0 
+0xa9e505095fceaec9:1 
+0xdf5fd69e5fceaee2:0 0xdf5f44335fceaee2:1 
+0x2b777c85fceaee3:0 
+0x5c95dd075fceaee3:0 
+0xbe424685fceaee7:0 
+0x5011ce995fceaeeb:0 0x501199685fceaeeb:1 
+0xbe501a85fceaeec:0 
+0x49d76d5b5fceaf04:0 
+0xb7f854b5fceaf17:1 
+0x1be8ca365fceaf18:1 0x1be8f7395fceaf18:0 
+0xefba5f355fceaf22:0 
+0x52b863085fceaf2a:0 0x52b88af15fceaf29:1 
+0xaf0748395fceaf2e:0 
+0xaaed0e425fceaf35:1 
+0xce7b8a295fceaf45:1 
+0x8610be15fceaf51:0 0x861da235fceaf51:1 
+0xf8a10de05fceaf51:0 
+0x3d8b32b15fceaf61:1 0x3d8b7f9d5fceaf63:0 
+0x928afd6f5fceaf62:0 
+0x143733b85fceaf6d:0 
+0xc9495a3c5fceaf72:0 0xc949d45c5fceaf73:1 
+0x7ba9c7d75fceaf73:0 
+0xc26b9fd45fceaf78:1 0xc26b992e5fceaf79:0 
+0x2d82395a5fceaf78:1 
+0xbb20c4de5fceaf80:1 
+0x68d2a8d85fceaf83:0 
+0xecd917375fceaf89:1 
+0xcf57ea115fceaf8b:0 
+0x5bc1f6d5fceaf90:0 
+0x5bf397635fceaf95:0 
+0xe91edd1d5fceaf9d:0 
+0xc5018d9c5fceafa0:1 
+0xab16a4725fceafa2:0 
+0x819bb09b5fceafa7:0 
+0xc26b0c345fceafb8:1 
+0xc56c45e5fceafb9:1 
+0xef6053615fceafbc:1 
+0xb8512d775fceafbe:0 
+0x8815ca265fceafbf:1 
+0xa5d9ba145fceafc6:0 
+0x25d5f6955fceafcf:1 
+0x7a3bd2825fceafd7:0 
+0x8349fb525fceafdb:1 0x8349eac45fceafdd:0 
+0x736118935fceafe1:1 
+0x272608225fceafe6:0 
+0x1d4b09b5fceafe7:0 
+0x5ff40a245fceafef:1 
+0x4fc4e785fceafef:1 
+0x7887bbc45fceaff2:1 
+0xd42bf59b5fceaff9:0 0xd42b3dda5fceaff8:1 
+0xe9d10f9a5fceaffe:0 
+0xd86ae3315fceb001:0 
+0x11b739d5fceb010:1 
+0x70dad6275fceb012:1 
+0x62de23135fceb018:1 
+0xbd07b9295fceb021:1 
+0x524a3bf45fceb023:0 
+0xd8cc1a965fceb027:0 
+0xd400cf615fceb030:0 
+0x52af09bf5fceb031:1 
+0x7f6760f85fceb036:0 
+0x414fd69b5fceb03d:0 
+0xac8a3eca5fceb043:1 
+0x804d75715fceb04e:0 
+0x42faf5925fceb04f:0 
+0x93ef7dc95fceb050:0 
+0x843bdcb85fceb056:0 
+0x66f36b925fceb058:0 
+0x3c48e4135fceb062:1 
+0x1781d2dc5fceb06c:1 
+0xf64cb1e55fceb072:0 0xf64cd5eb5fceb070:1 
+0xa5823b1a5fceb07e:0 
+0x53efe4ab5fceb080:1 
+0xdf7694245fceb084:1 
+0xfc88ae895fceb091:0 
+0x76951dda5fceb094:1 
+0x3fac989f5fceb09a:0 
+0xaf2a8a635fceb0a5:0 
+0x34de2d115fceb0af:1 0x34de0e8e5fceb0b0:0 
+0x39ba96525fceb0b6:1 
+0x22995a4d5fceb0b9:0 
+Mining Power Utilization: 0.8691588785046729
+Fraction Mined in Longest Chain: 0.3763440860215054

@@ -1,0 +1,314 @@
+Registration Successful:127.0.0.1:2346
+Sent Peer Request:127.0.0.1:3453
+Peers connected to 127.0.0.1:2346 => 127.0.0.1:1235,127.0.0.1:2340,127.0.0.1:3453
+Sent Connection Info:127.0.0.1:3453
+Received Connection Successful from 127.0.0.1:1235
+Blockchain sync complete with peer IP:127.0.0.1 Port:1235 Timestamp:Sat Dec  5 07:13:54 2020
+Received Connection Successful from 127.0.0.1:2340
+Blockchain sync complete with peer IP:127.0.0.1 Port:2340 Timestamp:Sat Dec  5 07:13:54 2020
+Received Connection Info:127.0.0.1:4565
+Sent Connection Response to 127.0.0.1:4565
+Received Connection Info:127.0.0.1:5676
+Sent Connection Response to 127.0.0.1:5676
+Received Connection Info:127.0.0.1:6782
+Synced blockchain with peer IP:127.0.0.1 Port:6782 Timestamp:Sat Dec  5 07:13:57 2020
+Sent Connection Response to 127.0.0.1:6782
+Received Connection Info:127.0.0.1:8902
+Synced blockchain with peer IP:127.0.0.1 Port:8902 Timestamp:Sat Dec  5 07:13:59 2020
+Sent Connection Response to 127.0.0.1:8902
+Received Connection Info:127.0.0.1:9013
+Synced blockchain with peer IP:127.0.0.1 Port:9013 Timestamp:Sat Dec  5 07:14:01 2020
+Sent Connection Response to 127.0.0.1:9013
+Block received:0x9e1cda7e5fcae5e2 Timestamp:Sat Dec  5 07:14:04 2020
+Genesis Block 0x9e1cda7e5fcae5e2 validated Timestamp:Sat Dec  5 07:14:04 2020
+Block received:0xe409ae165fcae5e7 Timestamp:Sat Dec  5 07:14:09 2020
+Block header 0xe409ae165fcae5e7 validated Timestamp:Sat Dec  5 07:14:09 2020
+Block is part of the longest chain
+Block received:0xe409c5405fcae5e7 Timestamp:Sat Dec  5 07:14:11 2020
+Block header 0xe409c5405fcae5e7 validated Timestamp:Sat Dec  5 07:14:11 2020
+Block received:0x9560aacb5fcae5e9 Timestamp:Sat Dec  5 07:14:11 2020
+Block header 0x9560aacb5fcae5e9 validated Timestamp:Sat Dec  5 07:14:11 2020
+Block is part of the longest chain
+Block received:0x455013965fcae5ea Timestamp:Sat Dec  5 07:14:12 2020
+Block header 0x455013965fcae5ea validated Timestamp:Sat Dec  5 07:14:12 2020
+Block received:0xd70e34555fcae5ee Timestamp:Sat Dec  5 07:14:16 2020
+Block header 0xd70e34555fcae5ee validated Timestamp:Sat Dec  5 07:14:16 2020
+Block is part of the longest chain
+Block received:0x9ec7a7fa5fcae5ef Timestamp:Sat Dec  5 07:14:19 2020
+Block header 0x9ec7a7fa5fcae5ef validated Timestamp:Sat Dec  5 07:14:19 2020
+Block received:0x935873b75fcae5f4 Timestamp:Sat Dec  5 07:14:22 2020
+Block header 0x935873b75fcae5f4 validated Timestamp:Sat Dec  5 07:14:22 2020
+Block is part of the longest chain
+Block received:0x9aeb70285fcae5f6 Timestamp:Sat Dec  5 07:14:26 2020
+Block header 0x9aeb70285fcae5f6 validated Timestamp:Sat Dec  5 07:14:26 2020
+Block received:0x80bf3f805fcae611 Timestamp:Sat Dec  5 07:14:51 2020
+Block header 0x80bf3f805fcae611 validated Timestamp:Sat Dec  5 07:14:51 2020
+Block is part of the longest chain
+Block received:0x80bf75b55fcae614 Timestamp:Sat Dec  5 07:14:54 2020
+Block header 0x80bf75b55fcae614 validated Timestamp:Sat Dec  5 07:14:54 2020
+Block received:0x6b718d585fcae622 Timestamp:Sat Dec  5 07:15:10 2020
+Block header 0x6b718d585fcae622 validated Timestamp:Sat Dec  5 07:15:10 2020
+Block is part of the longest chain
+Block received:0xf204ec415fcae64a Timestamp:Sat Dec  5 07:15:48 2020
+Block header 0xf204ec415fcae64a validated Timestamp:Sat Dec  5 07:15:48 2020
+Block is part of the longest chain
+Block received:0xfdaae8fa5fcae655 Timestamp:Sat Dec  5 07:16:01 2020
+Block header 0xfdaae8fa5fcae655 validated Timestamp:Sat Dec  5 07:16:01 2020
+Block is part of the longest chain
+Block received:0x466e3095fcae65c Timestamp:Sat Dec  5 07:16:06 2020
+Block header 0x466e3095fcae65c validated Timestamp:Sat Dec  5 07:16:06 2020
+Block is part of the longest chain
+Block received:0x79543eb35fcae668 Timestamp:Sat Dec  5 07:16:20 2020
+Block header 0x79543eb35fcae668 validated Timestamp:Sat Dec  5 07:16:20 2020
+Block is part of the longest chain
+Mined block: 0x39500fb35fcae670 Timestamp:Sat Dec  5 07:16:24 2020
+Block received:0x39011af35fcae678 Timestamp:Sat Dec  5 07:16:36 2020
+Block header 0x39011af35fcae678 validated Timestamp:Sat Dec  5 07:16:36 2020
+Block is part of the longest chain
+Block received:0xb299428d5fcae67d Timestamp:Sat Dec  5 07:16:41 2020
+Block header 0xb299428d5fcae67d validated Timestamp:Sat Dec  5 07:16:41 2020
+Block is part of the longest chain
+Block received:0xcbe067665fcae688 Timestamp:Sat Dec  5 07:16:50 2020
+Block header 0xcbe067665fcae688 validated Timestamp:Sat Dec  5 07:16:50 2020
+Block is part of the longest chain
+Block received:0x576e0bba5fcae68c Timestamp:Sat Dec  5 07:16:54 2020
+Block header 0x576e0bba5fcae68c validated Timestamp:Sat Dec  5 07:16:54 2020
+Block is part of the longest chain
+Block received:0x576e20595fcae690 Timestamp:Sat Dec  5 07:17:00 2020
+Block header 0x576e20595fcae690 validated Timestamp:Sat Dec  5 07:17:00 2020
+Block received:0x29eea9c25fcae6a5 Timestamp:Sat Dec  5 07:17:19 2020
+Block header 0x29eea9c25fcae6a5 validated Timestamp:Sat Dec  5 07:17:19 2020
+Block is part of the longest chain
+Block received:0x7c5a4cee5fcae6b7 Timestamp:Sat Dec  5 07:17:37 2020
+Block header 0x7c5a4cee5fcae6b7 validated Timestamp:Sat Dec  5 07:17:37 2020
+Block is part of the longest chain
+Block received:0x8e20467e5fcae6c4 Timestamp:Sat Dec  5 07:17:50 2020
+Block header 0x8e20467e5fcae6c4 validated Timestamp:Sat Dec  5 07:17:50 2020
+Block is part of the longest chain
+Block received:0x857a0da15fcae6d6 Timestamp:Sat Dec  5 07:18:08 2020
+Block header 0x857a0da15fcae6d6 validated Timestamp:Sat Dec  5 07:18:08 2020
+Block is part of the longest chain
+Block received:0xb5f85f855fcae6ea Timestamp:Sat Dec  5 07:18:28 2020
+Block header 0xb5f85f855fcae6ea validated Timestamp:Sat Dec  5 07:18:28 2020
+Block is part of the longest chain
+Block received:0x330d369c5fcae704 Timestamp:Sat Dec  5 07:18:56 2020
+Block header 0x330d369c5fcae704 validated Timestamp:Sat Dec  5 07:18:56 2020
+Block is part of the longest chain
+Block received:0x76c01d895fcae710 Timestamp:Sat Dec  5 07:19:08 2020
+Block header 0x76c01d895fcae710 validated Timestamp:Sat Dec  5 07:19:08 2020
+Block is part of the longest chain
+Mined block: 0xc9f91f775fcae717 Timestamp:Sat Dec  5 07:19:11 2020
+Block received:0xc9f9add05fcae713 Timestamp:Sat Dec  5 07:19:11 2020
+Block header 0xc9f9add05fcae713 validated Timestamp:Sat Dec  5 07:19:11 2020
+Block received:0x2c9906915fcae71e Timestamp:Sat Dec  5 07:19:22 2020
+Block header 0x2c9906915fcae71e validated Timestamp:Sat Dec  5 07:19:22 2020
+Block is part of the longest chain
+Block received:0xbd985acb5fcae71f Timestamp:Sat Dec  5 07:19:23 2020
+Block header 0xbd985acb5fcae71f validated Timestamp:Sat Dec  5 07:19:23 2020
+Block is part of the longest chain
+Block received:0x747b69e5fcae724 Timestamp:Sat Dec  5 07:19:26 2020
+Block header 0x747b69e5fcae724 validated Timestamp:Sat Dec  5 07:19:26 2020
+Block is part of the longest chain
+Block received:0x747f5d45fcae723 Timestamp:Sat Dec  5 07:19:27 2020
+Block header 0x747f5d45fcae723 validated Timestamp:Sat Dec  5 07:19:27 2020
+Block received:0x5d2a8a855fcae72d Timestamp:Sat Dec  5 07:19:37 2020
+Block header 0x5d2a8a855fcae72d validated Timestamp:Sat Dec  5 07:19:37 2020
+Block is part of the longest chain
+Block received:0x3d3657695fcae742 Timestamp:Sat Dec  5 07:19:56 2020
+Block header 0x3d3657695fcae742 validated Timestamp:Sat Dec  5 07:19:56 2020
+Block is part of the longest chain
+Block received:0x1d56f3c45fcae74d Timestamp:Sat Dec  5 07:20:07 2020
+Block header 0x1d56f3c45fcae74d validated Timestamp:Sat Dec  5 07:20:07 2020
+Block is part of the longest chain
+Block received:0x4424979b5fcae750 Timestamp:Sat Dec  5 07:20:10 2020
+Block header 0x4424979b5fcae750 validated Timestamp:Sat Dec  5 07:20:10 2020
+Block is part of the longest chain
+Block received:0x298699e15fcae75e Timestamp:Sat Dec  5 07:20:26 2020
+Block header 0x298699e15fcae75e validated Timestamp:Sat Dec  5 07:20:26 2020
+Block is part of the longest chain
+Block received:0x2f1e32ed5fcae782 Timestamp:Sat Dec  5 07:21:00 2020
+Block header 0x2f1e32ed5fcae782 validated Timestamp:Sat Dec  5 07:21:00 2020
+Block is part of the longest chain
+Block received:0x1523a7a5fcae788 Timestamp:Sat Dec  5 07:21:06 2020
+Block header 0x1523a7a5fcae788 validated Timestamp:Sat Dec  5 07:21:06 2020
+Block is part of the longest chain
+Block received:0x3fc063da5fcae78a Timestamp:Sat Dec  5 07:21:08 2020
+Block header 0x3fc063da5fcae78a validated Timestamp:Sat Dec  5 07:21:08 2020
+Block is part of the longest chain
+Block received:0x201e4a555fcae797 Timestamp:Sat Dec  5 07:21:23 2020
+Block header 0x201e4a555fcae797 validated Timestamp:Sat Dec  5 07:21:23 2020
+Block is part of the longest chain
+Block received:0x679600905fcae7a2 Timestamp:Sat Dec  5 07:21:32 2020
+Block header 0x679600905fcae7a2 validated Timestamp:Sat Dec  5 07:21:32 2020
+Block is part of the longest chain
+Block received:0x538c530c5fcae7a9 Timestamp:Sat Dec  5 07:21:41 2020
+Block header 0x538c530c5fcae7a9 validated Timestamp:Sat Dec  5 07:21:41 2020
+Block is part of the longest chain
+Block received:0x3ae07e25fcae7c6 Timestamp:Sat Dec  5 07:22:08 2020
+Block header 0x3ae07e25fcae7c6 validated Timestamp:Sat Dec  5 07:22:08 2020
+Block is part of the longest chain
+Block received:0x3aee03e5fcae7c4 Timestamp:Sat Dec  5 07:22:08 2020
+Block header 0x3aee03e5fcae7c4 validated Timestamp:Sat Dec  5 07:22:08 2020
+Block received:0x63c4b3b05fcae7d2 Timestamp:Sat Dec  5 07:22:20 2020
+Block header 0x63c4b3b05fcae7d2 validated Timestamp:Sat Dec  5 07:22:20 2020
+Block is part of the longest chain
+Block received:0x83cf8c205fcae7d8 Timestamp:Sat Dec  5 07:22:26 2020
+Block header 0x83cf8c205fcae7d8 validated Timestamp:Sat Dec  5 07:22:26 2020
+Block is part of the longest chain
+Block received:0x8feb59395fcae7e3 Timestamp:Sat Dec  5 07:22:39 2020
+Block header 0x8feb59395fcae7e3 validated Timestamp:Sat Dec  5 07:22:39 2020
+Block is part of the longest chain
+Block received:0x773c8a95fcae7ee Timestamp:Sat Dec  5 07:22:48 2020
+Block header 0x773c8a95fcae7ee validated Timestamp:Sat Dec  5 07:22:48 2020
+Block is part of the longest chain
+Mined block: 0xd8ca42f25fcae7fc Timestamp:Sat Dec  5 07:23:00 2020
+Block received:0xd8caf3525fcae7fb Timestamp:Sat Dec  5 07:23:01 2020
+Block header 0xd8caf3525fcae7fb validated Timestamp:Sat Dec  5 07:23:01 2020
+Block received:0xe9053a805fcae800 Timestamp:Sat Dec  5 07:23:08 2020
+Block header 0xe9053a805fcae800 validated Timestamp:Sat Dec  5 07:23:08 2020
+Block is part of the longest chain
+Block received:0xe905815d5fcae801 Timestamp:Sat Dec  5 07:23:09 2020
+Block header 0xe905815d5fcae801 validated Timestamp:Sat Dec  5 07:23:09 2020
+Block received:0x59e59f105fcae805 Timestamp:Sat Dec  5 07:23:13 2020
+Block header 0x59e59f105fcae805 validated Timestamp:Sat Dec  5 07:23:13 2020
+Block is part of the longest chain
+Block received:0xfccf76705fcae80d Timestamp:Sat Dec  5 07:23:21 2020
+Block header 0xfccf76705fcae80d validated Timestamp:Sat Dec  5 07:23:21 2020
+Block is part of the longest chain
+Block received:0x6c1ec44f5fcae83a Timestamp:Sat Dec  5 07:24:06 2020
+Block header 0x6c1ec44f5fcae83a validated Timestamp:Sat Dec  5 07:24:06 2020
+Block is part of the longest chain
+Block received:0x856172b25fcae841 Timestamp:Sat Dec  5 07:24:13 2020
+Block header 0x856172b25fcae841 validated Timestamp:Sat Dec  5 07:24:13 2020
+Block is part of the longest chain
+Block received:0xfc2963a05fcae84a Timestamp:Sat Dec  5 07:24:20 2020
+Block header 0xfc2963a05fcae84a validated Timestamp:Sat Dec  5 07:24:20 2020
+Block is part of the longest chain
+Block received:0x7074a8ae5fcae84d Timestamp:Sat Dec  5 07:24:23 2020
+Block header 0x7074a8ae5fcae84d validated Timestamp:Sat Dec  5 07:24:23 2020
+Block is part of the longest chain
+Block received:0xfc29156e5fcae84d Timestamp:Sat Dec  5 07:24:25 2020
+Block header 0xfc29156e5fcae84d validated Timestamp:Sat Dec  5 07:24:25 2020
+Block received:0x24c2241d5fcae854 Timestamp:Sat Dec  5 07:24:30 2020
+Block header 0x24c2241d5fcae854 validated Timestamp:Sat Dec  5 07:24:30 2020
+Block is part of the longest chain
+Mined block: 0x92d925ef5fcae86b Timestamp:Sat Dec  5 07:24:51 2020
+Block received:0x92d9785a5fcae86e Timestamp:Sat Dec  5 07:24:58 2020
+Block header 0x92d9785a5fcae86e validated Timestamp:Sat Dec  5 07:24:58 2020
+Block received:0xde7e21915fcae87f Timestamp:Sat Dec  5 07:25:15 2020
+Block header 0xde7e21915fcae87f validated Timestamp:Sat Dec  5 07:25:15 2020
+Block is part of the longest chain
+Mined block: 0x8151ab8a5fcae8a6 Timestamp:Sat Dec  5 07:25:50 2020
+Block received:0x840e55655fcae8af Timestamp:Sat Dec  5 07:26:03 2020
+Block header 0x840e55655fcae8af validated Timestamp:Sat Dec  5 07:26:03 2020
+Block is part of the longest chain
+Mined block: 0x10764d2c5fcae8b6 Timestamp:Sat Dec  5 07:26:06 2020
+Block received:0x1076e6f45fcae8b8 Timestamp:Sat Dec  5 07:26:12 2020
+Block header 0x1076e6f45fcae8b8 validated Timestamp:Sat Dec  5 07:26:12 2020
+Block received:0x2b0f0e605fcae8bc Timestamp:Sat Dec  5 07:26:16 2020
+Block header 0x2b0f0e605fcae8bc validated Timestamp:Sat Dec  5 07:26:16 2020
+Block is part of the longest chain
+Block received:0x7a8671be5fcae8c4 Timestamp:Sat Dec  5 07:26:24 2020
+Block header 0x7a8671be5fcae8c4 validated Timestamp:Sat Dec  5 07:26:24 2020
+Block is part of the longest chain
+Block received:0x959a6ded5fcae8ca Timestamp:Sat Dec  5 07:26:28 2020
+Block header 0x959a6ded5fcae8ca validated Timestamp:Sat Dec  5 07:26:28 2020
+Block is part of the longest chain
+Block received:0xc238883e5fcae8db Timestamp:Sat Dec  5 07:26:47 2020
+Block header 0xc238883e5fcae8db validated Timestamp:Sat Dec  5 07:26:47 2020
+Block is part of the longest chain
+Block received:0x8ca6bafa5fcae8e1 Timestamp:Sat Dec  5 07:26:51 2020
+Block header 0x8ca6bafa5fcae8e1 validated Timestamp:Sat Dec  5 07:26:51 2020
+Block is part of the longest chain
+Block received:0x775fe4305fcae8e7 Timestamp:Sat Dec  5 07:26:59 2020
+Block header 0x775fe4305fcae8e7 validated Timestamp:Sat Dec  5 07:26:59 2020
+Block is part of the longest chain
+Mined block: 0xa54c9c025fcae8fd Timestamp:Sat Dec  5 07:27:17 2020
+Block received:0x7e280a4f5fcae906 Timestamp:Sat Dec  5 07:27:28 2020
+Block header 0x7e280a4f5fcae906 validated Timestamp:Sat Dec  5 07:27:28 2020
+Block is part of the longest chain
+Mined block: 0xb9485fd15fcae914 Timestamp:Sat Dec  5 07:27:40 2020
+Block received:0x14ebd8275fcae91c Timestamp:Sat Dec  5 07:27:50 2020
+Block header 0x14ebd8275fcae91c validated Timestamp:Sat Dec  5 07:27:50 2020
+Block is part of the longest chain
+Block received:0x14ebaf0b5fcae91c Timestamp:Sat Dec  5 07:27:52 2020
+Block header 0x14ebaf0b5fcae91c validated Timestamp:Sat Dec  5 07:27:52 2020
+Block received:0x159b4aae5fcae932 Timestamp:Sat Dec  5 07:28:12 2020
+Block header 0x159b4aae5fcae932 validated Timestamp:Sat Dec  5 07:28:12 2020
+Block is part of the longest chain
+Block received:0x159b36e35fcae933 Timestamp:Sat Dec  5 07:28:13 2020
+Block header 0x159b36e35fcae933 validated Timestamp:Sat Dec  5 07:28:13 2020
+Block received:0x9b2dbfd85fcae936 Timestamp:Sat Dec  5 07:28:18 2020
+Block header 0x9b2dbfd85fcae936 validated Timestamp:Sat Dec  5 07:28:18 2020
+Block received:0xe8046eeb5fcae943 Timestamp:Sat Dec  5 07:28:31 2020
+Block header 0xe8046eeb5fcae943 validated Timestamp:Sat Dec  5 07:28:31 2020
+Block is part of the longest chain
+Block received:0xa5ba4ec25fcae956 Timestamp:Sat Dec  5 07:28:48 2020
+Block header 0xa5ba4ec25fcae956 validated Timestamp:Sat Dec  5 07:28:48 2020
+Block is part of the longest chain
+Block received:0x2f4a4baa5fcae95f Timestamp:Sat Dec  5 07:28:57 2020
+Block header 0x2f4a4baa5fcae95f validated Timestamp:Sat Dec  5 07:28:57 2020
+Block is part of the longest chain
+Block received:0x91c810215fcae96d Timestamp:Sat Dec  5 07:29:11 2020
+Block header 0x91c810215fcae96d validated Timestamp:Sat Dec  5 07:29:11 2020
+Block is part of the longest chain
+Block received:0x9d1e9e1e5fcae972 Timestamp:Sat Dec  5 07:29:18 2020
+Block header 0x9d1e9e1e5fcae972 validated Timestamp:Sat Dec  5 07:29:18 2020
+Block is part of the longest chain
+Block received:0x297a2e995fcae977 Timestamp:Sat Dec  5 07:29:23 2020
+Block header 0x297a2e995fcae977 validated Timestamp:Sat Dec  5 07:29:23 2020
+Block is part of the longest chain
+Block received:0x9e79b6575fcae97f Timestamp:Sat Dec  5 07:29:29 2020
+Block header 0x9e79b6575fcae97f validated Timestamp:Sat Dec  5 07:29:29 2020
+Block is part of the longest chain
+Block received:0x9e7954d55fcae982 Timestamp:Sat Dec  5 07:29:34 2020
+Block header 0x9e7954d55fcae982 validated Timestamp:Sat Dec  5 07:29:34 2020
+Block received:0x3168cea95fcae983 Timestamp:Sat Dec  5 07:29:35 2020
+Block header 0x3168cea95fcae983 validated Timestamp:Sat Dec  5 07:29:35 2020
+Block is part of the longest chain
+Block received:0xb82697c75fcae986 Timestamp:Sat Dec  5 07:29:36 2020
+Block header 0xb82697c75fcae986 validated Timestamp:Sat Dec  5 07:29:36 2020
+Block is part of the longest chain
+Block received:0xb8261a1c5fcae985 Timestamp:Sat Dec  5 07:29:37 2020
+Block header 0xb8261a1c5fcae985 validated Timestamp:Sat Dec  5 07:29:37 2020
+Block received:0x73df95075fcae98a Timestamp:Sat Dec  5 07:29:42 2020
+Block header 0x73df95075fcae98a validated Timestamp:Sat Dec  5 07:29:42 2020
+Block is part of the longest chain
+Block received:0x4b9526be5fcae993 Timestamp:Sat Dec  5 07:29:49 2020
+Block header 0x4b9526be5fcae993 validated Timestamp:Sat Dec  5 07:29:49 2020
+Block is part of the longest chain
+Block received:0x6deac1c35fcae999 Timestamp:Sat Dec  5 07:29:55 2020
+Block header 0x6deac1c35fcae999 validated Timestamp:Sat Dec  5 07:29:55 2020
+Block is part of the longest chain
+Block received:0x25c396c45fcae9a4 Timestamp:Sat Dec  5 07:30:08 2020
+Block header 0x25c396c45fcae9a4 validated Timestamp:Sat Dec  5 07:30:08 2020
+Block is part of the longest chain
+Block received:0xef26c3ee5fcae9af Timestamp:Sat Dec  5 07:30:19 2020
+Block header 0xef26c3ee5fcae9af validated Timestamp:Sat Dec  5 07:30:19 2020
+Block is part of the longest chain
+Block received:0x2ad7ac15fcae9d2 Timestamp:Sat Dec  5 07:30:52 2020
+Block header 0x2ad7ac15fcae9d2 validated Timestamp:Sat Dec  5 07:30:52 2020
+Block is part of the longest chain
+Mined block: 0x7860cc1a5fcae9e1 Timestamp:Sat Dec  5 07:31:05 2020
+Block received:0x8743cdc95fcae9ef Timestamp:Sat Dec  5 07:31:21 2020
+Block header 0x8743cdc95fcae9ef validated Timestamp:Sat Dec  5 07:31:21 2020
+Block is part of the longest chain
+Block received:0x34cde4b75fcae9f6 Timestamp:Sat Dec  5 07:31:30 2020
+Block header 0x34cde4b75fcae9f6 validated Timestamp:Sat Dec  5 07:31:30 2020
+Block is part of the longest chain
+Block received:0x34cde7f15fcae9f7 Timestamp:Sat Dec  5 07:31:31 2020
+Block header 0x34cde7f15fcae9f7 validated Timestamp:Sat Dec  5 07:31:31 2020
+Block received:0x2049f3a45fcae9fa Timestamp:Sat Dec  5 07:31:34 2020
+Block header 0x2049f3a45fcae9fa validated Timestamp:Sat Dec  5 07:31:34 2020
+Block is part of the longest chain
+Block received:0x516f37935fcae9fd Timestamp:Sat Dec  5 07:31:35 2020
+Block header 0x516f37935fcae9fd validated Timestamp:Sat Dec  5 07:31:35 2020
+Block is part of the longest chain
+Block received:0x70f770ac5fcaea27 Timestamp:Sat Dec  5 07:32:17 2020
+Block header 0x70f770ac5fcaea27 validated Timestamp:Sat Dec  5 07:32:17 2020
+Block is part of the longest chain
+Block received:0xe28f86f95fcaea3b Timestamp:Sat Dec  5 07:32:37 2020
+Block header 0xe28f86f95fcaea3b validated Timestamp:Sat Dec  5 07:32:37 2020
+Block is part of the longest chain
+Sent Dead Node:127.0.0.1:1235:1607133832.540946:127.0.0.1:3453
+Sent Dead Node:127.0.0.1:2340:1607133833.5577326:127.0.0.1:3453

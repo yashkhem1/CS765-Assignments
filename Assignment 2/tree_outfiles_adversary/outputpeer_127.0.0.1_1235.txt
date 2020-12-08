@@ -1,0 +1,2316 @@
+Registration Successful:127.0.0.1:2346
+Sent Peer Request:127.0.0.1:1235
+Peers connected to 127.0.0.1:2346 => 127.0.0.1:1235
+Sent Connection Info:127.0.0.1:1235
+Received Connection Info:127.0.0.1:1236
+Synced blockchain with peer IP:127.0.0.1 Port:1236 Timestamp:Tue Dec  8 04:06:32 2020
+Sent Connection Response to 127.0.0.1:1236
+Received Connection Info:127.0.0.1:1237
+Synced blockchain with peer IP:127.0.0.1 Port:1237 Timestamp:Tue Dec  8 04:06:38 2020
+Sent Connection Response to 127.0.0.1:1237
+Block received:0x46b06090e555d176 Timestamp:Tue Dec  8 04:06:40 2020
+Inavlid block 0x46b06090e555d176
+Block received:0xa29ce3b7905147ba Timestamp:Tue Dec  8 04:06:40 2020
+Inavlid block 0xa29ce3b7905147ba
+Block received:0x7594fdeb63d4e3cd Timestamp:Tue Dec  8 04:06:41 2020
+Inavlid block 0x7594fdeb63d4e3cd
+Block received:0x4d188dd7bc7de091 Timestamp:Tue Dec  8 04:06:41 2020
+Inavlid block 0x4d188dd7bc7de091
+Block received:0x323c1f5fb07e6f1f Timestamp:Tue Dec  8 04:06:42 2020
+Inavlid block 0x323c1f5fb07e6f1f
+Block received:0xba98cf62419eb0f2 Timestamp:Tue Dec  8 04:06:42 2020
+Inavlid block 0xba98cf62419eb0f2
+Block received:0xc4cb5406ec44357b Timestamp:Tue Dec  8 04:06:43 2020
+Inavlid block 0xc4cb5406ec44357b
+Block received:0x15c8f3b56c9dd894 Timestamp:Tue Dec  8 04:06:43 2020
+Inavlid block 0x15c8f3b56c9dd894
+Block received:0xd002de91e6f5e548 Timestamp:Tue Dec  8 04:06:44 2020
+Inavlid block 0xd002de91e6f5e548
+Block received:0x7ff2b2dc6ee3ddeb Timestamp:Tue Dec  8 04:06:44 2020
+Inavlid block 0x7ff2b2dc6ee3ddeb
+Block received:0x711167a914efa8d7 Timestamp:Tue Dec  8 04:06:45 2020
+Inavlid block 0x711167a914efa8d7
+Block received:0xa3ed8d6f1d037c9e Timestamp:Tue Dec  8 04:06:45 2020
+Inavlid block 0xa3ed8d6f1d037c9e
+Block received:0x8889d86c8452442 Timestamp:Tue Dec  8 04:06:46 2020
+Block received:0xfe8eee88db92d4c5 Timestamp:Tue Dec  8 04:06:46 2020
+Inavlid block 0x8889d86c8452442
+Inavlid block 0xfe8eee88db92d4c5
+Block received:0x31f88b8f4fb9374e Timestamp:Tue Dec  8 04:06:47 2020
+Block received:0x22c10f40c521d66b Timestamp:Tue Dec  8 04:06:47 2020
+Inavlid block 0x31f88b8f4fb9374e
+Inavlid block 0x22c10f40c521d66b
+Block received:0x833f02d5f281efe7 Timestamp:Tue Dec  8 04:06:48 2020
+Inavlid block 0x833f02d5f281efe7
+Block received:0x9e1c00225fceae7f Timestamp:Tue Dec  8 04:06:48 2020
+Genesis Block 0x9e1c00225fceae7f validated Timestamp:Tue Dec  8 04:06:48 2020
+Block received:0x27cb7656d59e258f Timestamp:Tue Dec  8 04:06:48 2020
+Inavlid block 0x27cb7656d59e258f
+Block received:0x81054733306f3727 Timestamp:Tue Dec  8 04:06:49 2020
+Inavlid block 0x81054733306f3727
+Block received:0xc7d4e84f5b4a9093 Timestamp:Tue Dec  8 04:06:50 2020
+Inavlid block 0xc7d4e84f5b4a9093
+Block received:0xa82308061ce9c971 Timestamp:Tue Dec  8 04:06:51 2020
+Inavlid block 0xa82308061ce9c971
+Block received:0x2138751e1528ec0c Timestamp:Tue Dec  8 04:06:51 2020
+Inavlid block 0x2138751e1528ec0c
+Block received:0xe364fa7f37b69f51 Timestamp:Tue Dec  8 04:06:52 2020
+Inavlid block 0xe364fa7f37b69f51
+Block received:0xc20254036d096c7f Timestamp:Tue Dec  8 04:06:52 2020
+Inavlid block 0xc20254036d096c7f
+Block received:0x78e7e65d1e2cd47 Timestamp:Tue Dec  8 04:06:53 2020
+Inavlid block 0x78e7e65d1e2cd47
+Block received:0x64665deb60a442d3 Timestamp:Tue Dec  8 04:06:53 2020
+Inavlid block 0x64665deb60a442d3
+Block received:0x44e25ca98b02f3a5 Timestamp:Tue Dec  8 04:06:54 2020
+Inavlid block 0x44e25ca98b02f3a5
+Block received:0x3d791c4ef0041b05 Timestamp:Tue Dec  8 04:06:54 2020
+Inavlid block 0x3d791c4ef0041b05
+Block received:0xabc6ede2fe3596f3 Timestamp:Tue Dec  8 04:06:55 2020
+Inavlid block 0xabc6ede2fe3596f3
+Block received:0x56b85b0b5d557275 Timestamp:Tue Dec  8 04:06:56 2020
+Block received:0x24278d3e66551743 Timestamp:Tue Dec  8 04:06:56 2020
+Inavlid block 0x56b85b0b5d557275
+Inavlid block 0x24278d3e66551743
+Block received:0x40f9c545c9b79f6a Timestamp:Tue Dec  8 04:06:57 2020
+Block received:0x67d86c9ee9821b4e Timestamp:Tue Dec  8 04:06:57 2020
+Inavlid block 0x40f9c545c9b79f6a
+Inavlid block 0x67d86c9ee9821b4e
+Block received:0xeda333fd8e951922 Timestamp:Tue Dec  8 04:06:57 2020
+Inavlid block 0xeda333fd8e951922
+Block received:0x725316d57ae415c3 Timestamp:Tue Dec  8 04:06:58 2020
+Inavlid block 0x725316d57ae415c3
+Block received:0x367428df57b3e88b Timestamp:Tue Dec  8 04:06:58 2020
+Inavlid block 0x367428df57b3e88b
+Block received:0x4cbe4f4ce6caa52d Timestamp:Tue Dec  8 04:06:59 2020
+Inavlid block 0x4cbe4f4ce6caa52d
+Block received:0x2fd614a1022e79d6 Timestamp:Tue Dec  8 04:07:00 2020
+Inavlid block 0x2fd614a1022e79d6
+Block received:0xf2c9c03e5fceae8b Timestamp:Tue Dec  8 04:07:00 2020
+Block header 0xf2c9c03e5fceae8b validated Timestamp:Tue Dec  8 04:07:00 2020
+Block is part of the longest chain
+Block received:0x33cd5ba1a5e04d84 Timestamp:Tue Dec  8 04:07:01 2020
+Inavlid block 0x33cd5ba1a5e04d84
+Block received:0xa6c001c7d6735a7 Timestamp:Tue Dec  8 04:07:01 2020
+Inavlid block 0xa6c001c7d6735a7
+Block received:0x47d77a164a5b0d66 Timestamp:Tue Dec  8 04:07:02 2020
+Inavlid block 0x47d77a164a5b0d66
+Block received:0xae35bd72c3a8990a Timestamp:Tue Dec  8 04:07:02 2020
+Inavlid block 0xae35bd72c3a8990a
+Block received:0x7aca2b0f9f9c0fcb Timestamp:Tue Dec  8 04:07:03 2020
+Inavlid block 0x7aca2b0f9f9c0fcb
+Block received:0x56d5856ca3336f57 Timestamp:Tue Dec  8 04:07:03 2020
+Inavlid block 0x56d5856ca3336f57
+Block received:0xab9a1190d85ecd88 Timestamp:Tue Dec  8 04:07:04 2020
+Inavlid block 0xab9a1190d85ecd88
+Block received:0x3dcd9f6a8389782a Timestamp:Tue Dec  8 04:07:04 2020
+Inavlid block 0x3dcd9f6a8389782a
+Block received:0xcae42285714646de Timestamp:Tue Dec  8 04:07:05 2020
+Inavlid block 0xcae42285714646de
+Block received:0x5281c5346f28c9c9 Timestamp:Tue Dec  8 04:07:05 2020
+Inavlid block 0x5281c5346f28c9c9
+Block received:0x901cb45e5fceae91 Timestamp:Tue Dec  8 04:07:07 2020
+Block received:0xe5964b2d9d735a55 Timestamp:Tue Dec  8 04:07:07 2020
+Block received:0xcb774d3a303f8051 Timestamp:Tue Dec  8 04:07:07 2020
+Block header 0x901cb45e5fceae91 validated Timestamp:Tue Dec  8 04:07:07 2020
+Block is part of the longest chain
+Inavlid block 0xe5964b2d9d735a55
+Inavlid block 0xcb774d3a303f8051
+Mined block: 0xbe3a22d45fceae93 Timestamp:Tue Dec  8 04:07:07 2020
+Block received:0xd3e21990332ddbda Timestamp:Tue Dec  8 04:07:08 2020
+Block received:0xe746b17514f612af Timestamp:Tue Dec  8 04:07:08 2020
+Inavlid block 0xd3e21990332ddbda
+Inavlid block 0xe746b17514f612af
+Block received:0x31a504b18005fa30 Timestamp:Tue Dec  8 04:07:08 2020
+Inavlid block 0x31a504b18005fa30
+Block received:0xbe3af4e65fceae93 Timestamp:Tue Dec  8 04:07:08 2020
+Block header 0xbe3af4e65fceae93 validated Timestamp:Tue Dec  8 04:07:08 2020
+Block received:0xf2a79848cc74f09 Timestamp:Tue Dec  8 04:07:08 2020
+Inavlid block 0xf2a79848cc74f09
+Block received:0x5f4d0a05b6b58124 Timestamp:Tue Dec  8 04:07:09 2020
+Inavlid block 0x5f4d0a05b6b58124
+Block received:0x8d8b844075fda6e0 Timestamp:Tue Dec  8 04:07:10 2020
+Inavlid block 0x8d8b844075fda6e0
+Block received:0x4750bdff509ef787 Timestamp:Tue Dec  8 04:07:11 2020
+Inavlid block 0x4750bdff509ef787
+Block received:0x7a268a14731eceba Timestamp:Tue Dec  8 04:07:11 2020
+Inavlid block 0x7a268a14731eceba
+Block received:0x7193d0f4274eb8c5 Timestamp:Tue Dec  8 04:07:12 2020
+Inavlid block 0x7193d0f4274eb8c5
+Block received:0x5bc87792bef92c57 Timestamp:Tue Dec  8 04:07:12 2020
+Inavlid block 0x5bc87792bef92c57
+Block received:0x6fb8437045fa0170 Timestamp:Tue Dec  8 04:07:13 2020
+Inavlid block 0x6fb8437045fa0170
+Block received:0x750b1f9b749d0d3d Timestamp:Tue Dec  8 04:07:13 2020
+Inavlid block 0x750b1f9b749d0d3d
+Block received:0xe0dca8240037bfc1 Timestamp:Tue Dec  8 04:07:14 2020
+Inavlid block 0xe0dca8240037bfc1
+Block received:0x85b7cd9391e713bc Timestamp:Tue Dec  8 04:07:14 2020
+Inavlid block 0x85b7cd9391e713bc
+Block received:0x57c8ca2688585cf2 Timestamp:Tue Dec  8 04:07:15 2020
+Inavlid block 0x57c8ca2688585cf2
+Block received:0x53568ed6a909c7ac Timestamp:Tue Dec  8 04:07:15 2020
+Inavlid block 0x53568ed6a909c7ac
+Block received:0xd3c1df85fceae9a Timestamp:Tue Dec  8 04:07:15 2020
+Block header 0xd3c1df85fceae9a validated Timestamp:Tue Dec  8 04:07:15 2020
+Block is part of the longest chain
+Mined block: 0x49d3d96a5fceae9b Timestamp:Tue Dec  8 04:07:15 2020
+Block received:0x7bcecad4c3df539b Timestamp:Tue Dec  8 04:07:17 2020
+Block received:0xcbd6e7e0c2a53a5a Timestamp:Tue Dec  8 04:07:17 2020
+Inavlid block 0x7bcecad4c3df539b
+Inavlid block 0xcbd6e7e0c2a53a5a
+Block received:0xdf88d9367911c271 Timestamp:Tue Dec  8 04:07:18 2020
+Block received:0xf04cc1f300142ae4 Timestamp:Tue Dec  8 04:07:18 2020
+Block received:0x369cf656ad0e828a Timestamp:Tue Dec  8 04:07:18 2020
+Inavlid block 0xdf88d9367911c271
+Inavlid block 0xf04cc1f300142ae4
+Inavlid block 0x369cf656ad0e828a
+Block received:0x1795244024a9bd60 Timestamp:Tue Dec  8 04:07:18 2020
+Inavlid block 0x1795244024a9bd60
+Block received:0x21def752055a3c7d Timestamp:Tue Dec  8 04:07:19 2020
+Inavlid block 0x21def752055a3c7d
+Block received:0x28926a45fceae9e Timestamp:Tue Dec  8 04:07:19 2020
+Block header 0x28926a45fceae9e validated Timestamp:Tue Dec  8 04:07:19 2020
+Block is part of the longest chain
+Block received:0xdf9edaa4bda81164 Timestamp:Tue Dec  8 04:07:19 2020
+Inavlid block 0xdf9edaa4bda81164
+Block received:0x243a4febbd8b303d Timestamp:Tue Dec  8 04:07:20 2020
+Inavlid block 0x243a4febbd8b303d
+Block received:0x59289a9fe953beef Timestamp:Tue Dec  8 04:07:21 2020
+Inavlid block 0x59289a9fe953beef
+Block received:0x6bf9cca8326b08a5 Timestamp:Tue Dec  8 04:07:21 2020
+Inavlid block 0x6bf9cca8326b08a5
+Block received:0xd0050cc6b9f99df5 Timestamp:Tue Dec  8 04:07:22 2020
+Inavlid block 0xd0050cc6b9f99df5
+Block received:0x46c6d9c48dd22b28 Timestamp:Tue Dec  8 04:07:22 2020
+Inavlid block 0x46c6d9c48dd22b28
+Block received:0xd32b65248ba8c0f2 Timestamp:Tue Dec  8 04:07:23 2020
+Inavlid block 0xd32b65248ba8c0f2
+Block received:0xbed24c07179be998 Timestamp:Tue Dec  8 04:07:23 2020
+Inavlid block 0xbed24c07179be998
+Block received:0x5ada5e08abb179f4 Timestamp:Tue Dec  8 04:07:24 2020
+Inavlid block 0x5ada5e08abb179f4
+Block received:0xf7c2a25782c64ca3 Timestamp:Tue Dec  8 04:07:24 2020
+Inavlid block 0xf7c2a25782c64ca3
+Block received:0x24be445434ffbe69 Timestamp:Tue Dec  8 04:07:25 2020
+Inavlid block 0x24be445434ffbe69
+Block received:0x472377bc778a2761 Timestamp:Tue Dec  8 04:07:25 2020
+Inavlid block 0x472377bc778a2761
+Block received:0xeb0dc0361202bb16 Timestamp:Tue Dec  8 04:07:26 2020
+Block received:0xc12bc75da3cf8e6f Timestamp:Tue Dec  8 04:07:26 2020
+Inavlid block 0xeb0dc0361202bb16
+Inavlid block 0xc12bc75da3cf8e6f
+Block received:0xf310698c5fceaea5 Timestamp:Tue Dec  8 04:07:27 2020
+Block received:0x83b286c38b086ff2 Timestamp:Tue Dec  8 04:07:27 2020
+Block received:0xa98f713d3e37ef29 Timestamp:Tue Dec  8 04:07:27 2020
+Block header 0xf310698c5fceaea5 validated Timestamp:Tue Dec  8 04:07:27 2020
+Block is part of the longest chain
+Inavlid block 0x83b286c38b086ff2
+Inavlid block 0xa98f713d3e37ef29
+Block received:0xc9f2d97379918999 Timestamp:Tue Dec  8 04:07:28 2020
+Inavlid block 0xc9f2d97379918999
+Block received:0xe6456e7e37025f92 Timestamp:Tue Dec  8 04:07:28 2020
+Inavlid block 0xe6456e7e37025f92
+Block received:0x251382f3d20edb4d Timestamp:Tue Dec  8 04:07:29 2020
+Inavlid block 0x251382f3d20edb4d
+Mined block: 0x74ba0e4f5fceaeaa Timestamp:Tue Dec  8 04:07:30 2020
+Block received:0x93cf28f16911fa5 Timestamp:Tue Dec  8 04:07:30 2020
+Inavlid block 0x93cf28f16911fa5
+Block received:0x296a2f9510f0cb68 Timestamp:Tue Dec  8 04:07:31 2020
+Inavlid block 0x296a2f9510f0cb68
+Block received:0x229cd9b583d6f122 Timestamp:Tue Dec  8 04:07:31 2020
+Inavlid block 0x229cd9b583d6f122
+Block received:0x798976f63299c43a Timestamp:Tue Dec  8 04:07:32 2020
+Inavlid block 0x798976f63299c43a
+Block received:0x74bafa1e5fceaeab Timestamp:Tue Dec  8 04:07:32 2020
+Block header 0x74bafa1e5fceaeab validated Timestamp:Tue Dec  8 04:07:32 2020
+Block received:0x54c59f072c0f21c8 Timestamp:Tue Dec  8 04:07:32 2020
+Inavlid block 0x54c59f072c0f21c8
+Block received:0xb14ff475e1ef5a7e Timestamp:Tue Dec  8 04:07:33 2020
+Inavlid block 0xb14ff475e1ef5a7e
+Block received:0x885c0750ac73adfc Timestamp:Tue Dec  8 04:07:33 2020
+Inavlid block 0x885c0750ac73adfc
+Block received:0x605dbeb59b359f3d Timestamp:Tue Dec  8 04:07:34 2020
+Inavlid block 0x605dbeb59b359f3d
+Block received:0x8b4174d7a985e69a Timestamp:Tue Dec  8 04:07:34 2020
+Inavlid block 0x8b4174d7a985e69a
+Block received:0xcf3e76f3352244e Timestamp:Tue Dec  8 04:07:35 2020
+Inavlid block 0xcf3e76f3352244e
+Block received:0xd41c28b3d2251c9d Timestamp:Tue Dec  8 04:07:37 2020
+Block received:0x8b882cde35a3d8a Timestamp:Tue Dec  8 04:07:37 2020
+Inavlid block 0xd41c28b3d2251c9d
+Inavlid block 0x8b882cde35a3d8a
+Block received:0x1a34eac40e7c91df Timestamp:Tue Dec  8 04:07:38 2020
+Block received:0x1251bfcbc4048ed8 Timestamp:Tue Dec  8 04:07:38 2020
+Block received:0x7f00a1738ae97f40 Timestamp:Tue Dec  8 04:07:38 2020
+Inavlid block 0x1a34eac40e7c91df
+Inavlid block 0x1251bfcbc4048ed8
+Inavlid block 0x7f00a1738ae97f40
+Block received:0xde0dfd0083cdbbb9 Timestamp:Tue Dec  8 04:07:38 2020
+Inavlid block 0xde0dfd0083cdbbb9
+Block received:0xd78883fcf66a3b68 Timestamp:Tue Dec  8 04:07:38 2020
+Inavlid block 0xd78883fcf66a3b68
+Block received:0xbe30ed28ee41beb3 Timestamp:Tue Dec  8 04:07:39 2020
+Inavlid block 0xbe30ed28ee41beb3
+Block received:0x95dab82728f3f757 Timestamp:Tue Dec  8 04:07:40 2020
+Inavlid block 0x95dab82728f3f757
+Block received:0x948d57e173441203 Timestamp:Tue Dec  8 04:07:41 2020
+Inavlid block 0x948d57e173441203
+Block received:0x7c83f69998918c4a Timestamp:Tue Dec  8 04:07:41 2020
+Inavlid block 0x7c83f69998918c4a
+Block received:0xbc592b635fceaeb5 Timestamp:Tue Dec  8 04:07:42 2020
+Block header 0xbc592b635fceaeb5 validated Timestamp:Tue Dec  8 04:07:42 2020
+Block is part of the longest chain
+Block received:0x72194a258961b0d5 Timestamp:Tue Dec  8 04:07:42 2020
+Inavlid block 0x72194a258961b0d5
+Block received:0x4fbff681de029195 Timestamp:Tue Dec  8 04:07:42 2020
+Inavlid block 0x4fbff681de029195
+Block received:0x85f89f1c310dc9b9 Timestamp:Tue Dec  8 04:07:43 2020
+Inavlid block 0x85f89f1c310dc9b9
+Block received:0xbbf52b5de8a0f69a Timestamp:Tue Dec  8 04:07:43 2020
+Inavlid block 0xbbf52b5de8a0f69a
+Block received:0x6b407794febf6d60 Timestamp:Tue Dec  8 04:07:44 2020
+Inavlid block 0x6b407794febf6d60
+Block received:0x439259ac8bc35046 Timestamp:Tue Dec  8 04:07:44 2020
+Inavlid block 0x439259ac8bc35046
+Block received:0x87181b33315df9db Timestamp:Tue Dec  8 04:07:45 2020
+Inavlid block 0x87181b33315df9db
+Block received:0x1110b7bb73814ceb Timestamp:Tue Dec  8 04:07:47 2020
+Block received:0x972ca3587f5d3f0a Timestamp:Tue Dec  8 04:07:47 2020
+Inavlid block 0x1110b7bb73814ceb
+Inavlid block 0x972ca3587f5d3f0a
+Block received:0x833f4464142902a1 Timestamp:Tue Dec  8 04:07:48 2020
+Block received:0x546d55b02d85650d Timestamp:Tue Dec  8 04:07:48 2020
+Block received:0xfd303da82a01584a Timestamp:Tue Dec  8 04:07:48 2020
+Inavlid block 0x833f4464142902a1
+Inavlid block 0x546d55b02d85650d
+Inavlid block 0xfd303da82a01584a
+Block received:0x7493b22e6cd19cbe Timestamp:Tue Dec  8 04:07:48 2020
+Inavlid block 0x7493b22e6cd19cbe
+Block received:0x75e0e9e15040e3db Timestamp:Tue Dec  8 04:07:48 2020
+Inavlid block 0x75e0e9e15040e3db
+Block received:0x94a841ae5fceaebc Timestamp:Tue Dec  8 04:07:49 2020
+Block header 0x94a841ae5fceaebc validated Timestamp:Tue Dec  8 04:07:49 2020
+Block is part of the longest chain
+Block received:0xb66e9b3c6d32a3f6 Timestamp:Tue Dec  8 04:07:49 2020
+Inavlid block 0xb66e9b3c6d32a3f6
+Block received:0xd0271edd0cf143da Timestamp:Tue Dec  8 04:07:50 2020
+Inavlid block 0xd0271edd0cf143da
+Block received:0x78e6824a5fceaebd Timestamp:Tue Dec  8 04:07:50 2020
+Block header 0x78e6824a5fceaebd validated Timestamp:Tue Dec  8 04:07:50 2020
+Block is part of the longest chain
+Block received:0xd561619617c9db17 Timestamp:Tue Dec  8 04:07:51 2020
+Inavlid block 0xd561619617c9db17
+Block received:0x7dd22d54f05ff7ce Timestamp:Tue Dec  8 04:07:51 2020
+Inavlid block 0x7dd22d54f05ff7ce
+Block received:0xee3d795790ef70d5 Timestamp:Tue Dec  8 04:07:52 2020
+Inavlid block 0xee3d795790ef70d5
+Block received:0xe558a20ea1e45aa7 Timestamp:Tue Dec  8 04:07:52 2020
+Inavlid block 0xe558a20ea1e45aa7
+Block received:0x650761d432f5ee7f Timestamp:Tue Dec  8 04:07:53 2020
+Inavlid block 0x650761d432f5ee7f
+Block received:0xabbb25e87647e1ae Timestamp:Tue Dec  8 04:07:53 2020
+Inavlid block 0xabbb25e87647e1ae
+Block received:0xa6c88c491cf39574 Timestamp:Tue Dec  8 04:07:54 2020
+Inavlid block 0xa6c88c491cf39574
+Block received:0x9df1351162ce5d3a Timestamp:Tue Dec  8 04:07:54 2020
+Inavlid block 0x9df1351162ce5d3a
+Block received:0x155d00aea93579b0 Timestamp:Tue Dec  8 04:07:55 2020
+Inavlid block 0x155d00aea93579b0
+Block received:0x1a67beddd83ed4bb Timestamp:Tue Dec  8 04:07:57 2020
+Block received:0x49c79862a1ac2a24 Timestamp:Tue Dec  8 04:07:57 2020
+Inavlid block 0x1a67beddd83ed4bb
+Inavlid block 0x49c79862a1ac2a24
+Block received:0xfeba9fdd931a94d6 Timestamp:Tue Dec  8 04:07:58 2020
+Block received:0xd3305f3f48e3b48e Timestamp:Tue Dec  8 04:07:58 2020
+Block received:0x8c37d166e33f60ca Timestamp:Tue Dec  8 04:07:58 2020
+Inavlid block 0xfeba9fdd931a94d6
+Inavlid block 0xd3305f3f48e3b48e
+Inavlid block 0x8c37d166e33f60ca
+Block received:0x87eb3001f5395a76 Timestamp:Tue Dec  8 04:07:58 2020
+Inavlid block 0x87eb3001f5395a76
+Block received:0xcafd5043eff31e3f Timestamp:Tue Dec  8 04:07:58 2020
+Inavlid block 0xcafd5043eff31e3f
+Block received:0xe7bb13df064e43ad Timestamp:Tue Dec  8 04:07:59 2020
+Inavlid block 0xe7bb13df064e43ad
+Block received:0x939e47e2a488762 Timestamp:Tue Dec  8 04:08:00 2020
+Inavlid block 0x939e47e2a488762
+Block received:0xa730f4d1ed76714 Timestamp:Tue Dec  8 04:08:01 2020
+Inavlid block 0xa730f4d1ed76714
+Block received:0x6e4356a91467456a Timestamp:Tue Dec  8 04:08:01 2020
+Inavlid block 0x6e4356a91467456a
+Block received:0x33a031058299dbb2 Timestamp:Tue Dec  8 04:08:02 2020
+Inavlid block 0x33a031058299dbb2
+Block received:0xa9e505095fceaec9 Timestamp:Tue Dec  8 04:08:02 2020
+Block header 0xa9e505095fceaec9 validated Timestamp:Tue Dec  8 04:08:02 2020
+Block is part of the longest chain
+Block received:0xdb17ea998c639daf Timestamp:Tue Dec  8 04:08:02 2020
+Inavlid block 0xdb17ea998c639daf
+Block received:0xe3d65cae825f15ae Timestamp:Tue Dec  8 04:08:03 2020
+Inavlid block 0xe3d65cae825f15ae
+Block received:0x84bc2f39322aea6b Timestamp:Tue Dec  8 04:08:03 2020
+Inavlid block 0x84bc2f39322aea6b
+Block received:0xad4428b195ddb9db Timestamp:Tue Dec  8 04:08:04 2020
+Inavlid block 0xad4428b195ddb9db
+Block received:0x42c62d4670f315fa Timestamp:Tue Dec  8 04:08:04 2020
+Inavlid block 0x42c62d4670f315fa
+Block received:0xa2a7b4a86e43ab36 Timestamp:Tue Dec  8 04:08:05 2020
+Inavlid block 0xa2a7b4a86e43ab36
+Block received:0x8208962e2e5e964a Timestamp:Tue Dec  8 04:08:06 2020
+Block received:0xcbed02abb04752c8 Timestamp:Tue Dec  8 04:08:06 2020
+Inavlid block 0x8208962e2e5e964a
+Inavlid block 0xcbed02abb04752c8
+Block received:0xdb0ff19ab9b35245 Timestamp:Tue Dec  8 04:08:07 2020
+Block received:0x57bb910f73761688 Timestamp:Tue Dec  8 04:08:07 2020
+Inavlid block 0xdb0ff19ab9b35245
+Inavlid block 0x57bb910f73761688
+Block received:0x5d85f490159abe8b Timestamp:Tue Dec  8 04:08:07 2020
+Inavlid block 0x5d85f490159abe8b
+Block received:0xe66052a64fdc7eb5 Timestamp:Tue Dec  8 04:08:08 2020
+Inavlid block 0xe66052a64fdc7eb5
+Block received:0xb3415ab931243de3 Timestamp:Tue Dec  8 04:08:08 2020
+Inavlid block 0xb3415ab931243de3
+Block received:0xe9f2e7d9c7dd8e9f Timestamp:Tue Dec  8 04:08:09 2020
+Inavlid block 0xe9f2e7d9c7dd8e9f
+Block received:0x1bf04d18770ea23b Timestamp:Tue Dec  8 04:08:10 2020
+Inavlid block 0x1bf04d18770ea23b
+Block received:0x65e2c734e285db3d Timestamp:Tue Dec  8 04:08:11 2020
+Inavlid block 0x65e2c734e285db3d
+Block received:0x6c352020167d9aae Timestamp:Tue Dec  8 04:08:11 2020
+Inavlid block 0x6c352020167d9aae
+Block received:0xc66d9f89b359ef91 Timestamp:Tue Dec  8 04:08:12 2020
+Inavlid block 0xc66d9f89b359ef91
+Block received:0x618afb2f4e4629ea Timestamp:Tue Dec  8 04:08:12 2020
+Inavlid block 0x618afb2f4e4629ea
+Block received:0x8c0987527c6d8c8c Timestamp:Tue Dec  8 04:08:13 2020
+Inavlid block 0x8c0987527c6d8c8c
+Block received:0xc238374eed62da91 Timestamp:Tue Dec  8 04:08:13 2020
+Inavlid block 0xc238374eed62da91
+Block received:0xc585fbeda4c1e92d Timestamp:Tue Dec  8 04:08:14 2020
+Inavlid block 0xc585fbeda4c1e92d
+Block received:0x5f5f06bbd4415274 Timestamp:Tue Dec  8 04:08:14 2020
+Inavlid block 0x5f5f06bbd4415274
+Block received:0xcb39c3e4f47f3e8d Timestamp:Tue Dec  8 04:08:15 2020
+Inavlid block 0xcb39c3e4f47f3e8d
+Block received:0x79201759e68e9392 Timestamp:Tue Dec  8 04:08:15 2020
+Inavlid block 0x79201759e68e9392
+Block received:0x168c9522937c6084 Timestamp:Tue Dec  8 04:08:16 2020
+Block received:0xb98041320954d6ae Timestamp:Tue Dec  8 04:08:16 2020
+Inavlid block 0x168c9522937c6084
+Inavlid block 0xb98041320954d6ae
+Block received:0x253514b2af5e9303 Timestamp:Tue Dec  8 04:08:17 2020
+Block received:0xdbaac0f2805bb6da Timestamp:Tue Dec  8 04:08:17 2020
+Inavlid block 0x253514b2af5e9303
+Inavlid block 0xdbaac0f2805bb6da
+Block received:0xc75ecb17e4c22150 Timestamp:Tue Dec  8 04:08:18 2020
+Inavlid block 0xc75ecb17e4c22150
+Block received:0xde3be6ff93c1959f Timestamp:Tue Dec  8 04:08:18 2020
+Inavlid block 0xde3be6ff93c1959f
+Block received:0x7312620547bc9894 Timestamp:Tue Dec  8 04:08:19 2020
+Inavlid block 0x7312620547bc9894
+Block received:0x4ed76e0f1693cdfd Timestamp:Tue Dec  8 04:08:20 2020
+Inavlid block 0x4ed76e0f1693cdfd
+Block received:0x4280dbfacfb6e84b Timestamp:Tue Dec  8 04:08:21 2020
+Inavlid block 0x4280dbfacfb6e84b
+Block received:0xe1eb6f7e4cef84a3 Timestamp:Tue Dec  8 04:08:21 2020
+Inavlid block 0xe1eb6f7e4cef84a3
+Block received:0x96033c77f8b42b8a Timestamp:Tue Dec  8 04:08:22 2020
+Inavlid block 0x96033c77f8b42b8a
+Block received:0x6379dfba8feb6ae4 Timestamp:Tue Dec  8 04:08:22 2020
+Inavlid block 0x6379dfba8feb6ae4
+Block received:0x77652fd89650ec82 Timestamp:Tue Dec  8 04:08:23 2020
+Inavlid block 0x77652fd89650ec82
+Block received:0x5ce18d9809cfbca9 Timestamp:Tue Dec  8 04:08:23 2020
+Inavlid block 0x5ce18d9809cfbca9
+Block received:0x99ba2bea8c0bfb28 Timestamp:Tue Dec  8 04:08:24 2020
+Inavlid block 0x99ba2bea8c0bfb28
+Block received:0xa1e44f289c446550 Timestamp:Tue Dec  8 04:08:24 2020
+Inavlid block 0xa1e44f289c446550
+Block received:0x16f2a5eaffba4d5c Timestamp:Tue Dec  8 04:08:25 2020
+Inavlid block 0x16f2a5eaffba4d5c
+Block received:0xbb5c7b0cfc0b234d Timestamp:Tue Dec  8 04:08:25 2020
+Inavlid block 0xbb5c7b0cfc0b234d
+Block received:0xb323bcb16022680d Timestamp:Tue Dec  8 04:08:27 2020
+Block received:0xfd4ad80cbcd0969 Timestamp:Tue Dec  8 04:08:27 2020
+Inavlid block 0xb323bcb16022680d
+Inavlid block 0xfd4ad80cbcd0969
+Block received:0xdf5f44335fceaee2 Timestamp:Tue Dec  8 04:08:28 2020
+Block received:0xb33706fbb0be8513 Timestamp:Tue Dec  8 04:08:28 2020
+Block received:0xdf5fd69e5fceaee2 Timestamp:Tue Dec  8 04:08:28 2020
+Block received:0xa1853d0d49f671b8 Timestamp:Tue Dec  8 04:08:28 2020
+Block header 0xdf5f44335fceaee2 validated Timestamp:Tue Dec  8 04:08:28 2020
+Block is part of the longest chain
+Inavlid block 0xb33706fbb0be8513
+Block header 0xdf5fd69e5fceaee2 validated Timestamp:Tue Dec  8 04:08:28 2020
+Inavlid block 0xa1853d0d49f671b8
+Block received:0xfcf72b3646de8bbc Timestamp:Tue Dec  8 04:08:28 2020
+Inavlid block 0xfcf72b3646de8bbc
+Block received:0x2b777c85fceaee3 Timestamp:Tue Dec  8 04:08:28 2020
+Block header 0x2b777c85fceaee3 validated Timestamp:Tue Dec  8 04:08:28 2020
+Block is part of the longest chain
+Block received:0x5c95dd075fceaee3 Timestamp:Tue Dec  8 04:08:28 2020
+Block header 0x5c95dd075fceaee3 validated Timestamp:Tue Dec  8 04:08:28 2020
+Block is part of the longest chain
+Block received:0xf6f5a070a8b233e4 Timestamp:Tue Dec  8 04:08:28 2020
+Inavlid block 0xf6f5a070a8b233e4
+Block received:0x59f2cac81046718e Timestamp:Tue Dec  8 04:08:29 2020
+Inavlid block 0x59f2cac81046718e
+Block received:0xd35dd81f445a5621 Timestamp:Tue Dec  8 04:08:30 2020
+Inavlid block 0xd35dd81f445a5621
+Block received:0xe0280bffe709decb Timestamp:Tue Dec  8 04:08:31 2020
+Inavlid block 0xe0280bffe709decb
+Block received:0x27abc1b457f700c3 Timestamp:Tue Dec  8 04:08:31 2020
+Inavlid block 0x27abc1b457f700c3
+Block received:0x579f69de4601e86f Timestamp:Tue Dec  8 04:08:32 2020
+Inavlid block 0x579f69de4601e86f
+Block received:0xce0a2b6826b6fecb Timestamp:Tue Dec  8 04:08:32 2020
+Inavlid block 0xce0a2b6826b6fecb
+Block received:0xbe424685fceaee7 Timestamp:Tue Dec  8 04:08:32 2020
+Block header 0xbe424685fceaee7 validated Timestamp:Tue Dec  8 04:08:32 2020
+Block is part of the longest chain
+Block received:0x516f8fadc94fe7dc Timestamp:Tue Dec  8 04:08:33 2020
+Inavlid block 0x516f8fadc94fe7dc
+Block received:0x2911b5be89102aaf Timestamp:Tue Dec  8 04:08:33 2020
+Inavlid block 0x2911b5be89102aaf
+Block received:0x98f4ad9f50639251 Timestamp:Tue Dec  8 04:08:34 2020
+Inavlid block 0x98f4ad9f50639251
+Block received:0x43a9c7d288779c37 Timestamp:Tue Dec  8 04:08:34 2020
+Inavlid block 0x43a9c7d288779c37
+Block received:0x739f9a7a98094218 Timestamp:Tue Dec  8 04:08:35 2020
+Inavlid block 0x739f9a7a98094218
+Block received:0x5f294069dd99a55b Timestamp:Tue Dec  8 04:08:37 2020
+Block received:0x5011ce995fceaeeb Timestamp:Tue Dec  8 04:08:37 2020
+Block received:0x753b7b36779af852 Timestamp:Tue Dec  8 04:08:37 2020
+Block received:0x501199685fceaeeb Timestamp:Tue Dec  8 04:08:37 2020
+Inavlid block 0x5f294069dd99a55b
+Block header 0x5011ce995fceaeeb validated Timestamp:Tue Dec  8 04:08:37 2020
+Block is part of the longest chain
+Inavlid block 0x753b7b36779af852
+Block header 0x501199685fceaeeb validated Timestamp:Tue Dec  8 04:08:37 2020
+Block received:0x1eed1b3b6ef62a4b Timestamp:Tue Dec  8 04:08:38 2020
+Block received:0x1066ea0f36305a32 Timestamp:Tue Dec  8 04:08:38 2020
+Block received:0xbe501a85fceaeec Timestamp:Tue Dec  8 04:08:38 2020
+Block received:0x544ad84b382c6508 Timestamp:Tue Dec  8 04:08:38 2020
+Inavlid block 0x1eed1b3b6ef62a4b
+Inavlid block 0x1066ea0f36305a32
+Block header 0xbe501a85fceaeec validated Timestamp:Tue Dec  8 04:08:38 2020
+Block is part of the longest chain
+Inavlid block 0x544ad84b382c6508
+Block received:0xe9d270ce0ac80843 Timestamp:Tue Dec  8 04:08:38 2020
+Inavlid block 0xe9d270ce0ac80843
+Block received:0x3e1465581416646c Timestamp:Tue Dec  8 04:08:38 2020
+Inavlid block 0x3e1465581416646c
+Block received:0x584c745cd3a9c853 Timestamp:Tue Dec  8 04:08:39 2020
+Inavlid block 0x584c745cd3a9c853
+Block received:0x5301f4674bae602b Timestamp:Tue Dec  8 04:08:41 2020
+Inavlid block 0x5301f4674bae602b
+Block received:0x2276a17e11a66404 Timestamp:Tue Dec  8 04:08:41 2020
+Inavlid block 0x2276a17e11a66404
+Block received:0x983a057d70750ca8 Timestamp:Tue Dec  8 04:08:42 2020
+Inavlid block 0x983a057d70750ca8
+Block received:0xfdbffe0eb928a49d Timestamp:Tue Dec  8 04:08:42 2020
+Inavlid block 0xfdbffe0eb928a49d
+Block received:0x2a0529840ae9bae7 Timestamp:Tue Dec  8 04:08:43 2020
+Inavlid block 0x2a0529840ae9bae7
+Block received:0xc55d3d03be53d993 Timestamp:Tue Dec  8 04:08:43 2020
+Inavlid block 0xc55d3d03be53d993
+Block received:0x39dbc11c94b3e5aa Timestamp:Tue Dec  8 04:08:44 2020
+Inavlid block 0x39dbc11c94b3e5aa
+Block received:0x3ee05dd5dd6bf6a1 Timestamp:Tue Dec  8 04:08:44 2020
+Inavlid block 0x3ee05dd5dd6bf6a1
+Block received:0x903a042925d9d4dc Timestamp:Tue Dec  8 04:08:45 2020
+Inavlid block 0x903a042925d9d4dc
+Block received:0x69355bac3586d596 Timestamp:Tue Dec  8 04:08:45 2020
+Inavlid block 0x69355bac3586d596
+Block received:0x424f5962ad5ccc80 Timestamp:Tue Dec  8 04:08:47 2020
+Block received:0xdc1aad1d6975d1a8 Timestamp:Tue Dec  8 04:08:47 2020
+Inavlid block 0x424f5962ad5ccc80
+Inavlid block 0xdc1aad1d6975d1a8
+Block received:0xd9c6e4c95ce9602 Timestamp:Tue Dec  8 04:08:48 2020
+Block received:0x750d075cdee6426a Timestamp:Tue Dec  8 04:08:48 2020
+Block received:0xc48ed147c2b9b3d3 Timestamp:Tue Dec  8 04:08:48 2020
+Inavlid block 0xd9c6e4c95ce9602
+Inavlid block 0x750d075cdee6426a
+Inavlid block 0xc48ed147c2b9b3d3
+Block received:0x7203782d203e8857 Timestamp:Tue Dec  8 04:08:48 2020
+Inavlid block 0x7203782d203e8857
+Block received:0xb665ad65cd870372 Timestamp:Tue Dec  8 04:08:49 2020
+Inavlid block 0xb665ad65cd870372
+Block received:0x8eb6e92c21f8b7f8 Timestamp:Tue Dec  8 04:08:49 2020
+Inavlid block 0x8eb6e92c21f8b7f8
+Block received:0xacc19323304d1ff2 Timestamp:Tue Dec  8 04:08:50 2020
+Inavlid block 0xacc19323304d1ff2
+Block received:0x4bf0339846b74c47 Timestamp:Tue Dec  8 04:08:51 2020
+Inavlid block 0x4bf0339846b74c47
+Block received:0xef821d90f1d8236f Timestamp:Tue Dec  8 04:08:51 2020
+Inavlid block 0xef821d90f1d8236f
+Block received:0x68f40ae2ad072781 Timestamp:Tue Dec  8 04:08:52 2020
+Inavlid block 0x68f40ae2ad072781
+Block received:0xbb8e558a52c4254c Timestamp:Tue Dec  8 04:08:52 2020
+Inavlid block 0xbb8e558a52c4254c
+Block received:0x9f251d1b910d9bf5 Timestamp:Tue Dec  8 04:08:53 2020
+Inavlid block 0x9f251d1b910d9bf5
+Block received:0xee99c672853e70c7 Timestamp:Tue Dec  8 04:08:53 2020
+Inavlid block 0xee99c672853e70c7
+Block received:0x5e2fd4dc73c19f73 Timestamp:Tue Dec  8 04:08:54 2020
+Inavlid block 0x5e2fd4dc73c19f73
+Block received:0x35f2a4f1a8dc0212 Timestamp:Tue Dec  8 04:08:54 2020
+Inavlid block 0x35f2a4f1a8dc0212
+Block received:0xa76c8e13acc4f625 Timestamp:Tue Dec  8 04:08:55 2020
+Inavlid block 0xa76c8e13acc4f625
+Block received:0xaaef3fa15f1d5f7e Timestamp:Tue Dec  8 04:08:57 2020
+Block received:0xbab89957801629f5 Timestamp:Tue Dec  8 04:08:57 2020
+Inavlid block 0xaaef3fa15f1d5f7e
+Inavlid block 0xbab89957801629f5
+Block received:0xc568efb56eca7047 Timestamp:Tue Dec  8 04:08:58 2020
+Block received:0x60c2741b96fdf6be Timestamp:Tue Dec  8 04:08:58 2020
+Block received:0x9ad8046f0be083f0 Timestamp:Tue Dec  8 04:08:58 2020
+Inavlid block 0xc568efb56eca7047
+Inavlid block 0x60c2741b96fdf6be
+Inavlid block 0x9ad8046f0be083f0
+Block received:0x78680438cb87c4ef Timestamp:Tue Dec  8 04:08:58 2020
+Inavlid block 0x78680438cb87c4ef
+Block received:0xff638c2ad7c693f0 Timestamp:Tue Dec  8 04:08:58 2020
+Inavlid block 0xff638c2ad7c693f0
+Block received:0xd3d4a0a193343ef Timestamp:Tue Dec  8 04:08:59 2020
+Inavlid block 0xd3d4a0a193343ef
+Block received:0x9d3c7a27a542f75 Timestamp:Tue Dec  8 04:09:00 2020
+Inavlid block 0x9d3c7a27a542f75
+Block received:0x60f3796f3e082138 Timestamp:Tue Dec  8 04:09:01 2020
+Inavlid block 0x60f3796f3e082138
+Block received:0x49d76d5b5fceaf04 Timestamp:Tue Dec  8 04:09:01 2020
+Block header 0x49d76d5b5fceaf04 validated Timestamp:Tue Dec  8 04:09:01 2020
+Block is part of the longest chain
+Block received:0x191841a3cece22bd Timestamp:Tue Dec  8 04:09:01 2020
+Inavlid block 0x191841a3cece22bd
+Block received:0xb765fcacbabef6ea Timestamp:Tue Dec  8 04:09:02 2020
+Inavlid block 0xb765fcacbabef6ea
+Block received:0x76b6e68063b2f28f Timestamp:Tue Dec  8 04:09:02 2020
+Inavlid block 0x76b6e68063b2f28f
+Block received:0xbdaf0fbc2c594246 Timestamp:Tue Dec  8 04:09:03 2020
+Inavlid block 0xbdaf0fbc2c594246
+Block received:0xced1bead00acf120 Timestamp:Tue Dec  8 04:09:03 2020
+Inavlid block 0xced1bead00acf120
+Block received:0x72ce288786ddfc65 Timestamp:Tue Dec  8 04:09:04 2020
+Inavlid block 0x72ce288786ddfc65
+Block received:0x7bc5cbafb0b6bd4b Timestamp:Tue Dec  8 04:09:04 2020
+Inavlid block 0x7bc5cbafb0b6bd4b
+Block received:0xca0287cefecf7d4e Timestamp:Tue Dec  8 04:09:05 2020
+Inavlid block 0xca0287cefecf7d4e
+Block received:0x9dbd91aa7b840067 Timestamp:Tue Dec  8 04:09:07 2020
+Block received:0x46239574a8ab2fb6 Timestamp:Tue Dec  8 04:09:07 2020
+Inavlid block 0x9dbd91aa7b840067
+Inavlid block 0x46239574a8ab2fb6
+Block received:0xde256bb9d369c325 Timestamp:Tue Dec  8 04:09:08 2020
+Block received:0x56ebba3c0e3d038a Timestamp:Tue Dec  8 04:09:08 2020
+Block received:0x2dc4112b414c5bd7 Timestamp:Tue Dec  8 04:09:08 2020
+Inavlid block 0xde256bb9d369c325
+Inavlid block 0x56ebba3c0e3d038a
+Inavlid block 0x2dc4112b414c5bd7
+Block received:0x4a0bf865ab10f6c4 Timestamp:Tue Dec  8 04:09:08 2020
+Inavlid block 0x4a0bf865ab10f6c4
+Block received:0x3037ee47d748f5ed Timestamp:Tue Dec  8 04:09:08 2020
+Inavlid block 0x3037ee47d748f5ed
+Block received:0x39e2a95d3a2907cd Timestamp:Tue Dec  8 04:09:09 2020
+Inavlid block 0x39e2a95d3a2907cd
+Block received:0x48b25c114b09614c Timestamp:Tue Dec  8 04:09:10 2020
+Inavlid block 0x48b25c114b09614c
+Block received:0x478c6c3dd4dac0cf Timestamp:Tue Dec  8 04:09:11 2020
+Inavlid block 0x478c6c3dd4dac0cf
+Block received:0xd8c7b8663de31b60 Timestamp:Tue Dec  8 04:09:11 2020
+Inavlid block 0xd8c7b8663de31b60
+Block received:0x178021fb82318a50 Timestamp:Tue Dec  8 04:09:12 2020
+Inavlid block 0x178021fb82318a50
+Block received:0xfd97edaf3e9693de Timestamp:Tue Dec  8 04:09:12 2020
+Inavlid block 0xfd97edaf3e9693de
+Block received:0x60c99b820a955678 Timestamp:Tue Dec  8 04:09:13 2020
+Inavlid block 0x60c99b820a955678
+Block received:0xb1b833c17bd2d79a Timestamp:Tue Dec  8 04:09:13 2020
+Inavlid block 0xb1b833c17bd2d79a
+Block received:0x69d2d358ca2ae5a9 Timestamp:Tue Dec  8 04:09:14 2020
+Inavlid block 0x69d2d358ca2ae5a9
+Block received:0xe3c66bc671ba9b66 Timestamp:Tue Dec  8 04:09:14 2020
+Inavlid block 0xe3c66bc671ba9b66
+Block received:0xc299ca7b9e7cff2f Timestamp:Tue Dec  8 04:09:15 2020
+Inavlid block 0xc299ca7b9e7cff2f
+Block received:0xda1d3758de5b8c3c Timestamp:Tue Dec  8 04:09:17 2020
+Block received:0x1bde16916ec1b19d Timestamp:Tue Dec  8 04:09:17 2020
+Inavlid block 0xda1d3758de5b8c3c
+Inavlid block 0x1bde16916ec1b19d
+Block received:0x91ad11ba224c997d Timestamp:Tue Dec  8 04:09:18 2020
+Block received:0x43fdc7d18ced54c7 Timestamp:Tue Dec  8 04:09:18 2020
+Block received:0x1756d0dc05caa71a Timestamp:Tue Dec  8 04:09:18 2020
+Inavlid block 0x91ad11ba224c997d
+Inavlid block 0x43fdc7d18ced54c7
+Inavlid block 0x1756d0dc05caa71a
+Block received:0xcde8fcdc75c5a022 Timestamp:Tue Dec  8 04:09:18 2020
+Inavlid block 0xcde8fcdc75c5a022
+Block received:0x9d64ff5ddfaa06a9 Timestamp:Tue Dec  8 04:09:18 2020
+Inavlid block 0x9d64ff5ddfaa06a9
+Block received:0x2f2dcbb2bc809c10 Timestamp:Tue Dec  8 04:09:19 2020
+Inavlid block 0x2f2dcbb2bc809c10
+Block received:0xb7f854b5fceaf17 Timestamp:Tue Dec  8 04:09:20 2020
+Block header 0xb7f854b5fceaf17 validated Timestamp:Tue Dec  8 04:09:20 2020
+Block is part of the longest chain
+Mined block: 0x1be8f7395fceaf18 Timestamp:Tue Dec  8 04:09:20 2020
+Block received:0x300852408ae97627 Timestamp:Tue Dec  8 04:09:20 2020
+Inavlid block 0x300852408ae97627
+Block received:0x1be8ca365fceaf18 Timestamp:Tue Dec  8 04:09:21 2020
+Block header 0x1be8ca365fceaf18 validated Timestamp:Tue Dec  8 04:09:21 2020
+Block received:0xec54c27caa3c4dce Timestamp:Tue Dec  8 04:09:21 2020
+Inavlid block 0xec54c27caa3c4dce
+Block received:0x19363780c0211d7b Timestamp:Tue Dec  8 04:09:21 2020
+Inavlid block 0x19363780c0211d7b
+Block received:0xd9b4c9b8f80f29a3 Timestamp:Tue Dec  8 04:09:22 2020
+Inavlid block 0xd9b4c9b8f80f29a3
+Block received:0x7a6fc5cd584c1a99 Timestamp:Tue Dec  8 04:09:22 2020
+Inavlid block 0x7a6fc5cd584c1a99
+Block received:0xed807289940be248 Timestamp:Tue Dec  8 04:09:23 2020
+Inavlid block 0xed807289940be248
+Block received:0xd3ca3f620844923 Timestamp:Tue Dec  8 04:09:23 2020
+Inavlid block 0xd3ca3f620844923
+Block received:0xee54fc106bca50d0 Timestamp:Tue Dec  8 04:09:24 2020
+Inavlid block 0xee54fc106bca50d0
+Block received:0x1d27a4e16617ffa Timestamp:Tue Dec  8 04:09:24 2020
+Inavlid block 0x1d27a4e16617ffa
+Block received:0x2ce30a30169569b0 Timestamp:Tue Dec  8 04:09:25 2020
+Inavlid block 0x2ce30a30169569b0
+Block received:0x9d7310c83fdf0934 Timestamp:Tue Dec  8 04:09:27 2020
+Block received:0x49a78ba7af0ea44 Timestamp:Tue Dec  8 04:09:27 2020
+Inavlid block 0x9d7310c83fdf0934
+Inavlid block 0x49a78ba7af0ea44
+Block received:0xddf5d34bb367d864 Timestamp:Tue Dec  8 04:09:28 2020
+Block received:0xeef51ea4955b2a59 Timestamp:Tue Dec  8 04:09:28 2020
+Block received:0x174fb8280582c7cc Timestamp:Tue Dec  8 04:09:28 2020
+Inavlid block 0xddf5d34bb367d864
+Inavlid block 0xeef51ea4955b2a59
+Inavlid block 0x174fb8280582c7cc
+Block received:0x527fed84e357eafd Timestamp:Tue Dec  8 04:09:28 2020
+Inavlid block 0x527fed84e357eafd
+Block received:0x585e4cc7d8ac3284 Timestamp:Tue Dec  8 04:09:28 2020
+Inavlid block 0x585e4cc7d8ac3284
+Block received:0x77f1c8b69a75087 Timestamp:Tue Dec  8 04:09:29 2020
+Inavlid block 0x77f1c8b69a75087
+Block received:0x95e2f9211caed1b8 Timestamp:Tue Dec  8 04:09:31 2020
+Inavlid block 0x95e2f9211caed1b8
+Block received:0xefba5f355fceaf22 Timestamp:Tue Dec  8 04:09:31 2020
+Block header 0xefba5f355fceaf22 validated Timestamp:Tue Dec  8 04:09:31 2020
+Block is part of the longest chain
+Block received:0x67607cabc976a216 Timestamp:Tue Dec  8 04:09:31 2020
+Inavlid block 0x67607cabc976a216
+Block received:0x7cfd1c4590d530f1 Timestamp:Tue Dec  8 04:09:32 2020
+Inavlid block 0x7cfd1c4590d530f1
+Block received:0xc03888c39487675c Timestamp:Tue Dec  8 04:09:32 2020
+Inavlid block 0xc03888c39487675c
+Block received:0xa6fb5b4dc21085f7 Timestamp:Tue Dec  8 04:09:33 2020
+Inavlid block 0xa6fb5b4dc21085f7
+Block received:0xf4a532de98b196bf Timestamp:Tue Dec  8 04:09:33 2020
+Inavlid block 0xf4a532de98b196bf
+Block received:0x500e0aabb6576b0c Timestamp:Tue Dec  8 04:09:34 2020
+Inavlid block 0x500e0aabb6576b0c
+Block received:0xf610c11c9fa952ba Timestamp:Tue Dec  8 04:09:34 2020
+Inavlid block 0xf610c11c9fa952ba
+Block received:0xafd572ae315cde0b Timestamp:Tue Dec  8 04:09:35 2020
+Inavlid block 0xafd572ae315cde0b
+Block received:0x53d4b68b27e6503a Timestamp:Tue Dec  8 04:09:35 2020
+Inavlid block 0x53d4b68b27e6503a
+Block received:0xaa595cc3d56bc701 Timestamp:Tue Dec  8 04:09:37 2020
+Block received:0x9ee119cd803bcbc5 Timestamp:Tue Dec  8 04:09:37 2020
+Inavlid block 0xaa595cc3d56bc701
+Inavlid block 0x9ee119cd803bcbc5
+Block received:0x3b5c7294518cd33b Timestamp:Tue Dec  8 04:09:38 2020
+Block received:0x4eb89fcfe90d03d0 Timestamp:Tue Dec  8 04:09:38 2020
+Block received:0xc449badc92791380 Timestamp:Tue Dec  8 04:09:38 2020
+Inavlid block 0x3b5c7294518cd33b
+Inavlid block 0x4eb89fcfe90d03d0
+Inavlid block 0xc449badc92791380
+Block received:0x9d97955c2e705b95 Timestamp:Tue Dec  8 04:09:38 2020
+Inavlid block 0x9d97955c2e705b95
+Block received:0x52b88af15fceaf29 Timestamp:Tue Dec  8 04:09:38 2020
+Block header 0x52b88af15fceaf29 validated Timestamp:Tue Dec  8 04:09:38 2020
+Block is part of the longest chain
+Block received:0x52b863085fceaf2a Timestamp:Tue Dec  8 04:09:39 2020
+Block header 0x52b863085fceaf2a validated Timestamp:Tue Dec  8 04:09:39 2020
+Block received:0x111287dc8f8423f6 Timestamp:Tue Dec  8 04:09:39 2020
+Inavlid block 0x111287dc8f8423f6
+Block received:0x405b742bf3372e52 Timestamp:Tue Dec  8 04:09:41 2020
+Inavlid block 0x405b742bf3372e52
+Block received:0xc0dab3e63fda860c Timestamp:Tue Dec  8 04:09:41 2020
+Inavlid block 0xc0dab3e63fda860c
+Block received:0xcfc81475c6d6cb0c Timestamp:Tue Dec  8 04:09:42 2020
+Inavlid block 0xcfc81475c6d6cb0c
+Block received:0xfb669b14cd77375 Timestamp:Tue Dec  8 04:09:42 2020
+Inavlid block 0xfb669b14cd77375
+Block received:0xea61c20beaf9b3c Timestamp:Tue Dec  8 04:09:43 2020
+Inavlid block 0xea61c20beaf9b3c
+Block received:0xaf0748395fceaf2e Timestamp:Tue Dec  8 04:09:43 2020
+Block header 0xaf0748395fceaf2e validated Timestamp:Tue Dec  8 04:09:43 2020
+Block is part of the longest chain
+Block received:0x83414ef95fddfdf2 Timestamp:Tue Dec  8 04:09:43 2020
+Inavlid block 0x83414ef95fddfdf2
+Block received:0x89f9437decb4ddec Timestamp:Tue Dec  8 04:09:44 2020
+Inavlid block 0x89f9437decb4ddec
+Block received:0x76952dbfdba638d9 Timestamp:Tue Dec  8 04:09:44 2020
+Inavlid block 0x76952dbfdba638d9
+Block received:0xed04c4a55f220d47 Timestamp:Tue Dec  8 04:09:45 2020
+Inavlid block 0xed04c4a55f220d47
+Block received:0xf613ef26eaab999e Timestamp:Tue Dec  8 04:09:45 2020
+Inavlid block 0xf613ef26eaab999e
+Block received:0x32116cc970f05d2 Timestamp:Tue Dec  8 04:09:47 2020
+Block received:0x33cbf9d18ccc4942 Timestamp:Tue Dec  8 04:09:47 2020
+Inavlid block 0x32116cc970f05d2
+Inavlid block 0x33cbf9d18ccc4942
+Block received:0x6945561b8e8fe93 Timestamp:Tue Dec  8 04:09:48 2020
+Block received:0x93e785422bd576d1 Timestamp:Tue Dec  8 04:09:48 2020
+Inavlid block 0x6945561b8e8fe93
+Inavlid block 0x93e785422bd576d1
+Block received:0xf3d02a22497d2a05 Timestamp:Tue Dec  8 04:09:48 2020
+Inavlid block 0xf3d02a22497d2a05
+Block received:0x425a7afb6ce81d68 Timestamp:Tue Dec  8 04:09:48 2020
+Inavlid block 0x425a7afb6ce81d68
+Block received:0xfdc60d170e458d73 Timestamp:Tue Dec  8 04:09:49 2020
+Inavlid block 0xfdc60d170e458d73
+Block received:0xaaed0e425fceaf35 Timestamp:Tue Dec  8 04:09:50 2020
+Block header 0xaaed0e425fceaf35 validated Timestamp:Tue Dec  8 04:09:50 2020
+Block is part of the longest chain
+Block received:0x28c7b452280001e5 Timestamp:Tue Dec  8 04:09:51 2020
+Inavlid block 0x28c7b452280001e5
+Block received:0x19d9785f51bfa179 Timestamp:Tue Dec  8 04:09:51 2020
+Inavlid block 0x19d9785f51bfa179
+Block received:0xf3e19c408e5e26a6 Timestamp:Tue Dec  8 04:09:52 2020
+Inavlid block 0xf3e19c408e5e26a6
+Block received:0x99239de37803e4db Timestamp:Tue Dec  8 04:09:52 2020
+Inavlid block 0x99239de37803e4db
+Block received:0xcac8bf63f129d90c Timestamp:Tue Dec  8 04:09:53 2020
+Inavlid block 0xcac8bf63f129d90c
+Block received:0x5c472fa16218d318 Timestamp:Tue Dec  8 04:09:53 2020
+Inavlid block 0x5c472fa16218d318
+Block received:0xd0ff8c15ffd3d2d9 Timestamp:Tue Dec  8 04:09:54 2020
+Inavlid block 0xd0ff8c15ffd3d2d9
+Block received:0xd6d090a4c19ec8f3 Timestamp:Tue Dec  8 04:09:54 2020
+Inavlid block 0xd6d090a4c19ec8f3
+Block received:0xa54bbf1e691000aa Timestamp:Tue Dec  8 04:09:55 2020
+Inavlid block 0xa54bbf1e691000aa
+Block received:0x14e516ea4c2abaa0 Timestamp:Tue Dec  8 04:09:55 2020
+Inavlid block 0x14e516ea4c2abaa0
+Block received:0x390c44b868a79656 Timestamp:Tue Dec  8 04:09:57 2020
+Block received:0x74ad747a5903d074 Timestamp:Tue Dec  8 04:09:57 2020
+Inavlid block 0x390c44b868a79656
+Inavlid block 0x74ad747a5903d074
+Block received:0xd5baab5bae5d47d9 Timestamp:Tue Dec  8 04:09:58 2020
+Block received:0x3bd3ae1ca15bb5c7 Timestamp:Tue Dec  8 04:09:58 2020
+Block received:0xfb2d5fd2f7f18cf4 Timestamp:Tue Dec  8 04:09:58 2020
+Inavlid block 0xd5baab5bae5d47d9
+Inavlid block 0x3bd3ae1ca15bb5c7
+Inavlid block 0xfb2d5fd2f7f18cf4
+Block received:0x7048b91f7b79b497 Timestamp:Tue Dec  8 04:09:58 2020
+Inavlid block 0x7048b91f7b79b497
+Block received:0xf5030ff8ee2ddaf5 Timestamp:Tue Dec  8 04:09:59 2020
+Inavlid block 0xf5030ff8ee2ddaf5
+Block received:0x7d0a7d854f3f6ea0 Timestamp:Tue Dec  8 04:10:01 2020
+Inavlid block 0x7d0a7d854f3f6ea0
+Block received:0xbce619b07db46809 Timestamp:Tue Dec  8 04:10:01 2020
+Inavlid block 0xbce619b07db46809
+Block received:0x929ed367ef00caf4 Timestamp:Tue Dec  8 04:10:02 2020
+Inavlid block 0x929ed367ef00caf4
+Block received:0x70abcb4d695b5c6a Timestamp:Tue Dec  8 04:10:02 2020
+Inavlid block 0x70abcb4d695b5c6a
+Block received:0x58b260ba5e0cd2eb Timestamp:Tue Dec  8 04:10:03 2020
+Inavlid block 0x58b260ba5e0cd2eb
+Block received:0xb59065baaa8e7030 Timestamp:Tue Dec  8 04:10:03 2020
+Inavlid block 0xb59065baaa8e7030
+Block received:0xf2e04ce764b38d87 Timestamp:Tue Dec  8 04:10:04 2020
+Inavlid block 0xf2e04ce764b38d87
+Block received:0x669a31ff138cfe12 Timestamp:Tue Dec  8 04:10:04 2020
+Inavlid block 0x669a31ff138cfe12
+Block received:0x648354258b76b8a0 Timestamp:Tue Dec  8 04:10:05 2020
+Inavlid block 0x648354258b76b8a0
+Block received:0xd787608641e36909 Timestamp:Tue Dec  8 04:10:05 2020
+Inavlid block 0xd787608641e36909
+Block received:0x3b6205cf11ff57d9 Timestamp:Tue Dec  8 04:10:07 2020
+Block received:0xce7b8a295fceaf45 Timestamp:Tue Dec  8 04:10:07 2020
+Block received:0xd24397ba462107f4 Timestamp:Tue Dec  8 04:10:07 2020
+Inavlid block 0x3b6205cf11ff57d9
+Block header 0xce7b8a295fceaf45 validated Timestamp:Tue Dec  8 04:10:07 2020
+Block is part of the longest chain
+Inavlid block 0xd24397ba462107f4
+Block received:0x791edb2df6b191da Timestamp:Tue Dec  8 04:10:08 2020
+Block received:0xf007a0e5ce02bf2c Timestamp:Tue Dec  8 04:10:08 2020
+Inavlid block 0x791edb2df6b191da
+Inavlid block 0xf007a0e5ce02bf2c
+Block received:0xa0b2ff62875203b0 Timestamp:Tue Dec  8 04:10:08 2020
+Inavlid block 0xa0b2ff62875203b0
+Block received:0x3c74fda567c587a8 Timestamp:Tue Dec  8 04:10:08 2020
+Inavlid block 0x3c74fda567c587a8
+Block received:0xea8916adca782627 Timestamp:Tue Dec  8 04:10:09 2020
+Inavlid block 0xea8916adca782627
+Block received:0xc15b5d06c5973d06 Timestamp:Tue Dec  8 04:10:11 2020
+Inavlid block 0xc15b5d06c5973d06
+Block received:0x7fed732d13495ef9 Timestamp:Tue Dec  8 04:10:11 2020
+Inavlid block 0x7fed732d13495ef9
+Block received:0xae0119230db0f395 Timestamp:Tue Dec  8 04:10:12 2020
+Inavlid block 0xae0119230db0f395
+Block received:0xbf5d2655b03961c6 Timestamp:Tue Dec  8 04:10:12 2020
+Inavlid block 0xbf5d2655b03961c6
+Block received:0x72b79d8b02543712 Timestamp:Tue Dec  8 04:10:13 2020
+Inavlid block 0x72b79d8b02543712
+Block received:0xd6c95829006419a8 Timestamp:Tue Dec  8 04:10:13 2020
+Inavlid block 0xd6c95829006419a8
+Block received:0x57bbd411efe3c2fa Timestamp:Tue Dec  8 04:10:14 2020
+Inavlid block 0x57bbd411efe3c2fa
+Block received:0x35a70e53aa25ddfe Timestamp:Tue Dec  8 04:10:14 2020
+Inavlid block 0x35a70e53aa25ddfe
+Block received:0xf31b2f9b36ab263 Timestamp:Tue Dec  8 04:10:15 2020
+Inavlid block 0xf31b2f9b36ab263
+Block received:0xd118dc76c015734b Timestamp:Tue Dec  8 04:10:15 2020
+Inavlid block 0xd118dc76c015734b
+Block received:0xb4d70e5bf1b2a852 Timestamp:Tue Dec  8 04:10:17 2020
+Block received:0xe1332b9f883a36e4 Timestamp:Tue Dec  8 04:10:17 2020
+Inavlid block 0xb4d70e5bf1b2a852
+Inavlid block 0xe1332b9f883a36e4
+Block received:0x861da235fceaf51 Timestamp:Tue Dec  8 04:10:18 2020
+Block received:0xda4164edfde70f4a Timestamp:Tue Dec  8 04:10:18 2020
+Block received:0x9325f4c2f390462 Timestamp:Tue Dec  8 04:10:18 2020
+Block received:0x103774c6522fe63b Timestamp:Tue Dec  8 04:10:18 2020
+Block received:0x8610be15fceaf51 Timestamp:Tue Dec  8 04:10:18 2020
+Block received:0xf8a10de05fceaf51 Timestamp:Tue Dec  8 04:10:18 2020
+Block header 0x861da235fceaf51 validated Timestamp:Tue Dec  8 04:10:18 2020
+Block is part of the longest chain
+Inavlid block 0xda4164edfde70f4a
+Inavlid block 0x9325f4c2f390462
+Inavlid block 0x103774c6522fe63b
+Block header 0x8610be15fceaf51 validated Timestamp:Tue Dec  8 04:10:18 2020
+Block header 0xf8a10de05fceaf51 validated Timestamp:Tue Dec  8 04:10:18 2020
+Block is part of the longest chain
+Block received:0xc0b0ffe0a3a969af Timestamp:Tue Dec  8 04:10:18 2020
+Inavlid block 0xc0b0ffe0a3a969af
+Block received:0x478a44a1d34af8f2 Timestamp:Tue Dec  8 04:10:19 2020
+Inavlid block 0x478a44a1d34af8f2
+Block received:0xb3dc2d20ad1115f0 Timestamp:Tue Dec  8 04:10:19 2020
+Inavlid block 0xb3dc2d20ad1115f0
+Block received:0xeff654d96139e481 Timestamp:Tue Dec  8 04:10:21 2020
+Inavlid block 0xeff654d96139e481
+Block received:0x83267e0cc4ee0fe2 Timestamp:Tue Dec  8 04:10:21 2020
+Inavlid block 0x83267e0cc4ee0fe2
+Block received:0xcfebb6ea926ebbe2 Timestamp:Tue Dec  8 04:10:22 2020
+Inavlid block 0xcfebb6ea926ebbe2
+Block received:0x63ca10bb2b24f3f2 Timestamp:Tue Dec  8 04:10:22 2020
+Inavlid block 0x63ca10bb2b24f3f2
+Block received:0x5d440895d08e3466 Timestamp:Tue Dec  8 04:10:23 2020
+Inavlid block 0x5d440895d08e3466
+Block received:0x128e7d5575c8a617 Timestamp:Tue Dec  8 04:10:23 2020
+Inavlid block 0x128e7d5575c8a617
+Block received:0xaec7dfd9c56f973e Timestamp:Tue Dec  8 04:10:24 2020
+Inavlid block 0xaec7dfd9c56f973e
+Block received:0x59ce80023c254081 Timestamp:Tue Dec  8 04:10:24 2020
+Inavlid block 0x59ce80023c254081
+Block received:0x19435f53821a7a68 Timestamp:Tue Dec  8 04:10:25 2020
+Inavlid block 0x19435f53821a7a68
+Block received:0xe0b7cb0586e7db6a Timestamp:Tue Dec  8 04:10:27 2020
+Block received:0x3395bbb4c297e1cf Timestamp:Tue Dec  8 04:10:27 2020
+Inavlid block 0xe0b7cb0586e7db6a
+Inavlid block 0x3395bbb4c297e1cf
+Block received:0x558aaa8619026bf Timestamp:Tue Dec  8 04:10:28 2020
+Block received:0x40e5112d6211b76a Timestamp:Tue Dec  8 04:10:28 2020
+Block received:0xc59beaa738cce94a Timestamp:Tue Dec  8 04:10:28 2020
+Block received:0x1e8f9bffd7ce49a2 Timestamp:Tue Dec  8 04:10:28 2020
+Inavlid block 0x558aaa8619026bf
+Inavlid block 0x40e5112d6211b76a
+Inavlid block 0xc59beaa738cce94a
+Inavlid block 0x1e8f9bffd7ce49a2
+Block received:0xf67f0182f678a735 Timestamp:Tue Dec  8 04:10:28 2020
+Inavlid block 0xf67f0182f678a735
+Block received:0xc601ceca9f102fbf Timestamp:Tue Dec  8 04:10:29 2020
+Inavlid block 0xc601ceca9f102fbf
+Block received:0x9d85ed81745a73f2 Timestamp:Tue Dec  8 04:10:31 2020
+Inavlid block 0x9d85ed81745a73f2
+Block received:0x5bada8137604e05a Timestamp:Tue Dec  8 04:10:32 2020
+Inavlid block 0x5bada8137604e05a
+Block received:0x2752d70c4abf3541 Timestamp:Tue Dec  8 04:10:32 2020
+Inavlid block 0x2752d70c4abf3541
+Block received:0xb34ff8aad1f7355f Timestamp:Tue Dec  8 04:10:33 2020
+Inavlid block 0xb34ff8aad1f7355f
+Block received:0x9f1a8db0442e0fcb Timestamp:Tue Dec  8 04:10:33 2020
+Inavlid block 0x9f1a8db0442e0fcb
+Block received:0x7357b257d5acfd40 Timestamp:Tue Dec  8 04:10:34 2020
+Inavlid block 0x7357b257d5acfd40
+Block received:0x3d8b32b15fceaf61 Timestamp:Tue Dec  8 04:10:34 2020
+Block header 0x3d8b32b15fceaf61 validated Timestamp:Tue Dec  8 04:10:34 2020
+Block is part of the longest chain
+Block received:0x51694f880b3426f2 Timestamp:Tue Dec  8 04:10:34 2020
+Inavlid block 0x51694f880b3426f2
+Mined block: 0x928afd6f5fceaf62 Timestamp:Tue Dec  8 04:10:34 2020
+Block received:0x424c4fa9dd3f8cc7 Timestamp:Tue Dec  8 04:10:35 2020
+Inavlid block 0x424c4fa9dd3f8cc7
+Block received:0xb9aa3950c6d1cb78 Timestamp:Tue Dec  8 04:10:35 2020
+Inavlid block 0xb9aa3950c6d1cb78
+Block received:0x3d8b7f9d5fceaf63 Timestamp:Tue Dec  8 04:10:37 2020
+Block received:0x3fd2aff5a753fef3 Timestamp:Tue Dec  8 04:10:37 2020
+Block received:0x402b09e78c59975c Timestamp:Tue Dec  8 04:10:37 2020
+Block header 0x3d8b7f9d5fceaf63 validated Timestamp:Tue Dec  8 04:10:37 2020
+Inavlid block 0x3fd2aff5a753fef3
+Inavlid block 0x402b09e78c59975c
+Block received:0x125aad31cbd3c7cb Timestamp:Tue Dec  8 04:10:38 2020
+Block received:0x17552d87e105b917 Timestamp:Tue Dec  8 04:10:38 2020
+Inavlid block 0x125aad31cbd3c7cb
+Inavlid block 0x17552d87e105b917
+Block received:0x1a97ad0e07ff070f Timestamp:Tue Dec  8 04:10:38 2020
+Inavlid block 0x1a97ad0e07ff070f
+Block received:0x30d392998272f80e Timestamp:Tue Dec  8 04:10:38 2020
+Inavlid block 0x30d392998272f80e
+Block received:0x1a7d69994d02b532 Timestamp:Tue Dec  8 04:10:39 2020
+Inavlid block 0x1a7d69994d02b532
+Block received:0x1de2c9069c8eab7e Timestamp:Tue Dec  8 04:10:39 2020
+Inavlid block 0x1de2c9069c8eab7e
+Block received:0x3302b1f438f9af5c Timestamp:Tue Dec  8 04:10:40 2020
+Inavlid block 0x3302b1f438f9af5c
+Block received:0x5e393453325904b0 Timestamp:Tue Dec  8 04:10:41 2020
+Inavlid block 0x5e393453325904b0
+Block received:0xa969db75d20b31bf Timestamp:Tue Dec  8 04:10:41 2020
+Inavlid block 0xa969db75d20b31bf
+Block received:0xac302f20004f7c3 Timestamp:Tue Dec  8 04:10:42 2020
+Inavlid block 0xac302f20004f7c3
+Block received:0x824eb5651ba1e457 Timestamp:Tue Dec  8 04:10:42 2020
+Inavlid block 0x824eb5651ba1e457
+Block received:0x45cc02d4b0c3fbdf Timestamp:Tue Dec  8 04:10:43 2020
+Inavlid block 0x45cc02d4b0c3fbdf
+Block received:0x2af1ca163e51b31f Timestamp:Tue Dec  8 04:10:43 2020
+Inavlid block 0x2af1ca163e51b31f
+Block received:0x5d712cad05af25cb Timestamp:Tue Dec  8 04:10:44 2020
+Inavlid block 0x5d712cad05af25cb
+Block received:0xe85f8a2c1f902ba3 Timestamp:Tue Dec  8 04:10:44 2020
+Inavlid block 0xe85f8a2c1f902ba3
+Block received:0xebe419478847a68 Timestamp:Tue Dec  8 04:10:45 2020
+Inavlid block 0xebe419478847a68
+Block received:0xe3d33554109bcb9a Timestamp:Tue Dec  8 04:10:47 2020
+Block received:0xd3eb973471ea3f8d Timestamp:Tue Dec  8 04:10:47 2020
+Block received:0x143733b85fceaf6d Timestamp:Tue Dec  8 04:10:47 2020
+Inavlid block 0xe3d33554109bcb9a
+Inavlid block 0xd3eb973471ea3f8d
+Block header 0x143733b85fceaf6d validated Timestamp:Tue Dec  8 04:10:47 2020
+Block is part of the longest chain
+Block received:0xac9b9ceeddbb5d9e Timestamp:Tue Dec  8 04:10:48 2020
+Block received:0xa319251ed916384f Timestamp:Tue Dec  8 04:10:48 2020
+Block received:0x52015846fa863bf6 Timestamp:Tue Dec  8 04:10:48 2020
+Inavlid block 0xac9b9ceeddbb5d9e
+Inavlid block 0xa319251ed916384f
+Inavlid block 0x52015846fa863bf6
+Block received:0x3e56570a6640e15c Timestamp:Tue Dec  8 04:10:48 2020
+Inavlid block 0x3e56570a6640e15c
+Block received:0xc7dbd57cd53f96d6 Timestamp:Tue Dec  8 04:10:48 2020
+Inavlid block 0xc7dbd57cd53f96d6
+Block received:0x6a23d3d9743f7c17 Timestamp:Tue Dec  8 04:10:49 2020
+Inavlid block 0x6a23d3d9743f7c17
+Block received:0x64fc747a6bef13ce Timestamp:Tue Dec  8 04:10:51 2020
+Inavlid block 0x64fc747a6bef13ce
+Block received:0xc9495a3c5fceaf72 Timestamp:Tue Dec  8 04:10:51 2020
+Block header 0xc9495a3c5fceaf72 validated Timestamp:Tue Dec  8 04:10:51 2020
+Block is part of the longest chain
+Block received:0x6859d6cfeb4b5f94 Timestamp:Tue Dec  8 04:10:51 2020
+Inavlid block 0x6859d6cfeb4b5f94
+Mined block: 0x7ba9c7d75fceaf73 Timestamp:Tue Dec  8 04:10:51 2020
+Block received:0x1754aafdbb99e696 Timestamp:Tue Dec  8 04:10:52 2020
+Inavlid block 0x1754aafdbb99e696
+Block received:0xc949d45c5fceaf73 Timestamp:Tue Dec  8 04:10:52 2020
+Block header 0xc949d45c5fceaf73 validated Timestamp:Tue Dec  8 04:10:52 2020
+Block received:0x8ab0384eda240749 Timestamp:Tue Dec  8 04:10:52 2020
+Inavlid block 0x8ab0384eda240749
+Block received:0xe458d04e83474ff3 Timestamp:Tue Dec  8 04:10:53 2020
+Inavlid block 0xe458d04e83474ff3
+Block received:0x6606987b33443d2a Timestamp:Tue Dec  8 04:10:53 2020
+Inavlid block 0x6606987b33443d2a
+Block received:0xae1289bf1b77fe Timestamp:Tue Dec  8 04:10:54 2020
+Inavlid block 0xae1289bf1b77fe
+Block received:0xa6b87968c23c34f Timestamp:Tue Dec  8 04:10:54 2020
+Inavlid block 0xa6b87968c23c34f
+Block received:0xfcc4d270d2ffe5ce Timestamp:Tue Dec  8 04:10:55 2020
+Inavlid block 0xfcc4d270d2ffe5ce
+Block received:0x4f00c377ed4ede71 Timestamp:Tue Dec  8 04:10:55 2020
+Inavlid block 0x4f00c377ed4ede71
+Block received:0x7a3883cef1b69e7a Timestamp:Tue Dec  8 04:10:57 2020
+Block received:0x9ef7f19f8cce2318 Timestamp:Tue Dec  8 04:10:57 2020
+Inavlid block 0x7a3883cef1b69e7a
+Inavlid block 0x9ef7f19f8cce2318
+Block received:0xc26b9fd45fceaf78 Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0x2d82395a5fceaf78 Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0xef6cc1108817172d Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0x6c972d31f4b42d9d Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0xd2a95548c87cff61 Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0xc26b992e5fceaf79 Timestamp:Tue Dec  8 04:10:58 2020
+Block header 0xc26b9fd45fceaf78 validated Timestamp:Tue Dec  8 04:10:58 2020
+Block is part of the longest chain
+Block header 0x2d82395a5fceaf78 validated Timestamp:Tue Dec  8 04:10:58 2020
+Block is part of the longest chain
+Inavlid block 0xef6cc1108817172d
+Inavlid block 0x6c972d31f4b42d9d
+Inavlid block 0xd2a95548c87cff61
+Block header 0xc26b992e5fceaf79 validated Timestamp:Tue Dec  8 04:10:58 2020
+Block received:0xb8326e8ec951ae6e Timestamp:Tue Dec  8 04:10:58 2020
+Inavlid block 0xb8326e8ec951ae6e
+Block received:0x39fbdcfb6910038b Timestamp:Tue Dec  8 04:10:59 2020
+Inavlid block 0x39fbdcfb6910038b
+Block received:0x4b182555742886f8 Timestamp:Tue Dec  8 04:10:59 2020
+Inavlid block 0x4b182555742886f8
+Block received:0x49420ef38b0d6d94 Timestamp:Tue Dec  8 04:11:00 2020
+Inavlid block 0x49420ef38b0d6d94
+Block received:0x67b574439bfad3b9 Timestamp:Tue Dec  8 04:11:01 2020
+Inavlid block 0x67b574439bfad3b9
+Block received:0x11c05a5a59997e68 Timestamp:Tue Dec  8 04:11:01 2020
+Inavlid block 0x11c05a5a59997e68
+Block received:0x7b82372819ab20ae Timestamp:Tue Dec  8 04:11:02 2020
+Inavlid block 0x7b82372819ab20ae
+Block received:0xb22b29ec14556f75 Timestamp:Tue Dec  8 04:11:02 2020
+Inavlid block 0xb22b29ec14556f75
+Block received:0xa63014e59d3723ec Timestamp:Tue Dec  8 04:11:03 2020
+Inavlid block 0xa63014e59d3723ec
+Block received:0x65a2651ea4e62cbb Timestamp:Tue Dec  8 04:11:03 2020
+Inavlid block 0x65a2651ea4e62cbb
+Block received:0x72d653f70d261083 Timestamp:Tue Dec  8 04:11:04 2020
+Inavlid block 0x72d653f70d261083
+Block received:0x591247d8d6af691f Timestamp:Tue Dec  8 04:11:04 2020
+Inavlid block 0x591247d8d6af691f
+Block received:0xbb20c4de5fceaf80 Timestamp:Tue Dec  8 04:11:05 2020
+Block header 0xbb20c4de5fceaf80 validated Timestamp:Tue Dec  8 04:11:05 2020
+Block is part of the longest chain
+Block received:0xa9f96b0f012b7bd4 Timestamp:Tue Dec  8 04:11:05 2020
+Inavlid block 0xa9f96b0f012b7bd4
+Block received:0x591806212fa2275a Timestamp:Tue Dec  8 04:11:07 2020
+Block received:0x4a9bd4f5a3acc45d Timestamp:Tue Dec  8 04:11:07 2020
+Inavlid block 0x591806212fa2275a
+Inavlid block 0x4a9bd4f5a3acc45d
+Block received:0xfa7d9b3d8816771b Timestamp:Tue Dec  8 04:11:08 2020
+Block received:0x52aaea83aaa65b54 Timestamp:Tue Dec  8 04:11:08 2020
+Block received:0xd17fe3c7f7af3042 Timestamp:Tue Dec  8 04:11:08 2020
+Inavlid block 0xfa7d9b3d8816771b
+Inavlid block 0x52aaea83aaa65b54
+Inavlid block 0xd17fe3c7f7af3042
+Block received:0x1ed014e424a4e631 Timestamp:Tue Dec  8 04:11:08 2020
+Inavlid block 0x1ed014e424a4e631
+Block received:0x68d2a8d85fceaf83 Timestamp:Tue Dec  8 04:11:08 2020
+Block header 0x68d2a8d85fceaf83 validated Timestamp:Tue Dec  8 04:11:08 2020
+Block is part of the longest chain
+Block received:0x3ccd7019dc778d40 Timestamp:Tue Dec  8 04:11:08 2020
+Inavlid block 0x3ccd7019dc778d40
+Block received:0xce7c427193dfa409 Timestamp:Tue Dec  8 04:11:09 2020
+Inavlid block 0xce7c427193dfa409
+Block received:0x76d740c2dfaf1ae8 Timestamp:Tue Dec  8 04:11:11 2020
+Inavlid block 0x76d740c2dfaf1ae8
+Block received:0xe1d1d8722f9ec409 Timestamp:Tue Dec  8 04:11:11 2020
+Inavlid block 0xe1d1d8722f9ec409
+Block received:0x7ed92fa69b4e2687 Timestamp:Tue Dec  8 04:11:12 2020
+Inavlid block 0x7ed92fa69b4e2687
+Block received:0x3141f42604d2ac73 Timestamp:Tue Dec  8 04:11:12 2020
+Inavlid block 0x3141f42604d2ac73
+Block received:0xe887efbd9f25eed1 Timestamp:Tue Dec  8 04:11:13 2020
+Inavlid block 0xe887efbd9f25eed1
+Block received:0xeaf433417005c446 Timestamp:Tue Dec  8 04:11:13 2020
+Inavlid block 0xeaf433417005c446
+Block received:0xcd65a5340e33b62e Timestamp:Tue Dec  8 04:11:14 2020
+Inavlid block 0xcd65a5340e33b62e
+Block received:0x7b1fe11666e64f07 Timestamp:Tue Dec  8 04:11:14 2020
+Inavlid block 0x7b1fe11666e64f07
+Block received:0xecd917375fceaf89 Timestamp:Tue Dec  8 04:11:14 2020
+Block header 0xecd917375fceaf89 validated Timestamp:Tue Dec  8 04:11:14 2020
+Block is part of the longest chain
+Block received:0xd7a5bcf98facadfe Timestamp:Tue Dec  8 04:11:15 2020
+Inavlid block 0xd7a5bcf98facadfe
+Mined block: 0xcf57ea115fceaf8b Timestamp:Tue Dec  8 04:11:15 2020
+Block received:0xca968e6390944e51 Timestamp:Tue Dec  8 04:11:15 2020
+Inavlid block 0xca968e6390944e51
+Block received:0xf01a587e8e9deb95 Timestamp:Tue Dec  8 04:11:17 2020
+Block received:0xcbc13da479b4350a Timestamp:Tue Dec  8 04:11:17 2020
+Inavlid block 0xf01a587e8e9deb95
+Inavlid block 0xcbc13da479b4350a
+Block received:0x582ee9b25fceee6b Timestamp:Tue Dec  8 04:11:18 2020
+Block received:0xbb2b29ac299f3d3f Timestamp:Tue Dec  8 04:11:18 2020
+Block received:0x8d97b131762ca5dc Timestamp:Tue Dec  8 04:11:18 2020
+Inavlid block 0x582ee9b25fceee6b
+Inavlid block 0xbb2b29ac299f3d3f
+Inavlid block 0x8d97b131762ca5dc
+Block received:0xc19c4109d760617f Timestamp:Tue Dec  8 04:11:18 2020
+Inavlid block 0xc19c4109d760617f
+Block received:0x5dacd115116d34e4 Timestamp:Tue Dec  8 04:11:19 2020
+Inavlid block 0x5dacd115116d34e4
+Block received:0x340010bff1503085 Timestamp:Tue Dec  8 04:11:19 2020
+Inavlid block 0x340010bff1503085
+Block received:0x801d1c1c99b4c147 Timestamp:Tue Dec  8 04:11:21 2020
+Inavlid block 0x801d1c1c99b4c147
+Block received:0x5bc1f6d5fceaf90 Timestamp:Tue Dec  8 04:11:21 2020
+Block header 0x5bc1f6d5fceaf90 validated Timestamp:Tue Dec  8 04:11:21 2020
+Block is part of the longest chain
+Block received:0xedbc9fea16a1d975 Timestamp:Tue Dec  8 04:11:21 2020
+Inavlid block 0xedbc9fea16a1d975
+Block received:0xb78d01a546259c16 Timestamp:Tue Dec  8 04:11:22 2020
+Inavlid block 0xb78d01a546259c16
+Block received:0xec9c9efedd251da4 Timestamp:Tue Dec  8 04:11:22 2020
+Inavlid block 0xec9c9efedd251da4
+Block received:0x173cfe01a9045b60 Timestamp:Tue Dec  8 04:11:23 2020
+Inavlid block 0x173cfe01a9045b60
+Block received:0xceb3a7c8f7dedb79 Timestamp:Tue Dec  8 04:11:23 2020
+Inavlid block 0xceb3a7c8f7dedb79
+Block received:0x9d8db5440590f8b4 Timestamp:Tue Dec  8 04:11:24 2020
+Inavlid block 0x9d8db5440590f8b4
+Block received:0x22ba35d756e50534 Timestamp:Tue Dec  8 04:11:24 2020
+Inavlid block 0x22ba35d756e50534
+Block received:0x6a10276d9227aabe Timestamp:Tue Dec  8 04:11:25 2020
+Inavlid block 0x6a10276d9227aabe
+Block received:0x6fe2637528db9ffa Timestamp:Tue Dec  8 04:11:25 2020
+Inavlid block 0x6fe2637528db9ffa
+Block received:0xec575dff1fae3406 Timestamp:Tue Dec  8 04:11:27 2020
+Block received:0x5bf397635fceaf95 Timestamp:Tue Dec  8 04:11:27 2020
+Block received:0x270846bb444b19b8 Timestamp:Tue Dec  8 04:11:27 2020
+Inavlid block 0xec575dff1fae3406
+Block header 0x5bf397635fceaf95 validated Timestamp:Tue Dec  8 04:11:27 2020
+Block is part of the longest chain
+Inavlid block 0x270846bb444b19b8
+Block received:0x643842bff09d51df Timestamp:Tue Dec  8 04:11:28 2020
+Block received:0xcb4b08533eaab70 Timestamp:Tue Dec  8 04:11:28 2020
+Block received:0x4d8b0799d339a611 Timestamp:Tue Dec  8 04:11:28 2020
+Inavlid block 0x643842bff09d51df
+Inavlid block 0xcb4b08533eaab70
+Inavlid block 0x4d8b0799d339a611
+Block received:0xccc428e4805058e1 Timestamp:Tue Dec  8 04:11:28 2020
+Inavlid block 0xccc428e4805058e1
+Block received:0x52cfa8d5b216ccc1 Timestamp:Tue Dec  8 04:11:29 2020
+Inavlid block 0x52cfa8d5b216ccc1
+Block received:0x5ac86ea154ab696a Timestamp:Tue Dec  8 04:11:29 2020
+Inavlid block 0x5ac86ea154ab696a
+Block received:0xbbed3d5e28bbaa6f Timestamp:Tue Dec  8 04:11:31 2020
+Inavlid block 0xbbed3d5e28bbaa6f
+Block received:0x94be490873f2b516 Timestamp:Tue Dec  8 04:11:31 2020
+Inavlid block 0x94be490873f2b516
+Block received:0xc5629459406a6aec Timestamp:Tue Dec  8 04:11:32 2020
+Inavlid block 0xc5629459406a6aec
+Block received:0xfa34b8bb03f67b31 Timestamp:Tue Dec  8 04:11:32 2020
+Inavlid block 0xfa34b8bb03f67b31
+Block received:0xa2ed63ada4a7f187 Timestamp:Tue Dec  8 04:11:33 2020
+Inavlid block 0xa2ed63ada4a7f187
+Block received:0xf160a75ac8281d6e Timestamp:Tue Dec  8 04:11:33 2020
+Inavlid block 0xf160a75ac8281d6e
+Block received:0xb2a04c8b6b59b76c Timestamp:Tue Dec  8 04:11:34 2020
+Inavlid block 0xb2a04c8b6b59b76c
+Block received:0x5dc80d329634cf0d Timestamp:Tue Dec  8 04:11:34 2020
+Inavlid block 0x5dc80d329634cf0d
+Block received:0xe91edd1d5fceaf9d Timestamp:Tue Dec  8 04:11:34 2020
+Block header 0xe91edd1d5fceaf9d validated Timestamp:Tue Dec  8 04:11:34 2020
+Block is part of the longest chain
+Block received:0xdf1c6bdbbcd5377d Timestamp:Tue Dec  8 04:11:35 2020
+Inavlid block 0xdf1c6bdbbcd5377d
+Block received:0xde03a285ae1c022a Timestamp:Tue Dec  8 04:11:35 2020
+Inavlid block 0xde03a285ae1c022a
+Block received:0xe0b06c6cff5b5bad Timestamp:Tue Dec  8 04:11:37 2020
+Block received:0xc875f47549923f2a Timestamp:Tue Dec  8 04:11:37 2020
+Inavlid block 0xe0b06c6cff5b5bad
+Inavlid block 0xc875f47549923f2a
+Block received:0xc5018d9c5fceafa0 Timestamp:Tue Dec  8 04:11:38 2020
+Block received:0x31cb82f565b568fc Timestamp:Tue Dec  8 04:11:38 2020
+Block received:0x86958fc4c277cc69 Timestamp:Tue Dec  8 04:11:38 2020
+Block received:0xdb418db6ad6791e8 Timestamp:Tue Dec  8 04:11:38 2020
+Block header 0xc5018d9c5fceafa0 validated Timestamp:Tue Dec  8 04:11:38 2020
+Block is part of the longest chain
+Inavlid block 0x31cb82f565b568fc
+Inavlid block 0x86958fc4c277cc69
+Inavlid block 0xdb418db6ad6791e8
+Block received:0x710f9c0cad279144 Timestamp:Tue Dec  8 04:11:38 2020
+Inavlid block 0x710f9c0cad279144
+Mined block: 0xab16a4725fceafa2 Timestamp:Tue Dec  8 04:11:38 2020
+Block received:0xdf410c942d8f2b05 Timestamp:Tue Dec  8 04:11:39 2020
+Inavlid block 0xdf410c942d8f2b05
+Block received:0x6c93c71d5a45df0 Timestamp:Tue Dec  8 04:11:41 2020
+Inavlid block 0x6c93c71d5a45df0
+Block received:0xc07534aaa12d6e27 Timestamp:Tue Dec  8 04:11:42 2020
+Inavlid block 0xc07534aaa12d6e27
+Block received:0xa450a2d665057b17 Timestamp:Tue Dec  8 04:11:42 2020
+Inavlid block 0xa450a2d665057b17
+Block received:0x36871d98e5d60ea7 Timestamp:Tue Dec  8 04:11:43 2020
+Inavlid block 0x36871d98e5d60ea7
+Block received:0x385c6cb0edb4d385 Timestamp:Tue Dec  8 04:11:43 2020
+Inavlid block 0x385c6cb0edb4d385
+Block received:0x62bedf40b027253c Timestamp:Tue Dec  8 04:11:44 2020
+Inavlid block 0x62bedf40b027253c
+Block received:0x51cea13323fe12a9 Timestamp:Tue Dec  8 04:11:44 2020
+Inavlid block 0x51cea13323fe12a9
+Block received:0x819bb09b5fceafa7 Timestamp:Tue Dec  8 04:11:44 2020
+Block header 0x819bb09b5fceafa7 validated Timestamp:Tue Dec  8 04:11:44 2020
+Block is part of the longest chain
+Block received:0xe30171fc2c2c659f Timestamp:Tue Dec  8 04:11:45 2020
+Inavlid block 0xe30171fc2c2c659f
+Block received:0x8e5822ae13def965 Timestamp:Tue Dec  8 04:11:45 2020
+Inavlid block 0x8e5822ae13def965
+Block received:0x60ab1ba9a01292be Timestamp:Tue Dec  8 04:11:47 2020
+Block received:0x439e4d2e29475e9d Timestamp:Tue Dec  8 04:11:47 2020
+Inavlid block 0x60ab1ba9a01292be
+Inavlid block 0x439e4d2e29475e9d
+Block received:0x55631ad9cd943edd Timestamp:Tue Dec  8 04:11:48 2020
+Block received:0x20eb4c70569cc112 Timestamp:Tue Dec  8 04:11:48 2020
+Block received:0x1b9729583ebbf2b8 Timestamp:Tue Dec  8 04:11:48 2020
+Inavlid block 0x55631ad9cd943edd
+Inavlid block 0x20eb4c70569cc112
+Inavlid block 0x1b9729583ebbf2b8
+Block received:0x3426e1d0483ce306 Timestamp:Tue Dec  8 04:11:48 2020
+Inavlid block 0x3426e1d0483ce306
+Block received:0xa6557691eddc5d81 Timestamp:Tue Dec  8 04:11:49 2020
+Inavlid block 0xa6557691eddc5d81
+Block received:0xd5f7297b9885d88f Timestamp:Tue Dec  8 04:11:49 2020
+Inavlid block 0xd5f7297b9885d88f
+Block received:0x9b5703bb8273aba1 Timestamp:Tue Dec  8 04:11:51 2020
+Inavlid block 0x9b5703bb8273aba1
+Block received:0x2a68f54144eecf0b Timestamp:Tue Dec  8 04:11:51 2020
+Inavlid block 0x2a68f54144eecf0b
+Block received:0xcc1e9eeb0ddcd674 Timestamp:Tue Dec  8 04:11:52 2020
+Inavlid block 0xcc1e9eeb0ddcd674
+Block received:0x9d02ad359cd2f135 Timestamp:Tue Dec  8 04:11:52 2020
+Inavlid block 0x9d02ad359cd2f135
+Block received:0x17efaa50e9ff0976 Timestamp:Tue Dec  8 04:11:53 2020
+Inavlid block 0x17efaa50e9ff0976
+Block received:0x27b490a0fd664dcf Timestamp:Tue Dec  8 04:11:53 2020
+Inavlid block 0x27b490a0fd664dcf
+Block received:0x27977f8c4d30fb88 Timestamp:Tue Dec  8 04:11:54 2020
+Inavlid block 0x27977f8c4d30fb88
+Block received:0xf8b57933f1ca94ac Timestamp:Tue Dec  8 04:11:54 2020
+Inavlid block 0xf8b57933f1ca94ac
+Block received:0x61fcff88f77dea97 Timestamp:Tue Dec  8 04:11:55 2020
+Inavlid block 0x61fcff88f77dea97
+Block received:0xf37c8905a2c483ee Timestamp:Tue Dec  8 04:11:55 2020
+Inavlid block 0xf37c8905a2c483ee
+Block received:0x96df5f5e3385a7c1 Timestamp:Tue Dec  8 04:11:57 2020
+Block received:0x20292a57ec3f7ed4 Timestamp:Tue Dec  8 04:11:57 2020
+Inavlid block 0x96df5f5e3385a7c1
+Inavlid block 0x20292a57ec3f7ed4
+Block received:0xe340f6163689daf5 Timestamp:Tue Dec  8 04:11:58 2020
+Block received:0xfdd099bf619d7f29 Timestamp:Tue Dec  8 04:11:58 2020
+Block received:0xe432e44b02f5d47b Timestamp:Tue Dec  8 04:11:58 2020
+Inavlid block 0xe340f6163689daf5
+Inavlid block 0xfdd099bf619d7f29
+Inavlid block 0xe432e44b02f5d47b
+Block received:0x2b9db11b6e28dcf7 Timestamp:Tue Dec  8 04:11:58 2020
+Inavlid block 0x2b9db11b6e28dcf7
+Block received:0xdd6051f5632dca3f Timestamp:Tue Dec  8 04:11:59 2020
+Inavlid block 0xdd6051f5632dca3f
+Block received:0x237eb22245db6187 Timestamp:Tue Dec  8 04:12:01 2020
+Inavlid block 0x237eb22245db6187
+Block received:0xa1547e174205f63a Timestamp:Tue Dec  8 04:12:01 2020
+Inavlid block 0xa1547e174205f63a
+Block received:0xc26b0c345fceafb8 Timestamp:Tue Dec  8 04:12:01 2020
+Block header 0xc26b0c345fceafb8 validated Timestamp:Tue Dec  8 04:12:01 2020
+Block is part of the longest chain
+Block received:0xc56c45e5fceafb9 Timestamp:Tue Dec  8 04:12:02 2020
+Block header 0xc56c45e5fceafb9 validated Timestamp:Tue Dec  8 04:12:02 2020
+Block is part of the longest chain
+Block received:0x4c369c1980d0ed82 Timestamp:Tue Dec  8 04:12:02 2020
+Inavlid block 0x4c369c1980d0ed82
+Block received:0xcf676f2915c476e7 Timestamp:Tue Dec  8 04:12:02 2020
+Inavlid block 0xcf676f2915c476e7
+Block received:0x9eb5fcd5b888ecf0 Timestamp:Tue Dec  8 04:12:03 2020
+Inavlid block 0x9eb5fcd5b888ecf0
+Block received:0xa1e67f439ea87090 Timestamp:Tue Dec  8 04:12:03 2020
+Inavlid block 0xa1e67f439ea87090
+Block received:0x6826c56466c0c44a Timestamp:Tue Dec  8 04:12:04 2020
+Inavlid block 0x6826c56466c0c44a
+Block received:0x4248610612f0b35c Timestamp:Tue Dec  8 04:12:04 2020
+Inavlid block 0x4248610612f0b35c
+Block received:0xc0dabc1ff746644f Timestamp:Tue Dec  8 04:12:05 2020
+Inavlid block 0xc0dabc1ff746644f
+Block received:0xef6053615fceafbc Timestamp:Tue Dec  8 04:12:05 2020
+Block header 0xef6053615fceafbc validated Timestamp:Tue Dec  8 04:12:05 2020
+Block is part of the longest chain
+Block received:0x4e210bb897ed0bde Timestamp:Tue Dec  8 04:12:07 2020
+Block received:0x9a543d694a65c7b1 Timestamp:Tue Dec  8 04:12:07 2020
+Inavlid block 0x4e210bb897ed0bde
+Inavlid block 0x9a543d694a65c7b1
+Block received:0xa6eedc10afe55185 Timestamp:Tue Dec  8 04:12:08 2020
+Block received:0x689e086455c052d0 Timestamp:Tue Dec  8 04:12:08 2020
+Block received:0xb8512d775fceafbe Timestamp:Tue Dec  8 04:12:08 2020
+Block received:0x720b22bf53653f92 Timestamp:Tue Dec  8 04:12:08 2020
+Block received:0x7379f7b0d65d98c5 Timestamp:Tue Dec  8 04:12:08 2020
+Inavlid block 0xa6eedc10afe55185
+Inavlid block 0x689e086455c052d0
+Block header 0xb8512d775fceafbe validated Timestamp:Tue Dec  8 04:12:08 2020
+Block is part of the longest chain
+Inavlid block 0x720b22bf53653f92
+Inavlid block 0x7379f7b0d65d98c5
+Block received:0x324e9cda63cdedcf Timestamp:Tue Dec  8 04:12:08 2020
+Inavlid block 0x324e9cda63cdedcf
+Block received:0x8815ca265fceafbf Timestamp:Tue Dec  8 04:12:08 2020
+Block header 0x8815ca265fceafbf validated Timestamp:Tue Dec  8 04:12:08 2020
+Block is part of the longest chain
+Block received:0xc7fe420326f952a2 Timestamp:Tue Dec  8 04:12:09 2020
+Inavlid block 0xc7fe420326f952a2
+Block received:0xa6840a39b9aa382f Timestamp:Tue Dec  8 04:12:11 2020
+Inavlid block 0xa6840a39b9aa382f
+Block received:0x3b2a7a6d8e01f863 Timestamp:Tue Dec  8 04:12:11 2020
+Inavlid block 0x3b2a7a6d8e01f863
+Block received:0x264a6e99c15460f5 Timestamp:Tue Dec  8 04:12:12 2020
+Inavlid block 0x264a6e99c15460f5
+Block received:0x1daa9ebf1bf220f Timestamp:Tue Dec  8 04:12:12 2020
+Inavlid block 0x1daa9ebf1bf220f
+Block received:0xfda70a29280517f9 Timestamp:Tue Dec  8 04:12:13 2020
+Inavlid block 0xfda70a29280517f9
+Block received:0xdb407fdf5024e2a7 Timestamp:Tue Dec  8 04:12:13 2020
+Inavlid block 0xdb407fdf5024e2a7
+Block received:0xff46550fd0397179 Timestamp:Tue Dec  8 04:12:14 2020
+Inavlid block 0xff46550fd0397179
+Block received:0x567f735c56c3b9ea Timestamp:Tue Dec  8 04:12:14 2020
+Inavlid block 0x567f735c56c3b9ea
+Block received:0x68c8727f42826a85 Timestamp:Tue Dec  8 04:12:15 2020
+Inavlid block 0x68c8727f42826a85
+Block received:0xa5d9ba145fceafc6 Timestamp:Tue Dec  8 04:12:17 2020
+Block received:0x4428ec7f6d189bf Timestamp:Tue Dec  8 04:12:17 2020
+Block received:0x23bd64f2c64154d3 Timestamp:Tue Dec  8 04:12:17 2020
+Block header 0xa5d9ba145fceafc6 validated Timestamp:Tue Dec  8 04:12:17 2020
+Block is part of the longest chain
+Inavlid block 0x4428ec7f6d189bf
+Inavlid block 0x23bd64f2c64154d3
+Block received:0xe6eb6f9c3d5e430 Timestamp:Tue Dec  8 04:12:18 2020
+Block received:0xb77d8c0a3771ac1 Timestamp:Tue Dec  8 04:12:18 2020
+Block received:0x5928b30bac3cc06d Timestamp:Tue Dec  8 04:12:18 2020
+Block received:0x67f2e536640e2e5f Timestamp:Tue Dec  8 04:12:18 2020
+Inavlid block 0xe6eb6f9c3d5e430
+Inavlid block 0xb77d8c0a3771ac1
+Inavlid block 0x5928b30bac3cc06d
+Inavlid block 0x67f2e536640e2e5f
+Block received:0xaa340858540198e6 Timestamp:Tue Dec  8 04:12:18 2020
+Inavlid block 0xaa340858540198e6
+Block received:0x9309798b32d67102 Timestamp:Tue Dec  8 04:12:19 2020
+Inavlid block 0x9309798b32d67102
+Block received:0xfd406705b69ec833 Timestamp:Tue Dec  8 04:12:21 2020
+Inavlid block 0xfd406705b69ec833
+Block received:0xda51c92e4c1e7843 Timestamp:Tue Dec  8 04:12:21 2020
+Inavlid block 0xda51c92e4c1e7843
+Block received:0x9c0ee221e7b013c1 Timestamp:Tue Dec  8 04:12:22 2020
+Inavlid block 0x9c0ee221e7b013c1
+Block received:0x572335e541d5379f Timestamp:Tue Dec  8 04:12:22 2020
+Inavlid block 0x572335e541d5379f
+Block received:0xe12aaeb808e556a1 Timestamp:Tue Dec  8 04:12:23 2020
+Inavlid block 0xe12aaeb808e556a1
+Block received:0x8bc327bbaffdeeba Timestamp:Tue Dec  8 04:12:23 2020
+Inavlid block 0x8bc327bbaffdeeba
+Block received:0x4522b8774dc9bbb4 Timestamp:Tue Dec  8 04:12:24 2020
+Inavlid block 0x4522b8774dc9bbb4
+Block received:0x109f7c6f9b78ed6d Timestamp:Tue Dec  8 04:12:24 2020
+Inavlid block 0x109f7c6f9b78ed6d
+Block received:0x25d5f6955fceafcf Timestamp:Tue Dec  8 04:12:24 2020
+Block header 0x25d5f6955fceafcf validated Timestamp:Tue Dec  8 04:12:24 2020
+Block is part of the longest chain
+Block received:0xe9cda3b312bc52bd Timestamp:Tue Dec  8 04:12:25 2020
+Inavlid block 0xe9cda3b312bc52bd
+Block received:0xa665b604e09719cb Timestamp:Tue Dec  8 04:12:25 2020
+Inavlid block 0xa665b604e09719cb
+Block received:0xc9510873b7c198ed Timestamp:Tue Dec  8 04:12:27 2020
+Block received:0xa014e4e6a6bcedc Timestamp:Tue Dec  8 04:12:27 2020
+Inavlid block 0xc9510873b7c198ed
+Inavlid block 0xa014e4e6a6bcedc
+Block received:0x1c4b90d64c17eb3b Timestamp:Tue Dec  8 04:12:28 2020
+Block received:0xe5c213fee68a6f1 Timestamp:Tue Dec  8 04:12:28 2020
+Block received:0xab4b06e56e04f5c3 Timestamp:Tue Dec  8 04:12:28 2020
+Inavlid block 0x1c4b90d64c17eb3b
+Inavlid block 0xe5c213fee68a6f1
+Inavlid block 0xab4b06e56e04f5c3
+Block received:0xa4a2f6265b301a5a Timestamp:Tue Dec  8 04:12:28 2020
+Inavlid block 0xa4a2f6265b301a5a
+Block received:0x3332589258e42174 Timestamp:Tue Dec  8 04:12:29 2020
+Inavlid block 0x3332589258e42174
+Mined block: 0x7a3bd2825fceafd7 Timestamp:Tue Dec  8 04:12:31 2020
+Block received:0xb4a9f788118c4050 Timestamp:Tue Dec  8 04:12:31 2020
+Inavlid block 0xb4a9f788118c4050
+Block received:0x80a1d7cf4e80586b Timestamp:Tue Dec  8 04:12:31 2020
+Inavlid block 0x80a1d7cf4e80586b
+Block received:0x88afd51ec8950013 Timestamp:Tue Dec  8 04:12:32 2020
+Inavlid block 0x88afd51ec8950013
+Block received:0x2e6d05d9f83f62ec Timestamp:Tue Dec  8 04:12:32 2020
+Inavlid block 0x2e6d05d9f83f62ec
+Block received:0x3fcf06f93924d4dd Timestamp:Tue Dec  8 04:12:33 2020
+Inavlid block 0x3fcf06f93924d4dd
+Block received:0x1342bc7329b08d51 Timestamp:Tue Dec  8 04:12:33 2020
+Inavlid block 0x1342bc7329b08d51
+Block received:0x8dda92691c890cc6 Timestamp:Tue Dec  8 04:12:34 2020
+Inavlid block 0x8dda92691c890cc6
+Block received:0x6192cf4befc33e1f Timestamp:Tue Dec  8 04:12:34 2020
+Inavlid block 0x6192cf4befc33e1f
+Block received:0xf9f7800c45bbb352 Timestamp:Tue Dec  8 04:12:35 2020
+Inavlid block 0xf9f7800c45bbb352
+Block received:0x5021ed73c97c289d Timestamp:Tue Dec  8 04:12:35 2020
+Inavlid block 0x5021ed73c97c289d
+Block received:0x69b5e95eb2740195 Timestamp:Tue Dec  8 04:12:37 2020
+Block received:0xc834800279a019d7 Timestamp:Tue Dec  8 04:12:37 2020
+Inavlid block 0x69b5e95eb2740195
+Inavlid block 0xc834800279a019d7
+Block received:0x8349fb525fceafdb Timestamp:Tue Dec  8 04:12:38 2020
+Block received:0x9b2e47ae8931a846 Timestamp:Tue Dec  8 04:12:38 2020
+Block received:0xcd37b9d012f1e496 Timestamp:Tue Dec  8 04:12:38 2020
+Block received:0x2ed62e3af24ac398 Timestamp:Tue Dec  8 04:12:38 2020
+Block received:0x8349eac45fceafdd Timestamp:Tue Dec  8 04:12:38 2020
+Block header 0x8349fb525fceafdb validated Timestamp:Tue Dec  8 04:12:38 2020
+Block is part of the longest chain
+Inavlid block 0x9b2e47ae8931a846
+Inavlid block 0xcd37b9d012f1e496
+Inavlid block 0x2ed62e3af24ac398
+Block header 0x8349eac45fceafdd validated Timestamp:Tue Dec  8 04:12:38 2020
+Block received:0xb47003da1d6fc22a Timestamp:Tue Dec  8 04:12:38 2020
+Inavlid block 0xb47003da1d6fc22a
+Block received:0x299f1581dcf2f721 Timestamp:Tue Dec  8 04:12:39 2020
+Inavlid block 0x299f1581dcf2f721
+Block received:0xee52e67c8f27b033 Timestamp:Tue Dec  8 04:12:41 2020
+Inavlid block 0xee52e67c8f27b033
+Block received:0x32f913bb78185a9c Timestamp:Tue Dec  8 04:12:42 2020
+Inavlid block 0x32f913bb78185a9c
+Block received:0x736118935fceafe1 Timestamp:Tue Dec  8 04:12:42 2020
+Block header 0x736118935fceafe1 validated Timestamp:Tue Dec  8 04:12:42 2020
+Block is part of the longest chain
+Block received:0x14ed57707a5d8f87 Timestamp:Tue Dec  8 04:12:42 2020
+Inavlid block 0x14ed57707a5d8f87
+Block received:0x50974e4b7bd0de09 Timestamp:Tue Dec  8 04:12:43 2020
+Inavlid block 0x50974e4b7bd0de09
+Block received:0x6fc614ad163699b2 Timestamp:Tue Dec  8 04:12:43 2020
+Inavlid block 0x6fc614ad163699b2
+Block received:0xf78aff90522e8b73 Timestamp:Tue Dec  8 04:12:44 2020
+Inavlid block 0xf78aff90522e8b73
+Block received:0xa1cde045530f3ac2 Timestamp:Tue Dec  8 04:12:44 2020
+Inavlid block 0xa1cde045530f3ac2
+Block received:0x48e847768ded3144 Timestamp:Tue Dec  8 04:12:45 2020
+Inavlid block 0x48e847768ded3144
+Block received:0xd0f154db44abbe02 Timestamp:Tue Dec  8 04:12:45 2020
+Inavlid block 0xd0f154db44abbe02
+Block received:0x7c7450bca6b6156d Timestamp:Tue Dec  8 04:12:47 2020
+Block received:0x477369cd3b55239c Timestamp:Tue Dec  8 04:12:47 2020
+Inavlid block 0x7c7450bca6b6156d
+Inavlid block 0x477369cd3b55239c
+Block received:0xbd426475ad9aba2 Timestamp:Tue Dec  8 04:12:48 2020
+Block received:0x272608225fceafe6 Timestamp:Tue Dec  8 04:12:48 2020
+Block received:0x681825e180e3b5db Timestamp:Tue Dec  8 04:12:48 2020
+Block received:0xa4292b557ca02d74 Timestamp:Tue Dec  8 04:12:48 2020
+Inavlid block 0xbd426475ad9aba2
+Block header 0x272608225fceafe6 validated Timestamp:Tue Dec  8 04:12:48 2020
+Block is part of the longest chain
+Inavlid block 0x681825e180e3b5db
+Inavlid block 0xa4292b557ca02d74
+Block received:0x99180955e1df2850 Timestamp:Tue Dec  8 04:12:48 2020
+Inavlid block 0x99180955e1df2850
+Block received:0x1d4b09b5fceafe7 Timestamp:Tue Dec  8 04:12:48 2020
+Block header 0x1d4b09b5fceafe7 validated Timestamp:Tue Dec  8 04:12:48 2020
+Block is part of the longest chain
+Block received:0x338e7fefe8082d91 Timestamp:Tue Dec  8 04:12:49 2020
+Inavlid block 0x338e7fefe8082d91
+Block received:0x75a06600bc7f5525 Timestamp:Tue Dec  8 04:12:49 2020
+Inavlid block 0x75a06600bc7f5525
+Block received:0xfb93263cd5a845f8 Timestamp:Tue Dec  8 04:12:51 2020
+Inavlid block 0xfb93263cd5a845f8
+Block received:0xcfddb2c7ad14184e Timestamp:Tue Dec  8 04:12:51 2020
+Inavlid block 0xcfddb2c7ad14184e
+Block received:0x1c30320658668bf8 Timestamp:Tue Dec  8 04:12:52 2020
+Inavlid block 0x1c30320658668bf8
+Block received:0x211fe2f99206f8ed Timestamp:Tue Dec  8 04:12:52 2020
+Inavlid block 0x211fe2f99206f8ed
+Block received:0x3d091508973edcec Timestamp:Tue Dec  8 04:12:53 2020
+Inavlid block 0x3d091508973edcec
+Block received:0xb7ed52e6c0fa5e84 Timestamp:Tue Dec  8 04:12:53 2020
+Inavlid block 0xb7ed52e6c0fa5e84
+Block received:0x64d31d6464673cab Timestamp:Tue Dec  8 04:12:54 2020
+Inavlid block 0x64d31d6464673cab
+Block received:0xc5cbd384755b9c09 Timestamp:Tue Dec  8 04:12:54 2020
+Inavlid block 0xc5cbd384755b9c09
+Block received:0xf5d629d413abbaa0 Timestamp:Tue Dec  8 04:12:55 2020
+Inavlid block 0xf5d629d413abbaa0
+Block received:0xaea42d4263468f17 Timestamp:Tue Dec  8 04:12:55 2020
+Inavlid block 0xaea42d4263468f17
+Block received:0xfc47f4d40084007a Timestamp:Tue Dec  8 04:12:57 2020
+Block received:0x5ff40a245fceafef Timestamp:Tue Dec  8 04:12:57 2020
+Block received:0x4fc4e785fceafef Timestamp:Tue Dec  8 04:12:57 2020
+Block received:0xfcd9bdf4b69449ca Timestamp:Tue Dec  8 04:12:57 2020
+Inavlid block 0xfc47f4d40084007a
+Block header 0x5ff40a245fceafef validated Timestamp:Tue Dec  8 04:12:57 2020
+Block is part of the longest chain
+Block header 0x4fc4e785fceafef validated Timestamp:Tue Dec  8 04:12:57 2020
+Block is part of the longest chain
+Inavlid block 0xfcd9bdf4b69449ca
+Block received:0x8fd3d6fa6919a984 Timestamp:Tue Dec  8 04:12:58 2020
+Block received:0xa70341ace49ea7b5 Timestamp:Tue Dec  8 04:12:58 2020
+Block received:0x1ca81f835989f8e1 Timestamp:Tue Dec  8 04:12:58 2020
+Block received:0x8c68290a950e96c Timestamp:Tue Dec  8 04:12:58 2020
+Inavlid block 0x8fd3d6fa6919a984
+Inavlid block 0xa70341ace49ea7b5
+Inavlid block 0x1ca81f835989f8e1
+Inavlid block 0x8c68290a950e96c
+Block received:0x7887bbc45fceaff2 Timestamp:Tue Dec  8 04:12:59 2020
+Block header 0x7887bbc45fceaff2 validated Timestamp:Tue Dec  8 04:12:59 2020
+Block is part of the longest chain
+Block received:0xe9e345e8c9ccdeab Timestamp:Tue Dec  8 04:12:59 2020
+Inavlid block 0xe9e345e8c9ccdeab
+Block received:0xf5217794716230ec Timestamp:Tue Dec  8 04:12:59 2020
+Inavlid block 0xf5217794716230ec
+Block received:0x412765241f3a9981 Timestamp:Tue Dec  8 04:13:00 2020
+Inavlid block 0x412765241f3a9981
+Block received:0x163848ee83f8e946 Timestamp:Tue Dec  8 04:13:01 2020
+Inavlid block 0x163848ee83f8e946
+Block received:0x58f25c364b72ec1c Timestamp:Tue Dec  8 04:13:01 2020
+Inavlid block 0x58f25c364b72ec1c
+Block received:0x5ed742d2d3b82cc6 Timestamp:Tue Dec  8 04:13:02 2020
+Inavlid block 0x5ed742d2d3b82cc6
+Block received:0x623a84e6a7cd127d Timestamp:Tue Dec  8 04:13:02 2020
+Inavlid block 0x623a84e6a7cd127d
+Block received:0x3d288ec11b84603e Timestamp:Tue Dec  8 04:13:03 2020
+Inavlid block 0x3d288ec11b84603e
+Block received:0xb8435c8b7ef477f Timestamp:Tue Dec  8 04:13:03 2020
+Inavlid block 0xb8435c8b7ef477f
+Block received:0x360539a01c0f9005 Timestamp:Tue Dec  8 04:13:04 2020
+Inavlid block 0x360539a01c0f9005
+Block received:0x42f20235b8239f88 Timestamp:Tue Dec  8 04:13:04 2020
+Inavlid block 0x42f20235b8239f88
+Block received:0xd42b3dda5fceaff8 Timestamp:Tue Dec  8 04:13:05 2020
+Block header 0xd42b3dda5fceaff8 validated Timestamp:Tue Dec  8 04:13:05 2020
+Block is part of the longest chain
+Block received:0x7e08dfc9a2fccbac Timestamp:Tue Dec  8 04:13:05 2020
+Inavlid block 0x7e08dfc9a2fccbac
+Block received:0xc88bc4fc14dfe553 Timestamp:Tue Dec  8 04:13:07 2020
+Block received:0xac1d18415021a173 Timestamp:Tue Dec  8 04:13:07 2020
+Block received:0xd42bf59b5fceaff9 Timestamp:Tue Dec  8 04:13:07 2020
+Inavlid block 0xc88bc4fc14dfe553
+Inavlid block 0xac1d18415021a173
+Block header 0xd42bf59b5fceaff9 validated Timestamp:Tue Dec  8 04:13:07 2020
+Block received:0x35a8b28b9007b2d0 Timestamp:Tue Dec  8 04:13:08 2020
+Block received:0x3dd440cbea1afc5d Timestamp:Tue Dec  8 04:13:08 2020
+Block received:0xb6c94d2c9b6bf4b5 Timestamp:Tue Dec  8 04:13:08 2020
+Block received:0x67a72fb07d58b411 Timestamp:Tue Dec  8 04:13:08 2020
+Inavlid block 0x35a8b28b9007b2d0
+Inavlid block 0x3dd440cbea1afc5d
+Inavlid block 0xb6c94d2c9b6bf4b5
+Inavlid block 0x67a72fb07d58b411
+Block received:0xa9dbd64b66dbf831 Timestamp:Tue Dec  8 04:13:08 2020
+Inavlid block 0xa9dbd64b66dbf831
+Block received:0x938ae938d436373d Timestamp:Tue Dec  8 04:13:09 2020
+Inavlid block 0x938ae938d436373d
+Block received:0x9102b53c51e5fb07 Timestamp:Tue Dec  8 04:13:11 2020
+Inavlid block 0x9102b53c51e5fb07
+Block received:0xe9d10f9a5fceaffe Timestamp:Tue Dec  8 04:13:11 2020
+Block header 0xe9d10f9a5fceaffe validated Timestamp:Tue Dec  8 04:13:11 2020
+Block is part of the longest chain
+Block received:0x6a4c00cffe8cdbe6 Timestamp:Tue Dec  8 04:13:12 2020
+Inavlid block 0x6a4c00cffe8cdbe6
+Block received:0x2665cdbc22b320a1 Timestamp:Tue Dec  8 04:13:12 2020
+Inavlid block 0x2665cdbc22b320a1
+Block received:0x2ffb76eb179f367d Timestamp:Tue Dec  8 04:13:13 2020
+Inavlid block 0x2ffb76eb179f367d
+Block received:0x626715058aaff637 Timestamp:Tue Dec  8 04:13:13 2020
+Inavlid block 0x626715058aaff637
+Block received:0xe5cd008f552c085c Timestamp:Tue Dec  8 04:13:14 2020
+Inavlid block 0xe5cd008f552c085c
+Block received:0xd86ae3315fceb001 Timestamp:Tue Dec  8 04:13:14 2020
+Block header 0xd86ae3315fceb001 validated Timestamp:Tue Dec  8 04:13:14 2020
+Block is part of the longest chain
+Block received:0xca55243e4f7c2fb9 Timestamp:Tue Dec  8 04:13:14 2020
+Inavlid block 0xca55243e4f7c2fb9
+Block received:0x7b675f7a08bd75bb Timestamp:Tue Dec  8 04:13:15 2020
+Inavlid block 0x7b675f7a08bd75bb
+Block received:0x352d73506727e387 Timestamp:Tue Dec  8 04:13:15 2020
+Inavlid block 0x352d73506727e387
+Block received:0x476396778922600c Timestamp:Tue Dec  8 04:13:17 2020
+Block received:0xda5c52e29b5ca83e Timestamp:Tue Dec  8 04:13:17 2020
+Inavlid block 0x476396778922600c
+Inavlid block 0xda5c52e29b5ca83e
+Block received:0xb1743987001f236e Timestamp:Tue Dec  8 04:13:18 2020
+Block received:0x965807702610b708 Timestamp:Tue Dec  8 04:13:18 2020
+Block received:0x8f84657d19ca706b Timestamp:Tue Dec  8 04:13:18 2020
+Inavlid block 0xb1743987001f236e
+Inavlid block 0x965807702610b708
+Inavlid block 0x8f84657d19ca706b
+Block received:0xb200b7458aa92457 Timestamp:Tue Dec  8 04:13:18 2020
+Inavlid block 0xb200b7458aa92457
+Block received:0x511e170069996cfd Timestamp:Tue Dec  8 04:13:19 2020
+Inavlid block 0x511e170069996cfd
+Block received:0x77f0fe381edce1e9 Timestamp:Tue Dec  8 04:13:19 2020
+Inavlid block 0x77f0fe381edce1e9
+Block received:0xe851ed42888de6c0 Timestamp:Tue Dec  8 04:13:21 2020
+Inavlid block 0xe851ed42888de6c0
+Block received:0x7fa35d9b5dbb2393 Timestamp:Tue Dec  8 04:13:21 2020
+Inavlid block 0x7fa35d9b5dbb2393
+Block received:0x1299b01f1ef1838c Timestamp:Tue Dec  8 04:13:22 2020
+Inavlid block 0x1299b01f1ef1838c
+Block received:0x3b453a42c08616ab Timestamp:Tue Dec  8 04:13:22 2020
+Inavlid block 0x3b453a42c08616ab
+Block received:0xe0a4658416138590 Timestamp:Tue Dec  8 04:13:23 2020
+Inavlid block 0xe0a4658416138590
+Block received:0x50df24d4ffb7fe85 Timestamp:Tue Dec  8 04:13:23 2020
+Inavlid block 0x50df24d4ffb7fe85
+Block received:0xb8f88b213241071e Timestamp:Tue Dec  8 04:13:24 2020
+Inavlid block 0xb8f88b213241071e
+Block received:0x4f4ae9d4b63374a2 Timestamp:Tue Dec  8 04:13:24 2020
+Inavlid block 0x4f4ae9d4b63374a2
+Block received:0xeea12bf1123415a Timestamp:Tue Dec  8 04:13:25 2020
+Inavlid block 0xeea12bf1123415a
+Block received:0x1ff9b74dcbee87b6 Timestamp:Tue Dec  8 04:13:27 2020
+Block received:0x92579fdef7864ccc Timestamp:Tue Dec  8 04:13:27 2020
+Inavlid block 0x1ff9b74dcbee87b6
+Inavlid block 0x92579fdef7864ccc
+Block received:0x3d7b6a2391d76c72 Timestamp:Tue Dec  8 04:13:28 2020
+Block received:0x9e2cf736a9a7b2dc Timestamp:Tue Dec  8 04:13:28 2020
+Block received:0x55a80ead802569bb Timestamp:Tue Dec  8 04:13:28 2020
+Inavlid block 0x3d7b6a2391d76c72
+Inavlid block 0x9e2cf736a9a7b2dc
+Inavlid block 0x55a80ead802569bb
+Block received:0x1bab81243cd42775 Timestamp:Tue Dec  8 04:13:28 2020
+Inavlid block 0x1bab81243cd42775
+Block received:0x8f8f93a5303c40ea Timestamp:Tue Dec  8 04:13:28 2020
+Inavlid block 0x8f8f93a5303c40ea
+Block received:0x11b739d5fceb010 Timestamp:Tue Dec  8 04:13:29 2020
+Block header 0x11b739d5fceb010 validated Timestamp:Tue Dec  8 04:13:29 2020
+Block is part of the longest chain
+Block received:0x6f9d17b0aeef71b8 Timestamp:Tue Dec  8 04:13:29 2020
+Inavlid block 0x6f9d17b0aeef71b8
+Block received:0x867c8218880dde1d Timestamp:Tue Dec  8 04:13:31 2020
+Inavlid block 0x867c8218880dde1d
+Block received:0x470ffd5f6b144195 Timestamp:Tue Dec  8 04:13:31 2020
+Inavlid block 0x470ffd5f6b144195
+Block received:0x70dad6275fceb012 Timestamp:Tue Dec  8 04:13:31 2020
+Block header 0x70dad6275fceb012 validated Timestamp:Tue Dec  8 04:13:31 2020
+Block is part of the longest chain
+Block received:0xd1b3d7b9087fd477 Timestamp:Tue Dec  8 04:13:32 2020
+Inavlid block 0xd1b3d7b9087fd477
+Block received:0xe40889eb3fd9f95d Timestamp:Tue Dec  8 04:13:32 2020
+Inavlid block 0xe40889eb3fd9f95d
+Block received:0x1629dd492003cc7 Timestamp:Tue Dec  8 04:13:33 2020
+Inavlid block 0x1629dd492003cc7
+Block received:0xcfda3b67e9e6eb1b Timestamp:Tue Dec  8 04:13:33 2020
+Inavlid block 0xcfda3b67e9e6eb1b
+Block received:0x315626f6a7bac889 Timestamp:Tue Dec  8 04:13:34 2020
+Inavlid block 0x315626f6a7bac889
+Block received:0x2ddce6fae77ab20c Timestamp:Tue Dec  8 04:13:34 2020
+Inavlid block 0x2ddce6fae77ab20c
+Block received:0x356e6ddd4019da50 Timestamp:Tue Dec  8 04:13:35 2020
+Inavlid block 0x356e6ddd4019da50
+Block received:0xea3d334e4cf39e4e Timestamp:Tue Dec  8 04:13:37 2020
+Block received:0xf8e835a0a5fd8506 Timestamp:Tue Dec  8 04:13:37 2020
+Inavlid block 0xea3d334e4cf39e4e
+Inavlid block 0xf8e835a0a5fd8506
+Block received:0x62de23135fceb018 Timestamp:Tue Dec  8 04:13:38 2020
+Block received:0xc20f928c57831717 Timestamp:Tue Dec  8 04:13:38 2020
+Block received:0x192cdd2327dd4c67 Timestamp:Tue Dec  8 04:13:38 2020
+Block received:0x86dcd32781ca92e8 Timestamp:Tue Dec  8 04:13:38 2020
+Block received:0xd8311800621cd8aa Timestamp:Tue Dec  8 04:13:38 2020
+Block header 0x62de23135fceb018 validated Timestamp:Tue Dec  8 04:13:38 2020
+Block is part of the longest chain
+Inavlid block 0xc20f928c57831717
+Inavlid block 0x192cdd2327dd4c67
+Inavlid block 0x86dcd32781ca92e8
+Inavlid block 0xd8311800621cd8aa
+Block received:0x1d4e020fcff85b93 Timestamp:Tue Dec  8 04:13:38 2020
+Inavlid block 0x1d4e020fcff85b93
+Block received:0x409236f07fb623c Timestamp:Tue Dec  8 04:13:39 2020
+Inavlid block 0x409236f07fb623c
+Block received:0xbfa5d2df1d5c1643 Timestamp:Tue Dec  8 04:13:41 2020
+Inavlid block 0xbfa5d2df1d5c1643
+Block received:0x6cd8e4331d46d3b3 Timestamp:Tue Dec  8 04:13:41 2020
+Inavlid block 0x6cd8e4331d46d3b3
+Block received:0x33581cfe65e38a46 Timestamp:Tue Dec  8 04:13:42 2020
+Inavlid block 0x33581cfe65e38a46
+Block received:0xf930d336506f25e1 Timestamp:Tue Dec  8 04:13:42 2020
+Inavlid block 0xf930d336506f25e1
+Block received:0xc3f1adb4a266a08 Timestamp:Tue Dec  8 04:13:43 2020
+Inavlid block 0xc3f1adb4a266a08
+Block received:0x8ebda25038186e48 Timestamp:Tue Dec  8 04:13:43 2020
+Inavlid block 0x8ebda25038186e48
+Block received:0x34c83457235fdbdd Timestamp:Tue Dec  8 04:13:44 2020
+Inavlid block 0x34c83457235fdbdd
+Block received:0x3e490a3b933d7b50 Timestamp:Tue Dec  8 04:13:44 2020
+Inavlid block 0x3e490a3b933d7b50
+Block received:0x274034b6e4de1825 Timestamp:Tue Dec  8 04:13:45 2020
+Inavlid block 0x274034b6e4de1825
+Block received:0x2ed8ca09e295d328 Timestamp:Tue Dec  8 04:13:47 2020
+Block received:0xbd07b9295fceb021 Timestamp:Tue Dec  8 04:13:47 2020
+Block received:0xc88d3be063fd82d5 Timestamp:Tue Dec  8 04:13:47 2020
+Inavlid block 0x2ed8ca09e295d328
+Block header 0xbd07b9295fceb021 validated Timestamp:Tue Dec  8 04:13:47 2020
+Block is part of the longest chain
+Inavlid block 0xc88d3be063fd82d5
+Block received:0x123e449293daeb7c Timestamp:Tue Dec  8 04:13:48 2020
+Block received:0xeb1796eed9c6953f Timestamp:Tue Dec  8 04:13:48 2020
+Block received:0x18db4366a082a83e Timestamp:Tue Dec  8 04:13:48 2020
+Block received:0xe5da3233264cbd08 Timestamp:Tue Dec  8 04:13:48 2020
+Inavlid block 0x123e449293daeb7c
+Inavlid block 0xeb1796eed9c6953f
+Inavlid block 0x18db4366a082a83e
+Inavlid block 0xe5da3233264cbd08
+Block received:0x72e8667eda7d9a3 Timestamp:Tue Dec  8 04:13:48 2020
+Inavlid block 0x72e8667eda7d9a3
+Block received:0x524a3bf45fceb023 Timestamp:Tue Dec  8 04:13:48 2020
+Block header 0x524a3bf45fceb023 validated Timestamp:Tue Dec  8 04:13:48 2020
+Block is part of the longest chain
+Block received:0x8875f71eb457987a Timestamp:Tue Dec  8 04:13:49 2020
+Inavlid block 0x8875f71eb457987a
+Block received:0xdcd5d1ec5fc93c68 Timestamp:Tue Dec  8 04:13:51 2020
+Inavlid block 0xdcd5d1ec5fc93c68
+Block received:0x9548e0bd74332498 Timestamp:Tue Dec  8 04:13:52 2020
+Inavlid block 0x9548e0bd74332498
+Block received:0xd8cc1a965fceb027 Timestamp:Tue Dec  8 04:13:52 2020
+Block header 0xd8cc1a965fceb027 validated Timestamp:Tue Dec  8 04:13:52 2020
+Block is part of the longest chain
+Block received:0xa01f888b04eb5e2b Timestamp:Tue Dec  8 04:13:52 2020
+Inavlid block 0xa01f888b04eb5e2b
+Block received:0x82f323967dee15d Timestamp:Tue Dec  8 04:13:53 2020
+Inavlid block 0x82f323967dee15d
+Block received:0xc344c442b94d46d5 Timestamp:Tue Dec  8 04:13:53 2020
+Inavlid block 0xc344c442b94d46d5
+Block received:0x71163de454605df Timestamp:Tue Dec  8 04:13:54 2020
+Inavlid block 0x71163de454605df
+Block received:0xb7ee9c0969cf0fa2 Timestamp:Tue Dec  8 04:13:54 2020
+Inavlid block 0xb7ee9c0969cf0fa2
+Block received:0xbcb124526240685d Timestamp:Tue Dec  8 04:13:55 2020
+Inavlid block 0xbcb124526240685d
+Block received:0x10865281988ef909 Timestamp:Tue Dec  8 04:13:55 2020
+Inavlid block 0x10865281988ef909
+Block received:0x8e2fcbf7e622a30f Timestamp:Tue Dec  8 04:13:57 2020
+Block received:0x414429882a7c2a1d Timestamp:Tue Dec  8 04:13:57 2020
+Inavlid block 0x8e2fcbf7e622a30f
+Inavlid block 0x414429882a7c2a1d
+Block received:0xc8a4b39ee941de61 Timestamp:Tue Dec  8 04:13:58 2020
+Block received:0xdc0876e613b0f68f Timestamp:Tue Dec  8 04:13:58 2020
+Block received:0x6d655a9d71567038 Timestamp:Tue Dec  8 04:13:58 2020
+Inavlid block 0xc8a4b39ee941de61
+Inavlid block 0xdc0876e613b0f68f
+Inavlid block 0x6d655a9d71567038
+Block received:0x611f46251d5d6188 Timestamp:Tue Dec  8 04:13:58 2020
+Inavlid block 0x611f46251d5d6188
+Block received:0xb9b12c7a56518066 Timestamp:Tue Dec  8 04:13:59 2020
+Inavlid block 0xb9b12c7a56518066
+Block received:0xf0ae7d1937585bbd Timestamp:Tue Dec  8 04:14:01 2020
+Inavlid block 0xf0ae7d1937585bbd
+Block received:0xd400cf615fceb030 Timestamp:Tue Dec  8 04:14:01 2020
+Block header 0xd400cf615fceb030 validated Timestamp:Tue Dec  8 04:14:01 2020
+Block is part of the longest chain
+Block received:0xc8fa4cd1bac6e0c6 Timestamp:Tue Dec  8 04:14:02 2020
+Inavlid block 0xc8fa4cd1bac6e0c6
+Block received:0x9e53f51fdb500123 Timestamp:Tue Dec  8 04:14:02 2020
+Inavlid block 0x9e53f51fdb500123
+Block received:0x52af09bf5fceb031 Timestamp:Tue Dec  8 04:14:02 2020
+Block header 0x52af09bf5fceb031 validated Timestamp:Tue Dec  8 04:14:02 2020
+Block is part of the longest chain
+Block received:0x3382516d3175aaef Timestamp:Tue Dec  8 04:14:03 2020
+Inavlid block 0x3382516d3175aaef
+Block received:0xf40181415becc0d4 Timestamp:Tue Dec  8 04:14:03 2020
+Inavlid block 0xf40181415becc0d4
+Block received:0xda0ce910be8d51e8 Timestamp:Tue Dec  8 04:14:04 2020
+Inavlid block 0xda0ce910be8d51e8
+Block received:0x28e7669a833ea135 Timestamp:Tue Dec  8 04:14:04 2020
+Inavlid block 0x28e7669a833ea135
+Block received:0x8b8b40d32e7d4078 Timestamp:Tue Dec  8 04:14:05 2020
+Inavlid block 0x8b8b40d32e7d4078
+Block received:0x19660f9927d9d53d Timestamp:Tue Dec  8 04:14:05 2020
+Inavlid block 0x19660f9927d9d53d
+Block received:0xc5085fa416fb580c Timestamp:Tue Dec  8 04:14:07 2020
+Block received:0xa84abda3d3663b52 Timestamp:Tue Dec  8 04:14:07 2020
+Inavlid block 0xc5085fa416fb580c
+Inavlid block 0xa84abda3d3663b52
+Block received:0x7f6760f85fceb036 Timestamp:Tue Dec  8 04:14:08 2020
+Block received:0xb7d45a9c953f3ed0 Timestamp:Tue Dec  8 04:14:08 2020
+Block received:0x80cd95f98938f5f5 Timestamp:Tue Dec  8 04:14:08 2020
+Block received:0xcc748b49929fd2a Timestamp:Tue Dec  8 04:14:08 2020
+Block header 0x7f6760f85fceb036 validated Timestamp:Tue Dec  8 04:14:08 2020
+Block is part of the longest chain
+Inavlid block 0xb7d45a9c953f3ed0
+Inavlid block 0x80cd95f98938f5f5
+Inavlid block 0xcc748b49929fd2a
+Block received:0x985cabbe6f835fb5 Timestamp:Tue Dec  8 04:14:08 2020
+Inavlid block 0x985cabbe6f835fb5
+Block received:0xfcd8f1aa2fc1d3df Timestamp:Tue Dec  8 04:14:09 2020
+Inavlid block 0xfcd8f1aa2fc1d3df
+Block received:0xe23faea084bb9b1b Timestamp:Tue Dec  8 04:14:09 2020
+Inavlid block 0xe23faea084bb9b1b
+Block received:0x67318d4f7f8dea6a Timestamp:Tue Dec  8 04:14:11 2020
+Inavlid block 0x67318d4f7f8dea6a
+Block received:0x462d1e36e9f0d901 Timestamp:Tue Dec  8 04:14:11 2020
+Inavlid block 0x462d1e36e9f0d901
+Block received:0x5fc1a515510b2b37 Timestamp:Tue Dec  8 04:14:12 2020
+Inavlid block 0x5fc1a515510b2b37
+Block received:0xa6091b9f0d15411a Timestamp:Tue Dec  8 04:14:12 2020
+Inavlid block 0xa6091b9f0d15411a
+Block received:0xf8bf224d9067f781 Timestamp:Tue Dec  8 04:14:13 2020
+Inavlid block 0xf8bf224d9067f781
+Block received:0x8916b97028725279 Timestamp:Tue Dec  8 04:14:13 2020
+Inavlid block 0x8916b97028725279
+Block received:0xa818fb4821d9b7bd Timestamp:Tue Dec  8 04:14:14 2020
+Inavlid block 0xa818fb4821d9b7bd
+Block received:0x414fd69b5fceb03d Timestamp:Tue Dec  8 04:14:14 2020
+Block header 0x414fd69b5fceb03d validated Timestamp:Tue Dec  8 04:14:14 2020
+Block is part of the longest chain
+Block received:0xb3cb19cac8478f8 Timestamp:Tue Dec  8 04:14:14 2020
+Inavlid block 0xb3cb19cac8478f8
+Block received:0x7944d0991f163e8d Timestamp:Tue Dec  8 04:14:15 2020
+Inavlid block 0x7944d0991f163e8d
+Block received:0x9413ed78cd8d4a23 Timestamp:Tue Dec  8 04:14:17 2020
+Block received:0x24979291d07b9983 Timestamp:Tue Dec  8 04:14:17 2020
+Inavlid block 0x9413ed78cd8d4a23
+Inavlid block 0x24979291d07b9983
+Block received:0x91c12f4d5891b46b Timestamp:Tue Dec  8 04:14:18 2020
+Block received:0xccaf65c2fc453ec6 Timestamp:Tue Dec  8 04:14:18 2020
+Block received:0x98ebf34c3d699fe9 Timestamp:Tue Dec  8 04:14:18 2020
+Block received:0x94fb583e044d38fa Timestamp:Tue Dec  8 04:14:18 2020
+Inavlid block 0x91c12f4d5891b46b
+Inavlid block 0xccaf65c2fc453ec6
+Inavlid block 0x98ebf34c3d699fe9
+Inavlid block 0x94fb583e044d38fa
+Block received:0x61eba0a6004ff07 Timestamp:Tue Dec  8 04:14:18 2020
+Inavlid block 0x61eba0a6004ff07
+Block received:0x7e1f2e3173358061 Timestamp:Tue Dec  8 04:14:19 2020
+Inavlid block 0x7e1f2e3173358061
+Block received:0xac8a3eca5fceb043 Timestamp:Tue Dec  8 04:14:20 2020
+Block header 0xac8a3eca5fceb043 validated Timestamp:Tue Dec  8 04:14:20 2020
+Block is part of the longest chain
+Block received:0x1209549409f56baa Timestamp:Tue Dec  8 04:14:21 2020
+Inavlid block 0x1209549409f56baa
+Block received:0x4c623cd2b2ec065e Timestamp:Tue Dec  8 04:14:21 2020
+Inavlid block 0x4c623cd2b2ec065e
+Block received:0xd757943a7ee5de27 Timestamp:Tue Dec  8 04:14:22 2020
+Inavlid block 0xd757943a7ee5de27
+Block received:0x269a2a1681ea2026 Timestamp:Tue Dec  8 04:14:22 2020
+Inavlid block 0x269a2a1681ea2026
+Block received:0x6beb212cc245f8e2 Timestamp:Tue Dec  8 04:14:23 2020
+Inavlid block 0x6beb212cc245f8e2
+Block received:0x54ab1d68ca8548b1 Timestamp:Tue Dec  8 04:14:23 2020
+Inavlid block 0x54ab1d68ca8548b1
+Block received:0xc3f277f54c0dc35a Timestamp:Tue Dec  8 04:14:24 2020
+Inavlid block 0xc3f277f54c0dc35a
+Block received:0x7e3b06f06983ee91 Timestamp:Tue Dec  8 04:14:24 2020
+Inavlid block 0x7e3b06f06983ee91
+Block received:0x1c14b1fade053625 Timestamp:Tue Dec  8 04:14:25 2020
+Inavlid block 0x1c14b1fade053625
+Block received:0xf5008075345d9944 Timestamp:Tue Dec  8 04:14:27 2020
+Block received:0x8b8050aa32ac2da5 Timestamp:Tue Dec  8 04:14:27 2020
+Inavlid block 0xf5008075345d9944
+Inavlid block 0x8b8050aa32ac2da5
+Block received:0xb72a66d279cc05d0 Timestamp:Tue Dec  8 04:14:28 2020
+Block received:0xa7298c1bdfc54824 Timestamp:Tue Dec  8 04:14:28 2020
+Block received:0xa6323a33450436d Timestamp:Tue Dec  8 04:14:28 2020
+Block received:0x848db4e08824a77b Timestamp:Tue Dec  8 04:14:28 2020
+Inavlid block 0xb72a66d279cc05d0
+Inavlid block 0xa7298c1bdfc54824
+Inavlid block 0xa6323a33450436d
+Inavlid block 0x848db4e08824a77b
+Block received:0xa522d5ff007a5cda Timestamp:Tue Dec  8 04:14:28 2020
+Inavlid block 0xa522d5ff007a5cda
+Block received:0x993169a4d757dd62 Timestamp:Tue Dec  8 04:14:29 2020
+Inavlid block 0x993169a4d757dd62
+Block received:0xb691579cd2c675d Timestamp:Tue Dec  8 04:14:31 2020
+Inavlid block 0xb691579cd2c675d
+Block received:0x804d75715fceb04e Timestamp:Tue Dec  8 04:14:31 2020
+Block header 0x804d75715fceb04e validated Timestamp:Tue Dec  8 04:14:31 2020
+Block is part of the longest chain
+Block received:0x1470944ba845bca6 Timestamp:Tue Dec  8 04:14:32 2020
+Inavlid block 0x1470944ba845bca6
+Block received:0x38a0eec3ac480f8f Timestamp:Tue Dec  8 04:14:32 2020
+Inavlid block 0x38a0eec3ac480f8f
+Block received:0x42faf5925fceb04f Timestamp:Tue Dec  8 04:14:32 2020
+Block header 0x42faf5925fceb04f validated Timestamp:Tue Dec  8 04:14:32 2020
+Block is part of the longest chain
+Block received:0xae262615475aa343 Timestamp:Tue Dec  8 04:14:33 2020
+Inavlid block 0xae262615475aa343
+Block received:0xe02a69cea0aee961 Timestamp:Tue Dec  8 04:14:33 2020
+Inavlid block 0xe02a69cea0aee961
+Block received:0x93ef7dc95fceb050 Timestamp:Tue Dec  8 04:14:33 2020
+Block header 0x93ef7dc95fceb050 validated Timestamp:Tue Dec  8 04:14:33 2020
+Block is part of the longest chain
+Block received:0xf039f47af8de979b Timestamp:Tue Dec  8 04:14:34 2020
+Inavlid block 0xf039f47af8de979b
+Block received:0xfec6b1d246a4eb07 Timestamp:Tue Dec  8 04:14:34 2020
+Inavlid block 0xfec6b1d246a4eb07
+Block received:0x456eb98d24b60edb Timestamp:Tue Dec  8 04:14:35 2020
+Inavlid block 0x456eb98d24b60edb
+Block received:0x723fa9daff2b5237 Timestamp:Tue Dec  8 04:14:35 2020
+Inavlid block 0x723fa9daff2b5237
+Block received:0x66d2e40fd99377f6 Timestamp:Tue Dec  8 04:14:37 2020
+Block received:0x9ca1daaa0cb8e12a Timestamp:Tue Dec  8 04:14:37 2020
+Inavlid block 0x66d2e40fd99377f6
+Inavlid block 0x9ca1daaa0cb8e12a
+Block received:0xf23ec48099c65516 Timestamp:Tue Dec  8 04:14:38 2020
+Block received:0xc2da1a6755d820fd Timestamp:Tue Dec  8 04:14:38 2020
+Block received:0xfc03af2f484b007e Timestamp:Tue Dec  8 04:14:38 2020
+Block received:0xc259f39db9142ee Timestamp:Tue Dec  8 04:14:38 2020
+Inavlid block 0xf23ec48099c65516
+Inavlid block 0xc2da1a6755d820fd
+Inavlid block 0xfc03af2f484b007e
+Inavlid block 0xc259f39db9142ee
+Block received:0x843bdcb85fceb056 Timestamp:Tue Dec  8 04:14:39 2020
+Block header 0x843bdcb85fceb056 validated Timestamp:Tue Dec  8 04:14:39 2020
+Block is part of the longest chain
+Block received:0xc5d164233b927fe2 Timestamp:Tue Dec  8 04:14:39 2020
+Inavlid block 0xc5d164233b927fe2
+Block received:0x6e61fd4bf6ed0347 Timestamp:Tue Dec  8 04:14:39 2020
+Inavlid block 0x6e61fd4bf6ed0347
+Block received:0x5eec728428bad328 Timestamp:Tue Dec  8 04:14:41 2020
+Inavlid block 0x5eec728428bad328
+Block received:0x66f36b925fceb058 Timestamp:Tue Dec  8 04:14:41 2020
+Block header 0x66f36b925fceb058 validated Timestamp:Tue Dec  8 04:14:41 2020
+Block is part of the longest chain
+Block received:0x36b45077439d5c6e Timestamp:Tue Dec  8 04:14:42 2020
+Inavlid block 0x36b45077439d5c6e
+Block received:0x4dfbfe01a5c6e2d1 Timestamp:Tue Dec  8 04:14:42 2020
+Inavlid block 0x4dfbfe01a5c6e2d1
+Block received:0x34e4c6a2e76c4d69 Timestamp:Tue Dec  8 04:14:43 2020
+Inavlid block 0x34e4c6a2e76c4d69
+Block received:0xc3d6201450ebc8fe Timestamp:Tue Dec  8 04:14:43 2020
+Inavlid block 0xc3d6201450ebc8fe
+Block received:0x5f4ac46bb2bdc716 Timestamp:Tue Dec  8 04:14:44 2020
+Inavlid block 0x5f4ac46bb2bdc716
+Block received:0xbb90f9fc5743d7ec Timestamp:Tue Dec  8 04:14:44 2020
+Inavlid block 0xbb90f9fc5743d7ec
+Block received:0xf7c1d3e9a03ec86 Timestamp:Tue Dec  8 04:14:45 2020
+Inavlid block 0xf7c1d3e9a03ec86
+Block received:0x89fcc48145e86e37 Timestamp:Tue Dec  8 04:14:45 2020
+Inavlid block 0x89fcc48145e86e37
+Block received:0xf35148f5fb4d4e35 Timestamp:Tue Dec  8 04:14:47 2020
+Block received:0xdb9c1fc263c3c04c Timestamp:Tue Dec  8 04:14:47 2020
+Inavlid block 0xf35148f5fb4d4e35
+Inavlid block 0xdb9c1fc263c3c04c
+Block received:0x828c985d902e0120 Timestamp:Tue Dec  8 04:14:48 2020
+Block received:0xb345097583cf09ab Timestamp:Tue Dec  8 04:14:48 2020
+Block received:0xc9748dc58ec25208 Timestamp:Tue Dec  8 04:14:48 2020
+Block received:0xd6a06df4c6b27f05 Timestamp:Tue Dec  8 04:14:48 2020
+Inavlid block 0x828c985d902e0120
+Inavlid block 0xb345097583cf09ab
+Inavlid block 0xc9748dc58ec25208
+Inavlid block 0xd6a06df4c6b27f05
+Block received:0xcc6cc66bdf77f43e Timestamp:Tue Dec  8 04:14:49 2020
+Inavlid block 0xcc6cc66bdf77f43e
+Block received:0x50f78c1253cc3a7b Timestamp:Tue Dec  8 04:14:49 2020
+Inavlid block 0x50f78c1253cc3a7b
+Block received:0x3c48e4135fceb062 Timestamp:Tue Dec  8 04:14:51 2020
+Block header 0x3c48e4135fceb062 validated Timestamp:Tue Dec  8 04:14:51 2020
+Block is part of the longest chain
+Block received:0xd3dced9d7476bf0e Timestamp:Tue Dec  8 04:14:51 2020
+Inavlid block 0xd3dced9d7476bf0e
+Block received:0x96d860b619505d50 Timestamp:Tue Dec  8 04:14:52 2020
+Inavlid block 0x96d860b619505d50
+Block received:0xf3d3d2a3d40537db Timestamp:Tue Dec  8 04:14:52 2020
+Inavlid block 0xf3d3d2a3d40537db
+Block received:0x493eded6842ac964 Timestamp:Tue Dec  8 04:14:53 2020
+Inavlid block 0x493eded6842ac964
+Block received:0x909b69db98498cf3 Timestamp:Tue Dec  8 04:14:53 2020
+Inavlid block 0x909b69db98498cf3
+Block received:0x45a7509422842960 Timestamp:Tue Dec  8 04:14:54 2020
+Inavlid block 0x45a7509422842960
+Block received:0xf75cf0b32cc4dc7d Timestamp:Tue Dec  8 04:14:54 2020
+Inavlid block 0xf75cf0b32cc4dc7d
+Block received:0x666e48338f27dc46 Timestamp:Tue Dec  8 04:14:55 2020
+Inavlid block 0x666e48338f27dc46
+Block received:0x5dc429b41053a582 Timestamp:Tue Dec  8 04:14:55 2020
+Inavlid block 0x5dc429b41053a582
+Block received:0xda351e302eb3cd1c Timestamp:Tue Dec  8 04:14:59 2020
+Block received:0xa94dbc74c2b2b396 Timestamp:Tue Dec  8 04:14:59 2020
+Inavlid block 0xda351e302eb3cd1c
+Inavlid block 0xa94dbc74c2b2b396
+Block received:0x3e3c6dc002a65a8a Timestamp:Tue Dec  8 04:15:00 2020
+Block received:0x92257ce749819532 Timestamp:Tue Dec  8 04:15:00 2020
+Block received:0x720c018d9f8e14e4 Timestamp:Tue Dec  8 04:15:00 2020
+Block received:0x529e6cb731db1994 Timestamp:Tue Dec  8 04:15:00 2020
+Block received:0x83a56f9a7d7d3d97 Timestamp:Tue Dec  8 04:15:00 2020
+Block received:0x1150dde40226ba17 Timestamp:Tue Dec  8 04:15:00 2020
+Inavlid block 0x3e3c6dc002a65a8a
+Inavlid block 0x92257ce749819532
+Inavlid block 0x720c018d9f8e14e4
+Inavlid block 0x529e6cb731db1994
+Inavlid block 0x83a56f9a7d7d3d97
+Inavlid block 0x1150dde40226ba17
+Block received:0x1781d2dc5fceb06c Timestamp:Tue Dec  8 04:15:01 2020
+Block header 0x1781d2dc5fceb06c validated Timestamp:Tue Dec  8 04:15:01 2020
+Block is part of the longest chain
+Block received:0xc246a74fe5107c5e Timestamp:Tue Dec  8 04:15:02 2020
+Inavlid block 0xc246a74fe5107c5e
+Block received:0xf87a7cc9e8272495 Timestamp:Tue Dec  8 04:15:02 2020
+Inavlid block 0xf87a7cc9e8272495
+Block received:0xe8b018f940b8ce96 Timestamp:Tue Dec  8 04:15:03 2020
+Inavlid block 0xe8b018f940b8ce96
+Block received:0x2f78ad21c61a8c71 Timestamp:Tue Dec  8 04:15:03 2020
+Inavlid block 0x2f78ad21c61a8c71
+Block received:0xbc199b4018a65e64 Timestamp:Tue Dec  8 04:15:04 2020
+Inavlid block 0xbc199b4018a65e64
+Block received:0xaebe6719690e5957 Timestamp:Tue Dec  8 04:15:04 2020
+Inavlid block 0xaebe6719690e5957
+Block received:0xbdcfef6a3a657b93 Timestamp:Tue Dec  8 04:15:05 2020
+Inavlid block 0xbdcfef6a3a657b93
+Block received:0xf64cd5eb5fceb070 Timestamp:Tue Dec  8 04:15:05 2020
+Block header 0xf64cd5eb5fceb070 validated Timestamp:Tue Dec  8 04:15:05 2020
+Block is part of the longest chain
+Block received:0x3bd7760e6ec8858b Timestamp:Tue Dec  8 04:15:08 2020
+Block received:0x456bce63b9a4d866 Timestamp:Tue Dec  8 04:15:08 2020
+Inavlid block 0x3bd7760e6ec8858b
+Inavlid block 0x456bce63b9a4d866
+Block received:0xf64cb1e55fceb072 Timestamp:Tue Dec  8 04:15:09 2020
+Block received:0xd9d400b2fefdf776 Timestamp:Tue Dec  8 04:15:09 2020
+Block received:0xc78d7ae5f000b9f5 Timestamp:Tue Dec  8 04:15:09 2020
+Block received:0x9eca46b8ab8468b7 Timestamp:Tue Dec  8 04:15:09 2020
+Block received:0xd4ee5893f32dead3 Timestamp:Tue Dec  8 04:15:09 2020
+Block received:0xfd4e7cb691c73828 Timestamp:Tue Dec  8 04:15:09 2020
+Block header 0xf64cb1e55fceb072 validated Timestamp:Tue Dec  8 04:15:09 2020
+Inavlid block 0xd9d400b2fefdf776
+Inavlid block 0xc78d7ae5f000b9f5
+Inavlid block 0x9eca46b8ab8468b7
+Inavlid block 0xd4ee5893f32dead3
+Inavlid block 0xfd4e7cb691c73828
+Block received:0x6c662c43e409e4d4 Timestamp:Tue Dec  8 04:15:09 2020
+Inavlid block 0x6c662c43e409e4d4
+Block received:0x24b65f7a6450a818 Timestamp:Tue Dec  8 04:15:11 2020
+Inavlid block 0x24b65f7a6450a818
+Block received:0xad44ea2ee9ccaef6 Timestamp:Tue Dec  8 04:15:12 2020
+Inavlid block 0xad44ea2ee9ccaef6
+Block received:0x184eec8660fd3b9c Timestamp:Tue Dec  8 04:15:12 2020
+Inavlid block 0x184eec8660fd3b9c
+Block received:0x3f29d0edfd72f9e1 Timestamp:Tue Dec  8 04:15:13 2020
+Inavlid block 0x3f29d0edfd72f9e1
+Block received:0x1e1baca3c120d00c Timestamp:Tue Dec  8 04:15:13 2020
+Inavlid block 0x1e1baca3c120d00c
+Block received:0x3966f20a22a5f385 Timestamp:Tue Dec  8 04:15:14 2020
+Inavlid block 0x3966f20a22a5f385
+Block received:0x3896d12aa055cec0 Timestamp:Tue Dec  8 04:15:14 2020
+Inavlid block 0x3896d12aa055cec0
+Block received:0x9fa16b95c13cbf2e Timestamp:Tue Dec  8 04:15:15 2020
+Inavlid block 0x9fa16b95c13cbf2e
+Block received:0x2cdc1f17acd253ee Timestamp:Tue Dec  8 04:15:18 2020
+Block received:0xe551ffb0ac6b6453 Timestamp:Tue Dec  8 04:15:18 2020
+Inavlid block 0x2cdc1f17acd253ee
+Inavlid block 0xe551ffb0ac6b6453
+Block received:0xfeac1e9929fb45e Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0xe596071962f747c2 Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0x3a3bb2a13ae01cf Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0x1aa7393dcd910599 Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0xf3f31b74b8b8d1bb Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0xe5e89bbcca6fed1 Timestamp:Tue Dec  8 04:15:19 2020
+Block received:0xa5823b1a5fceb07e Timestamp:Tue Dec  8 04:15:19 2020
+Inavlid block 0xfeac1e9929fb45e
+Inavlid block 0xe596071962f747c2
+Inavlid block 0x3a3bb2a13ae01cf
+Inavlid block 0x1aa7393dcd910599
+Inavlid block 0xf3f31b74b8b8d1bb
+Inavlid block 0xe5e89bbcca6fed1
+Block header 0xa5823b1a5fceb07e validated Timestamp:Tue Dec  8 04:15:19 2020
+Block is part of the longest chain
+Block received:0x53efe4ab5fceb080 Timestamp:Tue Dec  8 04:15:21 2020
+Block header 0x53efe4ab5fceb080 validated Timestamp:Tue Dec  8 04:15:21 2020
+Block is part of the longest chain
+Block received:0x135c1e0f9e237253 Timestamp:Tue Dec  8 04:15:22 2020
+Inavlid block 0x135c1e0f9e237253
+Block received:0xdf2991411285b57e Timestamp:Tue Dec  8 04:15:22 2020
+Inavlid block 0xdf2991411285b57e
+Block received:0xd82f82299253aaaf Timestamp:Tue Dec  8 04:15:23 2020
+Inavlid block 0xd82f82299253aaaf
+Block received:0xa212df984d10fe1f Timestamp:Tue Dec  8 04:15:23 2020
+Inavlid block 0xa212df984d10fe1f
+Block received:0x31d2f664d1e9f20f Timestamp:Tue Dec  8 04:15:24 2020
+Inavlid block 0x31d2f664d1e9f20f
+Block received:0x293309cbddf8ef80 Timestamp:Tue Dec  8 04:15:24 2020
+Inavlid block 0x293309cbddf8ef80
+Block received:0x96436e9bd159665d Timestamp:Tue Dec  8 04:15:25 2020
+Inavlid block 0x96436e9bd159665d
+Block received:0xdf7694245fceb084 Timestamp:Tue Dec  8 04:15:25 2020
+Block header 0xdf7694245fceb084 validated Timestamp:Tue Dec  8 04:15:25 2020
+Block is part of the longest chain
+Block received:0x4781382bf17a0ae3 Timestamp:Tue Dec  8 04:15:25 2020
+Inavlid block 0x4781382bf17a0ae3
+Block received:0xce2e64c1eed39148 Timestamp:Tue Dec  8 04:15:29 2020
+Block received:0xabde900a266dd9d9 Timestamp:Tue Dec  8 04:15:29 2020
+Inavlid block 0xce2e64c1eed39148
+Inavlid block 0xabde900a266dd9d9
+Block received:0xeb52de20b3b84fd3 Timestamp:Tue Dec  8 04:15:30 2020
+Block received:0x8c0f895c0bf0b869 Timestamp:Tue Dec  8 04:15:30 2020
+Block received:0xee55b896f254fc1a Timestamp:Tue Dec  8 04:15:30 2020
+Block received:0x826bba37ebce229d Timestamp:Tue Dec  8 04:15:30 2020
+Block received:0xb24a603de67a01bd Timestamp:Tue Dec  8 04:15:30 2020
+Block received:0xa67e867aec406e07 Timestamp:Tue Dec  8 04:15:30 2020
+Inavlid block 0xeb52de20b3b84fd3
+Inavlid block 0x8c0f895c0bf0b869
+Inavlid block 0xee55b896f254fc1a
+Inavlid block 0x826bba37ebce229d
+Inavlid block 0xb24a603de67a01bd
+Inavlid block 0xa67e867aec406e07
+Block received:0xc1f32eae78267b1a Timestamp:Tue Dec  8 04:15:32 2020
+Inavlid block 0xc1f32eae78267b1a
+Block received:0x6508d6e873cf4f4f Timestamp:Tue Dec  8 04:15:32 2020
+Inavlid block 0x6508d6e873cf4f4f
+Block received:0xd07b7a6c0732856a Timestamp:Tue Dec  8 04:15:33 2020
+Inavlid block 0xd07b7a6c0732856a
+Block received:0x19827cd4a525a3c Timestamp:Tue Dec  8 04:15:33 2020
+Inavlid block 0x19827cd4a525a3c
+Block received:0x7992cc48ff46b370 Timestamp:Tue Dec  8 04:15:34 2020
+Inavlid block 0x7992cc48ff46b370
+Block received:0x6535d2c18204a922 Timestamp:Tue Dec  8 04:15:34 2020
+Inavlid block 0x6535d2c18204a922
+Block received:0x6356be06cdee6bac Timestamp:Tue Dec  8 04:15:35 2020
+Inavlid block 0x6356be06cdee6bac
+Block received:0x9cc4ad2f0dc4be91 Timestamp:Tue Dec  8 04:15:38 2020
+Block received:0xc01261e37edb897b Timestamp:Tue Dec  8 04:15:38 2020
+Inavlid block 0x9cc4ad2f0dc4be91
+Inavlid block 0xc01261e37edb897b
+Block received:0x52ca17d2b64439a8 Timestamp:Tue Dec  8 04:15:39 2020
+Block received:0xa4ea45a4302a25e2 Timestamp:Tue Dec  8 04:15:39 2020
+Block received:0x4128705329f094a6 Timestamp:Tue Dec  8 04:15:39 2020
+Block received:0xd0d47acca3c75a6b Timestamp:Tue Dec  8 04:15:39 2020
+Block received:0xfc88ae895fceb091 Timestamp:Tue Dec  8 04:15:39 2020
+Block received:0x6be42347077a4b91 Timestamp:Tue Dec  8 04:15:39 2020
+Inavlid block 0x52ca17d2b64439a8
+Inavlid block 0xa4ea45a4302a25e2
+Inavlid block 0x4128705329f094a6
+Inavlid block 0xd0d47acca3c75a6b
+Block header 0xfc88ae895fceb091 validated Timestamp:Tue Dec  8 04:15:39 2020
+Block is part of the longest chain
+Inavlid block 0x6be42347077a4b91
+Block received:0x6ae236415656fbf5 Timestamp:Tue Dec  8 04:15:39 2020
+Inavlid block 0x6ae236415656fbf5
+Block received:0x76951dda5fceb094 Timestamp:Tue Dec  8 04:15:41 2020
+Block header 0x76951dda5fceb094 validated Timestamp:Tue Dec  8 04:15:41 2020
+Block is part of the longest chain
+Block received:0xf4e7ab7b3d178d01 Timestamp:Tue Dec  8 04:15:42 2020
+Inavlid block 0xf4e7ab7b3d178d01
+Block received:0x37b56c98256c79b2 Timestamp:Tue Dec  8 04:15:43 2020
+Inavlid block 0x37b56c98256c79b2
+Block received:0x55e241d5d88772a5 Timestamp:Tue Dec  8 04:15:43 2020
+Inavlid block 0x55e241d5d88772a5
+Block received:0xd138b20e04e6c022 Timestamp:Tue Dec  8 04:15:44 2020
+Inavlid block 0xd138b20e04e6c022
+Block received:0xc23cddc79582f421 Timestamp:Tue Dec  8 04:15:44 2020
+Inavlid block 0xc23cddc79582f421
+Block received:0xffcc1884b9d3d4b5 Timestamp:Tue Dec  8 04:15:45 2020
+Inavlid block 0xffcc1884b9d3d4b5
+Block received:0xc2b340c0a18a99b8 Timestamp:Tue Dec  8 04:15:45 2020
+Inavlid block 0xc2b340c0a18a99b8
+Block received:0xd1a7bdc8d68a5eeb Timestamp:Tue Dec  8 04:15:48 2020
+Block received:0x494d61939e9cb86 Timestamp:Tue Dec  8 04:15:48 2020
+Inavlid block 0xd1a7bdc8d68a5eeb
+Inavlid block 0x494d61939e9cb86
+Block received:0x3fac989f5fceb09a Timestamp:Tue Dec  8 04:15:49 2020
+Block received:0x78cee260b4e18877 Timestamp:Tue Dec  8 04:15:49 2020
+Block received:0x58e586471b0f5f29 Timestamp:Tue Dec  8 04:15:49 2020
+Block received:0x899cf3e8ec856da6 Timestamp:Tue Dec  8 04:15:49 2020
+Block received:0xa7366e789f8c23d5 Timestamp:Tue Dec  8 04:15:49 2020
+Block header 0x3fac989f5fceb09a validated Timestamp:Tue Dec  8 04:15:49 2020
+Block is part of the longest chain
+Inavlid block 0x78cee260b4e18877
+Inavlid block 0x58e586471b0f5f29
+Inavlid block 0x899cf3e8ec856da6
+Inavlid block 0xa7366e789f8c23d5
+Block received:0x7e770d5b250bf9ec Timestamp:Tue Dec  8 04:15:49 2020
+Inavlid block 0x7e770d5b250bf9ec
+Block received:0x51f69353e64a945f Timestamp:Tue Dec  8 04:15:49 2020
+Inavlid block 0x51f69353e64a945f
+Block received:0xd945fb9b8e9fa05c Timestamp:Tue Dec  8 04:15:51 2020
+Inavlid block 0xd945fb9b8e9fa05c
+Block received:0x56d1ebe5fda70766 Timestamp:Tue Dec  8 04:15:52 2020
+Inavlid block 0x56d1ebe5fda70766
+Block received:0x338af3daeb88c433 Timestamp:Tue Dec  8 04:15:52 2020
+Inavlid block 0x338af3daeb88c433
+Block received:0x739574c93b92ae2c Timestamp:Tue Dec  8 04:15:53 2020
+Inavlid block 0x739574c93b92ae2c
+Block received:0x7858f2f5f9e8c0b4 Timestamp:Tue Dec  8 04:15:53 2020
+Inavlid block 0x7858f2f5f9e8c0b4
+Block received:0x66f37e6402de86e2 Timestamp:Tue Dec  8 04:15:54 2020
+Inavlid block 0x66f37e6402de86e2
+Block received:0x9ae30daa21699721 Timestamp:Tue Dec  8 04:15:54 2020
+Inavlid block 0x9ae30daa21699721
+Block received:0x5ede801310e25de8 Timestamp:Tue Dec  8 04:15:55 2020
+Inavlid block 0x5ede801310e25de8
+Block received:0xba09f26e4120f592 Timestamp:Tue Dec  8 04:15:58 2020
+Block received:0xde4d4f23e6977eb0 Timestamp:Tue Dec  8 04:15:58 2020
+Inavlid block 0xba09f26e4120f592
+Inavlid block 0xde4d4f23e6977eb0
+Block received:0xb78a6336780d8cfb Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0xb0b61c309fcc7d1 Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0x845cba92c1da567d Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0x5c69b1860c175711 Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0xaf2a8a635fceb0a5 Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0xecdb71361e3ca82e Timestamp:Tue Dec  8 04:15:59 2020
+Block received:0x6bee2db5062617b8 Timestamp:Tue Dec  8 04:15:59 2020
+Inavlid block 0xb78a6336780d8cfb
+Inavlid block 0xb0b61c309fcc7d1
+Inavlid block 0x845cba92c1da567d
+Inavlid block 0x5c69b1860c175711
+Block header 0xaf2a8a635fceb0a5 validated Timestamp:Tue Dec  8 04:15:59 2020
+Block is part of the longest chain
+Inavlid block 0xecdb71361e3ca82e
+Inavlid block 0x6bee2db5062617b8
+Block received:0x56bcc75f7ea284c2 Timestamp:Tue Dec  8 04:16:01 2020
+Inavlid block 0x56bcc75f7ea284c2
+Block received:0xa8442e1a7e29509c Timestamp:Tue Dec  8 04:16:02 2020
+Inavlid block 0xa8442e1a7e29509c
+Block received:0x944d16bd25e04740 Timestamp:Tue Dec  8 04:16:02 2020
+Inavlid block 0x944d16bd25e04740
+Block received:0xf531ebf3b48280f8 Timestamp:Tue Dec  8 04:16:03 2020
+Inavlid block 0xf531ebf3b48280f8
+Block received:0xe7230dbdcecd0c8b Timestamp:Tue Dec  8 04:16:03 2020
+Inavlid block 0xe7230dbdcecd0c8b
+Block received:0x514cbabb68c9947 Timestamp:Tue Dec  8 04:16:04 2020
+Inavlid block 0x514cbabb68c9947
+Block received:0xa574573b98df65d4 Timestamp:Tue Dec  8 04:16:04 2020
+Inavlid block 0xa574573b98df65d4
+Block received:0xc8ef2dc3856edda8 Timestamp:Tue Dec  8 04:16:05 2020
+Inavlid block 0xc8ef2dc3856edda8
+Block received:0x8a7f981c5468de75 Timestamp:Tue Dec  8 04:16:08 2020
+Block received:0xf896a8359b1ad8f0 Timestamp:Tue Dec  8 04:16:08 2020
+Inavlid block 0x8a7f981c5468de75
+Inavlid block 0xf896a8359b1ad8f0
+Block received:0x34de2d115fceb0af Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0xc3d488fdd29d8a5a Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0x4c5362bb05bda15e Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0xa93e8fd836a9b8f0 Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0x562524a439b0037c Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0x9dc38baa90b0e57a Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0x34de0e8e5fceb0b0 Timestamp:Tue Dec  8 04:16:09 2020
+Block header 0x34de2d115fceb0af validated Timestamp:Tue Dec  8 04:16:09 2020
+Block is part of the longest chain
+Inavlid block 0xc3d488fdd29d8a5a
+Inavlid block 0x4c5362bb05bda15e
+Inavlid block 0xa93e8fd836a9b8f0
+Inavlid block 0x562524a439b0037c
+Inavlid block 0x9dc38baa90b0e57a
+Block header 0x34de0e8e5fceb0b0 validated Timestamp:Tue Dec  8 04:16:09 2020
+Block received:0x671be204703cfd4c Timestamp:Tue Dec  8 04:16:09 2020
+Inavlid block 0x671be204703cfd4c
+Block received:0x5473c1a3cf6f12a7 Timestamp:Tue Dec  8 04:16:12 2020
+Inavlid block 0x5473c1a3cf6f12a7
+Block received:0xc56fae915efaa99c Timestamp:Tue Dec  8 04:16:12 2020
+Inavlid block 0xc56fae915efaa99c
+Block received:0xd03d0e1706c26385 Timestamp:Tue Dec  8 04:16:13 2020
+Inavlid block 0xd03d0e1706c26385
+Block received:0xa053f75a3ebc9c91 Timestamp:Tue Dec  8 04:16:13 2020
+Inavlid block 0xa053f75a3ebc9c91
+Block received:0x94f93a27dac04215 Timestamp:Tue Dec  8 04:16:14 2020
+Inavlid block 0x94f93a27dac04215
+Block received:0xaa42bd268d7b5796 Timestamp:Tue Dec  8 04:16:14 2020
+Inavlid block 0xaa42bd268d7b5796
+Block received:0x7a8151e9981c49a5 Timestamp:Tue Dec  8 04:16:15 2020
+Inavlid block 0x7a8151e9981c49a5
+Block received:0xb75d37bdb1842c41 Timestamp:Tue Dec  8 04:16:15 2020
+Inavlid block 0xb75d37bdb1842c41
+Block received:0x39ba96525fceb0b6 Timestamp:Tue Dec  8 04:16:15 2020
+Block header 0x39ba96525fceb0b6 validated Timestamp:Tue Dec  8 04:16:15 2020
+Block is part of the longest chain
+Block received:0x9828ee8661c075e4 Timestamp:Tue Dec  8 04:16:18 2020
+Block received:0xdb203a83f81c3603 Timestamp:Tue Dec  8 04:16:18 2020
+Inavlid block 0x9828ee8661c075e4
+Inavlid block 0xdb203a83f81c3603
+Block received:0x22995a4d5fceb0b9 Timestamp:Tue Dec  8 04:16:19 2020
+Block received:0x228d546423ffa49a Timestamp:Tue Dec  8 04:16:19 2020
+Block received:0xfb8129d0fec52c44 Timestamp:Tue Dec  8 04:16:19 2020
+Block received:0x94e718c304442ae3 Timestamp:Tue Dec  8 04:16:19 2020
+Block received:0x18d0733c897627da Timestamp:Tue Dec  8 04:16:19 2020
+Block received:0xd9603dddc4161b24 Timestamp:Tue Dec  8 04:16:19 2020
+Block header 0x22995a4d5fceb0b9 validated Timestamp:Tue Dec  8 04:16:19 2020
+Block is part of the longest chain
+Inavlid block 0x228d546423ffa49a
+Inavlid block 0xfb8129d0fec52c44
+Inavlid block 0x94e718c304442ae3
+Inavlid block 0x18d0733c897627da
+Inavlid block 0xd9603dddc4161b24
+Block received:0x81121500b6ec8f79 Timestamp:Tue Dec  8 04:16:19 2020
+Inavlid block 0x81121500b6ec8f79
+Block received:0x1b699ab944d0a542 Timestamp:Tue Dec  8 04:16:22 2020
+Inavlid block 0x1b699ab944d0a542
+Block received:0x6aa0142f46c8da0c Timestamp:Tue Dec  8 04:16:22 2020
+Inavlid block 0x6aa0142f46c8da0c
+Block received:0xb16a1c8967a74c57 Timestamp:Tue Dec  8 04:16:23 2020
+Inavlid block 0xb16a1c8967a74c57
+Block received:0x34c604737f951119 Timestamp:Tue Dec  8 04:16:23 2020
+Inavlid block 0x34c604737f951119
+Block received:0x5a97407b17208db0 Timestamp:Tue Dec  8 04:16:24 2020
+Inavlid block 0x5a97407b17208db0
+Block received:0x84e7fc8ecaedd831 Timestamp:Tue Dec  8 04:16:24 2020
+Inavlid block 0x84e7fc8ecaedd831
+Block received:0x9722031a6c9c99d5 Timestamp:Tue Dec  8 04:16:25 2020
+Inavlid block 0x9722031a6c9c99d5
+Block received:0xef0791ab9043cc3e Timestamp:Tue Dec  8 04:16:25 2020
+Inavlid block 0xef0791ab9043cc3e

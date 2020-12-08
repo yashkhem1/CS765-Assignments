@@ -1,0 +1,74 @@
+0x9e1cda7e5fcb1905:0 
+0xaed9c5405fcb1909:0 0xaed9ae165fcb190a:0 
+0x8d59aacb5fcb190b:0 0x478b13965fcb190d:0 
+0x1371a7fa5fcb1912:0 
+0xaf2ede8a5fcb1928:0 
+0x33f673b75fcb192b:0 
+0xd007bda45fcb1932:0 
+0x69d43f805fcb194d:0 0x69d475b55fcb1950:0 
+0xf6d5f47e5fcb1952:0 
+0x7c3e85da5fcb1975:0 
+0xc7087e215fcb197f:0 
+0xaf267c565fcb1991:0 
+0x304f55e65fcb1994:0 
+0x3bda90ae5fcb19be:0 
+0xb70c300d5fcb19e8:0 0xb70c126e5fcb19e9:0 
+0x6838f5c5fcb1a1a:0 0xff6eb9fb5fcb1a1e:0 
+0xb6968a8c5fcb1a33:0 0xdba01e215fcb1a36:0 
+0x69c47b395fcb1a37:0 
+0xff49aa45fcb1a4e:0 
+0x3c410da15fcb1a60:0 
+0x86a5f855fcb1a74:1 
+0x4a441f775fcb1a79:0 
+0xf2d1ff285fcb1a9c:1 
+0x2132580f5fcb1aac:0 
+0x56f442765fcb1ab8:0 
+0xe53758b5fcb1abc:0 
+0xb2c1efc75fcb1acd:0 
+0xdbbe631c5fcb1ae2:0 
+0xfee2cafa5fcb1afa:0 
+0x39ac402c5fcb1aff:0 0x39ac1f555fcb1b02:0 
+0x7ec097585fcb1b13:0 0x7ec057695fcb1b15:0 
+0x58f0979b5fcb1b15:0 
+0xe2c7f3505fcb1b6a:0 
+0xffddca8f5fcb1b81:0 
+0xc42163da5fcb1b84:0 
+0xcea1faea5fcb1b89:0 
+0xec1c00905fcb1b94:0 
+0x1ac459e5fcb1ba0:0 
+0xe121c4815fcb1bae:1 
+0x787ab3b05fcb1bb6:1 0x787a70e65fcb1bb5:0 
+0xb4ea8c205fcb1bbd:0 
+0xef264aed5fcb1bc4:0 
+0x92e0fb615fcb1bdf:0 
+0x375f3525fcb1bea:0 
+0xab43bac95fcb1bfa:0 
+0x656643925fcb1bfb:0 
+0x519b4b1d5fcb1c00:0 0x519b815d5fcb1bfe:0 
+0x37bbbe0e5fcb1c0c:0 
+0x4b73dcf35fcb1c13:0 
+0x6d9d0c355fcb1c24:0 
+0x6a029fb05fcb1c2c:0 0x6a0263a05fcb1c2d:0 
+0xd8391ee95fcb1c32:0 0xbaac0b815fcb1c33:0 
+0xda0565f25fcb1c4d:0 
+0x968cb7ec5fcb1c52:0 
+0x64bdf1a85fcb1c5a:0 
+0xa63ed29f5fcb1c74:0 
+0xf61a67c05fcb1c90:0 0xf61a57cc5fcb1c8c:1 
+0x2dd182165fcb1c91:0 
+0x2652dc435fcb1c9e:0 0x265217c15fcb1c9f:0 
+0xc0b944525fcb1cbd:0 
+0x86f8e0bb5fcb1cc1:0 
+0x3751bafa5fcb1cc3:0 
+0x8c7724945fcb1cd6:0 0x8c7765755fcb1cd6:0 
+0x4c2b0a4f5fcb1ce1:0 
+0x1bea39345fcb1d12:0 
+0x389b18a95fcb1d23:0 
+0x10316a5f5fcb1d30:0 
+0xfe9e6ae05fcb1d43:0 
+0x2832ee165fcb1d4a:0 
+0x4b85c03f5fcb1d4c:0 
+0x6ef99f285fcb1d5f:0 0x6ef94ec25fcb1d5d:0 
+0x5019f2ad5fcb1d8b:0 0x79d889485fcb1d89:0 
+Mining Power Utilization: 0.8089887640449438
+Fraction Mined in Longest Chain: 0.05555555555555555
